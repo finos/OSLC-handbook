@@ -1,9 +1,9 @@
 this file will include explanations, instructions for including licenses, etc. 
 
-#Description
+# Description
   This handbook provides information on how to comply with the identified open source licenses under a specific set of use-cases.
 
-#YAML key definitions
+# YAML key definitions
 * name = full name of license, corresponds to SPDX License List full names (consistent with tag from SPDX License List XML) 
 * licenseId = SPDX license identifiers (consistent with tag from SPDX License List XML) 
 * notes = notes related to the license, top-level
