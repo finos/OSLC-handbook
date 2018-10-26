@@ -4,6 +4,8 @@ this file will include explanations, instructions for including licenses, etc.
   This handbook provides information on how to comply with the identified open source licenses under a specific set of use-cases.
 
 # YAML key definitions
+Each license has its own block, even if the compliance profile is exactly the same as another license. License blocks are arranged alphabetically by licenseID.
+
 * name = full name of license, corresponds to SPDX License List full names (consistent with tag from SPDX License List XML) 
 * licenseId = SPDX license identifiers (consistent with tag from SPDX License List XML) 
 * notes = notes related to the license, top-level
@@ -12,7 +14,7 @@ this file will include explanations, instructions for including licenses, etc.
     * requirement = active obligation that must be met for license compliance for the listed use-case(s)
     * restriction = a restriction or prohibition; applies to all use-cases unless noted otherwise
     * termination = termination clause 
-    * legal = ther clauses that a lawyer may want to review; applies to all use-cases unless noted otherwise
+    * legal = other clauses that a lawyer may want to review; applies to all use-cases unless noted otherwise; also may include additional notes about other terms
   * use cases
     * UB = distribution of unmodified binary
     * MB = distribution of modified binary
