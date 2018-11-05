@@ -58,7 +58,7 @@ Apache-2.0:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
-    compliance_notes:
+    compliance_notes: does not specify format for providing copy of license
 
   - type: requirement
     description: Retain all notices
