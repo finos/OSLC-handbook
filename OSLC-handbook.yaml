@@ -9,13 +9,9 @@
     compliance_notes:
     acknowledgement:
     
-  - type: requirement
-    description:
-    use_cases: [UB, MB, US, MS]
-    compliance_notes:
-    
   - type: restriction
     description:
+    use_cases: [UB, MB, US, MS]  (if applicable)
     
   - type: termination
     description:
@@ -29,51 +25,64 @@ Apache 1.1:
   name: Apache Software License 1.1
   licenseId: Apache 1.1
   notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately,  they are listed separately (here on the SPDX License List).
+ 
   terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+
   - type: requirement
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+
   - type: requirement
     description: Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear
-    acknowledgement: "This product includes software developed by the Apache Software Foundation (http://www.apache.org/)."
     use_cases: [UB, MB, US, MS]
+    acknowledgement: "This product includes software developed by the Apache Software Foundation (http://www.apache.org/)."
+    
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
+ 
   - type: restriction
     description: Cannot use name of project for derived products
+
 
 Apache-2.0:
   name: Apache Software License 2.0
   licenseId: Apache-2.0
   notes:
+  
   terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes:
+
   - type: requirement
     description: Retain all notices
     use_cases: [US, MS]
     compliance_notes: Copyright notices and other notices do not have to be reproduced for binary distribution
+
   - type: restriction
     description: Cannot use Licensor's trademarks, trade names, service marks, or product names except as reasonable use in describing origin of Work
+
   - type: termination
     description: The license terminates if patent litigation commences that alleges the licensed work infringes the licensee's patent
+
 
 BSD-2-Clause:
   name: BSD 2-Clause "Simplified" License
   licenseId: BSD-2-Clause
   notes:
+  
   terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+  
   - type: requirement
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
@@ -83,15 +92,18 @@ BSD-3-Clause:
   name: BSD 3-Clause "New" or "Revised" License
   licenseId: BSD-3-Clause
   notes:
+ 
   terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+ 
   - type: requirement
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+ 
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
     
@@ -99,117 +111,145 @@ BSD-4-Clause:
   name: BSD 3-Clause "Original" or "Old" License
   licenseId: BSD-4-Clause
   notes:
+ 
   terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+ 
   - type: requirement
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+ 
   - type: requirement
     description: Advertising materials "mentioning the features or use of this software" must include acknowledgment
-    acknowledgement: This product includes software developed by the organization.
     use_cases: [UB, MB, US, MS]
+    acknowledgement: This product includes software developed by the organization.
+ 
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
+    
     
 BSD-4-Clause-UC:
   name: BSD-4-Clause (University of California-Specific)
   licenseId: BSD-4-Clause-UC
   notes:  The advertising clause was rescinded by the University of California in 1999 for all material under BSD-4-Clause with University of California copyright notice. Thus, you do not need to comply with the advertising/acknowledgment requirement, which makes the license essentially BSD-3-Clause.
+  
   terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+  
   - type: requirement
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+  
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
+    
     
 BSL-1.0:
   name: Boost Software License 1.0
   licenseId: BSL-1.0
   notes:
+  
   terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
+  
   - type: legal
     description: For distributions “of machine-executable object code generated by a source language processor” (i.e., UB and MB use cases), these requirements need not be met. However, you might consider the need to identify the presence of software under BSL-1.0 for other reasons, especially if you have an agreement that wraps around this code/license.
+ 
  
 Entessa:
   name: Entessa Public License 1.0
   licenseId: Entessa
   notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately,  they are listed separately (here on the SPDX License List).
+  
   terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+  
   - type: requirement
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+  
   - type: requirement
     description: Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear
-    acknowledgement: "This product includes open source software developed by openSEAL (http://www.openseal.org/)."
     use_cases: [UB, MB, US, MS]
+    acknowledgement: "This product includes open source software developed by openSEAL (http://www.openseal.org/)."
+  
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
+
   - type: restriction
     description: Cannot use name of project for derived products
+
 
 MIT:
     name: MIT License
     licenseId: MIT
     notes:
+  
     terms:
     - type: requirement
-    description: Provide copy of license
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: This information "shall be included in all copies or substantial portions of the Software"
+      description: Provide copy of license
+      use_cases: [UB, MB, US, MS]
+      compliance_notes: This information "shall be included in all copies or substantial portions of the Software"
+  
     - type: requirement
-    description: Provide copyright notice
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: This information "shall be included in all copies or substantial portions of the Software"
+      description: Provide copyright notice
+      use_cases: [UB, MB, US, MS]
+      compliance_notes: This information "shall be included in all copies or substantial portions of the Software"
+ 
     - type: legal
-    description: Some people interpret MIT as not implicating these requirements for binary distribution (e.g., UB and MB), but this is not the prevailing view and best practice is to include it.
+      description: Some people interpret MIT as not implicating these requirements for binary distribution (e.g., UB and MB), but this is not the prevailing view and best practice is to include it.
+ 
  
 MIT-CMU:
     name: CMU License
     licenseId: MIT-CMU
     notes:
+    
     terms:
     - type: requirement
-    description: Provide copy of license
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, provide this information "in supporting documentation"
+      description: Provide copy of license
+      use_cases: [UB, MB, US, MS]
+      compliance_notes: For binary distributions, provide this information "in supporting documentation"
+    
     - type: requirement
-    description: Provide copyright notice
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, provide this information "in supporting documentation"
+      description: Provide copyright notice
+      use_cases: [UB, MB, US, MS]
+      compliance_notes: For binary distributions, provide this information "in supporting documentation"
+    
     - type: restriction
-    description: Cannot use name of copyright holder in advertising or publicity related to distribution
+      description: Cannot use name of copyright holder in advertising or publicity related to distribution
     
  
 NCSA:
   name: University of Illinois/NCSA Open Source License
   licenseId: NCSA
   notes: NCSA is essentially an MIT grant with BSD-3-Clause conditions, thus compliance is the same as BSD-3-Clause.
+ 
   terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+ 
   - type: requirement
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+ 
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
     
@@ -219,32 +259,39 @@ GPL-2.0:
       - GPL-2.0-only
       - GPL-2.0-or-later
   notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel. For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
-   terms:
+
+  terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: It must be an actual copy of the license not a website link
+
   - type: requirement
     description: Retain notices on all files
     use_cases: [UB, MB, US, MS]
     compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only
+
   - type: requirement
     description: Notice of modifications
     use_cases: [MB, MS]
     compliance_notes: Modified files must have “prominent notices that you changed the files” and a date
+
   - type: requirement
     description: Modifications/derivative work under same license
     use_cases: [MB, MS]
     compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.
+
   - type: requirement
     description: Provide Corresponding Source
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer. See GPL-2.0 §3
+
   - type: legal
     description: You may not impose any further restrictions on the recipients' exercise of the rights granted herein. If you are distributing GPL code with other code under other licenses, you will need to consider if the combination creates a conflict with this clause.
-  - type: legal
-    description: Termination
-    compliance_notes: License automatically terminates if you do not comply with the terms of the license
+
+  - type: termination
+    description: License automatically terminates if you do not comply with the terms of the license
+
 
 GPL-3.0:
   name: GNU General Public License 3.0
@@ -252,47 +299,61 @@ GPL-3.0:
       - GPL-3.0-only
       - GPL-3.0-or-later
   notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel. For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
-   terms:
+
+  terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: It must be an actual copy of the license not a website link
+
   - type: requirement
     description: Retain notices on all files
     use_cases: [UB, MB, US, MS]
     compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only
+
   - type: requirement
     description: Notice of modifications
     use_cases: [MB, MS]
     compliance_notes: Modified files must have “prominent notices that you changed the files” and a date
+
   - type: requirement
     description: Modifications/derivative work under same license
     use_cases: [MB, MS]
     compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.
+
   - type: requirement
     description: Provide Corresponding Source
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See GPL-3.0 §6
+
   - type: legal
     description: You may not impose any further restrictions on the recipients' exercise of the rights granted herein. If you are distributing GPL code with other code under other licenses, you will need to consider if the combination creates a conflict with this clause.
-  - type: legal
-    description: Termination
-    compliance_notes: License automatically terminates if you do not comply with the terms of the license
+
+  - type: termination
+    description: License automatically terminates if you do not comply with the terms of the license
+    
+  - type: termination
+    description: License terminates if you initiate litigation claiming use of the program under this license violates a patent
+      
       
 Plexus:
   name: Plexus Classworlds License
   licenseId: Plexus
   notes: This license also includes a clause that states, "due credit should be given" to the copyright holder, but given the non-obligatory nature of "should", this is not considered a requirement.
+  
   terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+  
   - type: requirement
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+  
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
+  
   - type: restriction
     description: Cannot use name of project for derived products
