@@ -39,6 +39,8 @@ Apache 1.1:
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
   - type: requirement
     description: Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear
+    acknowledgement: "This product includes software developed by the Apache Software Foundation (http://www.apache.org/)."
+    use_cases: [UB, MB, US, MS]
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
   - type: restriction
@@ -107,6 +109,7 @@ BSD-4-Clause:
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
   - type: requirement
     description: Advertising materials "mentioning the features or use of this software" must include acknowledgment
+    acknowledgement: This product includes software developed by the organization.
     use_cases: [UB, MB, US, MS]
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
@@ -153,6 +156,8 @@ Entessa:
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
   - type: requirement
     description: Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear
+    acknowledgement: "This product includes open source software developed by openSEAL (http://www.openseal.org/)."
+    use_cases: [UB, MB, US, MS]
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
   - type: restriction
