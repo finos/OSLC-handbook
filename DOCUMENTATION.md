@@ -12,6 +12,7 @@ Each license has its own block, even if the compliance profile is exactly the sa
 * terms = different types of license terms, each term item has a type, description, use-case, and may have compliance-notes or description
   * type
     * requirement = active obligation that must be met for license compliance for the listed use-case(s)
+      * acknowledgment = if there is a requirement to include specific text as an acknowledgement, then that text is included in this field
     * restriction = a restriction or prohibition; applies to all use-cases unless noted otherwise
     * termination = termination clause 
     * legal = other clauses that a lawyer may want to review; applies to all use-cases unless noted otherwise; also may include additional notes about other terms
