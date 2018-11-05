@@ -7,6 +7,7 @@
     description:
     use_cases: [UB, MB, US, MS]
     compliance_notes:
+    acknowledgement:
     
   - type: requirement
     description:
@@ -226,7 +227,7 @@ GPL-2.0:
   - type: requirement
     description: Retain notices on all files
     use_cases: [UB, MB, US, MS]
-    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only (e.g., GPL-3.0 = v3 only; GPL-3.0+ = v3 or any later version of GPL)
+    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only
   - type: requirement
     description: Notice of modifications
     use_cases: [MB, MS]
@@ -238,13 +239,42 @@ GPL-2.0:
   - type: requirement
     description: Provide Corresponding Source
     use_cases: [UB, MB]
-    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities.
-Options for providing source = with binary, written offer. See GPL-2.0 §3
+    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer. See GPL-2.0 §3
   - type: legal
-    description: You may not impose any further restrictions on the recipients' exercise of the rights granted herein.
+    description: You may not impose any further restrictions on the recipients' exercise of the rights granted herein. If you are distributing GPL code with other code under other licenses, you will need to consider if the combination creates a conflict with this clause.
   - type: legal
-    description: No further restrictions
-    compliance_notes: You may not impose any further restrictions on the recipients' exercise of the rights granted herein.
+    description: Termination
+    compliance_notes: License automatically terminates if you do not comply with the terms of the license
+
+GPL-3.0:
+  name: GNU General Public License 3.0
+  licenseId:
+      - GPL-3.0-only
+      - GPL-3.0-or-later
+  notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel. For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
+   terms:
+  - type: requirement
+    description: Provide copy of license
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: It must be an actual copy of the license not a website link
+  - type: requirement
+    description: Retain notices on all files
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only
+  - type: requirement
+    description: Notice of modifications
+    use_cases: [MB, MS]
+    compliance_notes: Modified files must have “prominent notices that you changed the files” and a date
+  - type: requirement
+    description: Modifications/derivative work under same license
+    use_cases: [MB, MS]
+    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.
+  - type: requirement
+    description: Provide Corresponding Source
+    use_cases: [UB, MB]
+    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See GPL-3.0 §6
+  - type: legal
+    description: You may not impose any further restrictions on the recipients' exercise of the rights granted herein. If you are distributing GPL code with other code under other licenses, you will need to consider if the combination creates a conflict with this clause.
   - type: legal
     description: Termination
     compliance_notes: License automatically terminates if you do not comply with the terms of the license
