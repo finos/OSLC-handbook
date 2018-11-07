@@ -8,16 +8,20 @@ Each license has its own block, even if the compliance profile is exactly the sa
 
 * name = full name of license, corresponds to SPDX License List full names (consistent with tag from SPDX License List XML) 
 * licenseId = SPDX license identifiers (consistent with tag from SPDX License List XML) 
-* notes = notes related to the license, top-level
-* terms = different types of license terms, each term item has a type, description, use-case, and may have compliance-notes or description
+* notes = notes related to the license itself
+* terms = different types of license terms; each term item has a type (see types below) and then may have description, use-case, and compliance-notes
   * type
     * requirement = active obligation that must be met for license compliance for the listed use-case(s)
       * acknowledgment = if there is a requirement to include specific text as an acknowledgement, then that text is included in this field
     * restriction = a restriction or prohibition; applies to all use-cases unless noted otherwise
     * termination = termination clause 
     * legal = other clauses that a lawyer may want to review; applies to all use-cases unless noted otherwise; also may include additional notes about other terms
-  * use cases
+  * description = high-level description to explain the term, e.g., what do you have to do to meet the requirement or what is the restriction. This field may also include specifics for the use-case where the use-case does not fit into the standard four use-cases as defined below
+  * use cases = the use case for which the terms (or condition) applies
     * UB = distribution of unmodified binary
     * MB = distribution of modified binary
     * US = distribution of unmodified source
     * MS = distribution of modified source
+  *  compliance_notes = specifics of how you need to comply with the term, this is usually present for a requirement, but often not applicable for a restriction
+ 
+ 
