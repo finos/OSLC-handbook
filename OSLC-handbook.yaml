@@ -16,9 +16,6 @@
   - type: termination
     description:
     
-   - type: legal
-    description:
-    
  =========
  
 Apache 1.1:
@@ -197,19 +194,15 @@ MIT:
   notes:
   
   terms:
-  -
-    type: requirement
+  - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
-    compliance_notes: This information "shall be included in all copies or substantial portions of the Software"
+    compliance_notes: This information "shall be included in all copies or substantial portions of the Software". Some people interpret MIT as not implicating these requirements for binary distribution (e.g., UB and MB), but this is not the prevailing view and best practice is to include it.
   
   - type: requirement
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
-    compliance_notes: This information "shall be included in all copies or substantial portions of the Software"
- 
-  - type: legal
-    description: Some people interpret MIT as not implicating these requirements for binary distribution (e.g., UB and MB), but this is not the prevailing view and best practice is to include it.
+    compliance_notes: This information "shall be included in all copies or substantial portions of the Software".Some people interpret MIT as not implicating these requirements for binary distribution (e.g., UB and MB), but this is not the prevailing view and best practice is to include it.
  
  
 MIT-CMU:
@@ -316,7 +309,7 @@ GPL-2.0:
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer. See GPL-2.0 §3
 
-  - type: legal
+  - type: restriction
     description: You may not impose any further restrictions on the recipients' exercise of the rights granted herein. If you are distributing GPL code with other code under other licenses, you will need to consider if the combination creates a conflict with this clause.
 
   - type: termination
@@ -357,7 +350,7 @@ GPL-3.0:
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See GPL-3.0 §6
 
-  - type: legal
+  - type: restriction
     description: You may not impose any further restrictions on the recipients' exercise of the rights granted herein. If you are distributing GPL code with other code under other licenses, you will need to consider if the combination creates a conflict with this clause.
 
   - type: termination
