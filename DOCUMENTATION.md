@@ -16,12 +16,12 @@ Each license has its own block, even if the compliance profile is exactly the sa
     * restriction = a restriction or prohibition; applies to all use-cases unless noted otherwise
     * termination = termination clause 
     * legal = other clauses that a lawyer may want to review; applies to all use-cases unless noted otherwise; also may include additional notes about other terms
-  * description = description of the term, e.g., what do you have to do to meet the requirement or what is the restriction
+  * description = high-level description to explain the term, e.g., what do you have to do to meet the requirement or what is the restriction. This field may also include specifics for the use-case where the use-case does not fit into the standard four use-cases as defined below
   * use cases = the use case for which the terms (or condition) applies
     * UB = distribution of unmodified binary
     * MB = distribution of modified binary
     * US = distribution of unmodified source
     * MS = distribution of modified source
-  *  compliance_notes = notes on specifics of how you need to comply with the term, this is usually present for a requirement, but often not applicable for a restriction
+  *  compliance_notes = specifics of how you need to comply with the term, this is usually present for a requirement, but often not applicable for a restriction
  
  
