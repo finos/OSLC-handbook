@@ -25,7 +25,7 @@
 Apache 1.1:
   name: Apache Software License 1.1
   licenseId: Apache 1.1
-  notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately,  they are listed separately (here on the SPDX License List).
+  notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately,  they are listed separately (here and on the SPDX License List).
  
   terms:
   - type: requirement
@@ -41,7 +41,7 @@ Apache 1.1:
   - type: requirement
     description: Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear
     use_cases: [UB, MB, US, MS]
-    acknowledgement: "This product includes software developed by the Apache Software Foundation (http://www.apache.org/)."
+    acknowledgement: This product includes software developed by the [[Apache Software Foundation (http://www.apache.org/)]].
     
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
@@ -59,7 +59,7 @@ Apache-2.0:
   - type: requirement
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
-    compliance_notes: does not specify format for providing copy of license
+    compliance_notes: Does not specify format for providing copy of license
 
   - type: requirement
     description: Retain all notices
@@ -126,8 +126,7 @@ BSD-4-Clause:
  
   - type: requirement
     description: Advertising materials "mentioning the features or use of this software" must include acknowledgment
-    use_cases: [UB, MB, US, MS]
-    acknowledgement: This product includes software developed by the organization.
+    acknowledgement: This product includes software developed by [[the organization]].
  
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
@@ -167,7 +166,7 @@ BSL-1.0:
 Entessa:
   name: Entessa Public License 1.0
   licenseId: Entessa
-  notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately,  they are listed separately (here on the SPDX License List).
+  notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately,  they are listed separately (here and on the SPDX License List).
   
   terms:
   - type: requirement
@@ -197,7 +196,8 @@ GPL-2.0:
   licenseId:
       - GPL-2.0-only
       - GPL-2.0-or-later
-  notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel. For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
+  notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
+  resources: For more information about GPL compliance: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
 
   terms:
   - type: requirement
@@ -216,12 +216,12 @@ GPL-2.0:
     compliance_notes: Modified files must have “prominent notices that you changed the files” and a date
 
   - type: requirement
-    description: Modifications/derivative work under same license
+    description: Modifications or derivative work must be licensed under same license
     use_cases: [MB, MS]
     compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.
 
   - type: requirement
-    description: Provide Corresponding Source
+    description: Provide corresponding source code
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer. See GPL-2.0 §3
 
@@ -257,12 +257,12 @@ GPL-3.0:
     compliance_notes: Modified files must have “prominent notices that you changed the files” and a date
 
   - type: requirement
-    description: Modifications/derivative work under same license
+    description: Modifications or derivative work must be licensed under same license
     use_cases: [MB, MS]
     compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.
 
   - type: requirement
-    description: Provide Corresponding Source
+    description: Provide corresponding source code
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See GPL-3.0 §6
 
