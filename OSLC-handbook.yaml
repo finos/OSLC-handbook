@@ -65,6 +65,11 @@ Apache-2.0:
     compliance_notes: Does not specify format for providing copy of license
 
   - type: requirement
+    description: Notice of modifications
+    use_cases: [MB, MS]
+    compliance_notes: Modified files must include "prominent notices" of the modifications
+    
+  - type: requirement
     description: Retain all notices
     use_cases: [US, MS]
     compliance_notes: Copyright notices and other notices do not have to be reproduced for binary distribution
