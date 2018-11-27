@@ -20,6 +20,9 @@
   - type: termination
     description:
     
+  - type: other
+    description:
+
  =========
  
 Apache 1.1:
@@ -71,6 +74,44 @@ Apache-2.0:
 
   - type: termination
     description: The license terminates if patent litigation commences that alleges the licensed work infringes the licensee's patent
+
+
+Artistic-1.0-Perl:
+  name: Artistic License 1.0 (Perl)
+  licenseId: Artistic-1.0-Perl
+  notes:
+    
+  - type: requirement
+    description: Retain all notices
+    use_cases: [US, MS]
+    compliance_notes: Copyright notices and other notices
+
+  - type: requirement
+    description: Notice of modifications
+    use_cases: [MB, MS]
+    compliance_notes: Modified files must have "prominent notice" in each file stating how the file was modified and when
+    
+  - type: requirement
+    description: Provide access to modifications
+    use_cases: [MB, MS]
+    compliance_notes: Do at least one of the following: place modification in the public domain or otherwise make them freely available; OR rename non-standard executables; OR "make other distribution arrangements" with the copyright holder. See section 3 for more details.
+    
+  - type: requirement
+    description: Access to source
+    use_cases: [UB, MB]
+    compliance_notes: Do at least one of the following: provide a Standard Version of the executables and library files; OR provide source for your modifications; OR give non-standard executables non-standard name and document the differences with instructions on where to get the Standard Version; OR "make other distribution arrangements" with the copyright holder. See section 4 for more details.
+         
+  - type: restriction
+    description: Cannot charge a fee for package itself, but may charge a reasonable copying fee or for support
+    
+  - type: restriction
+    description: Cannot advertise this package as a product of your own when included in a larger product or distribution
+
+  - type: other
+    description: The following are not considered part of the package or do not fall under copyright of this package and subject to the license: scripts and library files supplied as input to or produced as output from the program; C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this package; aggregation of this package with other software where the package is embedded and the interfaces are not visible to the end user. See sections 6, 7, and 8 for more details.
+
+  - type: restriction
+    description: Cannot use name of copyright holder to endorse or promote
 
 
 BSD-2-Clause:
