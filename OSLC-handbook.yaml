@@ -84,7 +84,7 @@ Apache-2.0:
 Artistic-1.0-Perl:
   name: Artistic License 1.0 (Perl)
   licenseId: Artistic-1.0-Perl
-  notes:
+  notes: This license has specific use cases and conditions that are difficult to summarize; please see sections 5-8 and relevant definitions for more details.
     
   - type: requirement
     description: Retain all notices
@@ -117,6 +117,48 @@ Artistic-1.0-Perl:
 
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
+
+
+Artistic-2.0
+  name: Artistic License 2.0
+  licenseId: Artistic-2.0-Perl
+  notes: This license has specific use cases and conditions that are difficult to summarize; please see sections 4-9 and relevant definitions for more details.
+    
+  - type: requirement
+    description: Retain all notices
+    use_cases: [UB, US]
+    compliance_notes: Copyright notices and other notices
+
+  - type: requirement
+    description: Notice of modifications
+    use_cases: [MB, MS]
+    compliance_notes: Document how the modified version differs from the standard version
+    
+  - type: requirement
+    description: Provide access to modified version
+    use_cases: [MB, MS]
+    compliance_notes: Do at least one of the following: make modified version available to copyright holder under same license; OR rensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license. See section 4 for more details.
+    
+  - type: requirement
+    description: Access to source
+    use_cases: [UB]
+    compliance_notes: Provide complete instructions on how to get source for standard version; instructions must be kept current for your distribution
+         
+  - type: restriction
+    description: Cannot charge a licensing fee for package itself, but may charge a reasonable copying fee or for support
+    
+  - type: restriction
+    description: No right to use any trademark, service mark, tradname or logo of copyright holder
+
+  - type: termination
+    description: License terminates if you institute patent litigation (including cross or counter claim) against any party alleging the package direct or contributory patent infringement.
+
+  - type: other
+    description:  Modified or standard versions linked with other works; embedding the package in a larger work of your own; or stand-alone binary or bytecode versions of applications that include the package may be distributed without restriction provided the result does not expose a direct interface to the package. See sections 8 for more details.
+
+  - type: other
+    description: Works that merely extend or make use of the package do not cause the package to be a modified version, are not considered parts of the package itself, and are not subject to the terms of this license. See section 9 for more details.
+
 
 
 BSD-2-Clause:
