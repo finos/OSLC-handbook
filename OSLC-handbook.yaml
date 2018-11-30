@@ -364,6 +364,23 @@ GPL-3.0:
     description: License terminates if you initiate litigation claiming use of the program under this license violates a patent
 
 
+ISC:
+  name: ISC License
+  licenseId: ISC
+  notes:
+  
+  terms:
+  - type: requirement
+    description: Provide copy of license
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: This information must appear "in all copies"
+  
+  - type: requirement
+    description: Provide copyright notice
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: This information must appear "in all copies" 
+
+
 MIT:
   name: MIT License
   licenseId: MIT
