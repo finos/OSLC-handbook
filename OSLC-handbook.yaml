@@ -26,7 +26,6 @@
  =========
  
 0BSD:
-    
   name: BSD Zero Clause License
   licenseId: 0BSD
   notes: This is a blanket license with no conditions.
@@ -543,6 +542,31 @@ Plexus:
   - type: restriction
     description: Cannot use name of project for derived products
  
+ 
+TCL:
+  name: TCL/TK License
+  licenseId: TCL
+  notes:
+    
+  terms:
+  - type: requirement
+    description: Provide copy of license
+    use_cases: [UB, MB, US, MS]
+    compliance_notes:
+    
+  - type: requirement
+    description: Retain copyright notices
+    use_cases: [UB, MB, US, MS]
+    compliance_notes:
+    
+  - type: restriction
+    description: Use by US government entities falls under specific US federal statutory definitions for "Restrcited Rights" and "Commercial Computer Software". See license for specific details.
+    
+  - type: other
+    description: Licensing of modified versions
+    use_cases: [MB, MS]
+    description: Modified versions need not follow this license, provided that new license terms appear on first page of each applicable file
+   
       
 zlib:
   name: zlib License
