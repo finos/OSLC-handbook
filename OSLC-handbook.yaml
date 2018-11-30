@@ -378,7 +378,7 @@ ISC:
   - type: requirement
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
-    compliance_notes: This information must appear "in all copies" 
+    compliance_notes: This information must appear "in all copies"
 
 
 MIT:
@@ -533,5 +533,19 @@ Plexus:
     description: Cannot use name of project for derived products
  
       
-  
+zlib:
+  name: zlib License
+  licenseId: zlib
+  notes: This license also includes a request, but not a requirement for of use in your product documentation.
+    
+  terms:
+  - type:  requirement
+    description: Provide copy of license
+    use_cases: [US, MS]
+    compliance_notes: Retain copyright and license in any source distribution. However, you might consider the need to identify the presence of software under zlib for other reasons, especially if you have an agreement that wraps around this code/license.
+        
+  - type: requirement
+    description: notice of modifications
+    use_cases: [MB, MS]
+    compliance_notes: Modified verions must be "plainly marked as such" and not misrepresented as the original software
 
