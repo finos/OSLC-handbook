@@ -542,6 +542,37 @@ Plexus:
   - type: restriction
     description: Cannot use name of project for derived products
  
+
+Python-2.0
+  name: Python License 2.0
+  licenseId: Python-2.0
+  notes: This is a license “stack” comprised of various licenses that apply to Python as it has developed over the years.
+
+  terms:
+  - type: requirement
+    description: Provide copy of license
+    use_cases: [UB, MB, US, MS]
+    compliance_notes:
+    
+  - type: requirement
+    description: Provide copyright notice
+    use_cases: [UB, MB, US, MS]
+    compliance_notes:
+    
+ - type: requirement
+   description: Notice of modifications
+   use_cases: [MB, MS]
+   compliance_notes: Indicate the nature of the modifiations made in the work
+  
+  - type: restriction
+    description: Cannot use trademark or name to endorse or promote
+    
+  - type: termination
+    description: Termination of license upon breach
+    
+  - type: other
+    description: In different parts of this license stack, governing law is indicated as the law of the State of California and law of the State of Virginia apply.
+   
  
 TCL:
   name: TCL/TK License
