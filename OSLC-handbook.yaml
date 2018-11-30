@@ -25,6 +25,17 @@
 
  =========
  
+0BSD:
+    
+  name: BSD Zero Clause License
+  licenseId: 0BSD
+  notes: This is a blanket license with no conditions.
+  
+  terms:
+  - type: other
+    description: This license places no conditions whatsoever on using, copyring, modifying or distributions the software for any purpose.
+    
+        
 Apache 1.1:
   name: Apache Software License 1.1
   licenseId: Apache 1.1
@@ -536,7 +547,7 @@ Plexus:
 zlib:
   name: zlib License
   licenseId: zlib
-  notes: This license also includes a request, but not a requirement for of use in your product documentation.
+  notes:
     
   terms:
   - type:  requirement
@@ -548,4 +559,7 @@ zlib:
     description: notice of modifications
     use_cases: [MB, MS]
     compliance_notes: Modified verions must be "plainly marked as such" and not misrepresented as the original software
+    
+  - type: other
+    description:  This license also includes a request, but not a requirement for acknowledgment of use in your product documentation.
 
