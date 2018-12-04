@@ -129,7 +129,7 @@ Artistic-1.0-Perl:
     description: Cannot use name of copyright holder to endorse or promote
 
 
-Artistic-2.0
+Artistic-2.0:
   name: Artistic License 2.0
   licenseId: Artistic-2.0-Perl
   notes: This license has specific use cases and conditions that are difficult to summarize; please see sections 4-9 and relevant definitions for more details.
@@ -426,7 +426,60 @@ MIT-CMU:
     
     - type: restriction
       description: Cannot use name of copyright holder in advertising or publicity related to distribution
+ 
+ 
+MPL-1.0:
+  name: Mozilla Public License 1.0
+  licenseId: MPL-1.0
+  notes:
+  terms:
+  - type: requirement
+    description: Provide copy of license
+    use_cases: [US, MS]
+    compliance_notes: You must include a copy of the license with every source code distribution
+
+  - type: requirement
+    description: Retain notices
+    use_cases: [US, MS]
+    compliance_notes: You must retain license notices with every source code distribution or include notices in another likely location
+
+  - type: requirement
+    description: Provide source code
+    use_cases: [UB, MB]
+    compliance_notes: Provide source code on same media as binary or make available via other electronic distribution mechanism for 12 months after initial availability or at least 6 months after a subsequent version has been made available. See section 3.2 for more details.
+
+ - type: requirement
+    description: Notice of modifications
+    use_cases: [MB, MS]
+    compliance_notes: Document changes you made and date; include a prominent statement as to the origin of the original code. See section 3.3 for more details.
     
+ - type: requirement
+    description: Modifications under same license
+    use_cases: [MB, MS]
+    compliance_notes: Modifications are governed by the terms of this license. See 1.10 and 3.2 for more details.
+    
+  - type: restriction
+    description:
+    use_cases: [UB, MB, US, MS]  (if applicable)
+    
+  - type: termination
+    description: License terminates upon failure to comply with license aftera 30 day cure period
+
+  - type: other
+    description: Provide notice in a file called, LEGAL, of any third party intellectual property rights for particular functionality or code, including if your modifications are an application programming intereface and you own or control patents which are reasonably necessary to implement the API. See section 3.4 for more details.
+
+  - type: other
+    description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.5 for more details.
+    
+  - type: other
+    description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+        
+  - type: other
+    description: MPL-1.0 allows one to use covered code under the terms of any later version of the license.
+
+  - type: other
+    description: Covered code is a "commercial item" as defined in US federal law and all US government users acquire covered code with only those rights.
+
  
 Ms-PL:
   name: Microsoft Public License
@@ -543,7 +596,7 @@ Plexus:
     description: Cannot use name of project for derived products
  
 
-Python-2.0
+Python-2.0:
   name: Python License 2.0
   licenseId: Python-2.0
   notes: This is a license “stack” comprised of various licenses that apply to Python as it has developed over the years.
@@ -591,7 +644,7 @@ TCL:
     compliance_notes:
     
   - type: restriction
-    description: Use by US government entities falls under specific US federal statutory definitions for "Restrcited Rights" and "Commercial Computer Software". See license for specific details.
+    description: Use by US government entities falls under specific US federal statutory definitions for "Restricted Rights" and "Commercial Computer Software". See license for specific details.
     
   - type: other
     description: Licensing of modified versions
