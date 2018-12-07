@@ -170,7 +170,6 @@ Artistic-2.0:
     description: Works that merely extend or make use of the package do not cause the package to be a modified version, are not considered parts of the package itself, and are not subject to the terms of this license. See section 9 for more details.
 
 
-
 BSD-2-Clause:
   name: BSD 2-Clause "Simplified" License
   licenseId: BSD-2-Clause
@@ -471,7 +470,7 @@ MPL-1.0:
     description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
   - type: other
-    description: MPL-1.0 allows one to use covered code under the terms of any later version of the license.
+    description: Allows use of covered code under the terms of of same version or any later version of the license.
 
   - type: other
     description: Covered code is a "commercial item" as defined in US federal law and all US government users acquire covered code with only those rights.
@@ -526,7 +525,7 @@ MPL-1.1:
     description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
   - type: other
-    description: MPL-1.1 allows one to use covered code under the terms of any later version of the license.
+    description: Allows use of covered code under the terms of of same version or any later version of the license.
 
   - type: other
     description: Covered code is a "commercial item" as defined in US federal law and all US government users acquire covered code with only those rights.
@@ -567,7 +566,7 @@ MPL-2.0:
     description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license.
     
   - type: other
-    description: MPL-2.0 allows one to use covered code under the terms of any later version of the license or   .
+    description: Allows use of covered code under the terms of same version or any later version of the license.
     
   - type: other
     description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.5 for more details.
@@ -663,6 +662,36 @@ OpenSSL:
     
   - type: restriction
     description: Cannot use name of project for derived products
+      
+
+PHP-3.01:
+  name: PHP License v3.01
+  licenseId: PHP-3.01
+  notes:
+  terms:
+   - type: requirement
+    description: Provide copy of license
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+  
+  - type: requirement
+    description: Provide copyright notice
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
+    
+  - type: restriction
+    description: Cannot use name of copyright holder to endorse or promote
+ 
+  - type: restriction
+    description: Cannot use name of project for derived products
+    
+  - type: requirement
+    description:
+    use_cases: [UB, MB, US, MS]
+    acknowledgement:
+    
+  - type: other
+    description: Allows use of covered code under the terms of same version or any later version of the license.
       
  
 Plexus:
