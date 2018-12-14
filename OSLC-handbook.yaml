@@ -22,6 +22,7 @@
     
   - type: other
     description:
+     use_cases: [UB, MB, US, MS]  (if applicable)
 
  =========
  
@@ -29,7 +30,6 @@
   name: BSD Zero Clause License
   licenseId: 0BSD
   notes: This is a blanket license with no conditions.
-  
   terms:
   - type: other
     description: This license places no conditions whatsoever on using, copyring, modifying or distributions the software for any purpose.
@@ -39,7 +39,6 @@ Apache 1.1:
   name: Apache Software License 1.1
   licenseId: Apache 1.1
   notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately,  they are listed separately (here and on the SPDX License List).
- 
   terms:
   - type: requirement
     description: Provide copy of license
@@ -67,7 +66,6 @@ Apache-2.0:
   name: Apache Software License 2.0
   licenseId: Apache-2.0
   notes:
-  
   terms:
   - type: requirement
     description: Provide copy of license
@@ -95,7 +93,7 @@ Artistic-1.0-Perl:
   name: Artistic License 1.0 (Perl)
   licenseId: Artistic-1.0-Perl
   notes: This license has specific use cases and conditions that are difficult to summarize; please see sections 5-8 and relevant definitions for more details.
-    
+  terms:
   - type: requirement
     description: Retain all notices
     use_cases: [US, MS]
@@ -122,18 +120,18 @@ Artistic-1.0-Perl:
   - type: restriction
     description: Cannot advertise this package as a product of your own when included in a larger product or distribution
 
-  - type: other
-    description: The following are not considered part of the package or do not fall under copyright of this package and subject to the license: scripts and library files supplied as input to or produced as output from the program; C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this package; aggregation of this package with other software where the package is embedded and the interfaces are not visible to the end user. See sections 6, 7, and 8 for more details.
-
   - type: restriction
     description: Cannot use name of copyright holder to endorse or promote
+
+  - type: other
+    description: The following are not considered part of the package or do not fall under copyright of this package and subject to the license: scripts and library files supplied as input to or produced as output from the program; C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this package; aggregation of this package with other software where the package is embedded and the interfaces are not visible to the end user. See sections 6, 7, and 8 for more details.
 
 
 Artistic-2.0:
   name: Artistic License 2.0
   licenseId: Artistic-2.0-Perl
   notes: This license has specific use cases and conditions that are difficult to summarize; please see sections 4-9 and relevant definitions for more details.
-    
+  terms:
   - type: requirement
     description: Retain all notices
     use_cases: [UB, US]
@@ -174,7 +172,6 @@ BSD-2-Clause:
   name: BSD 2-Clause "Simplified" License
   licenseId: BSD-2-Clause
   notes:
-  
   terms:
   - type: requirement
     description: Provide copy of license
@@ -190,7 +187,6 @@ BSD-3-Clause:
   name: BSD 3-Clause "New" or "Revised" License
   licenseId: BSD-3-Clause
   notes:
- 
   terms:
   - type: requirement
     description: Provide copy of license
@@ -209,7 +205,6 @@ BSD-4-Clause:
   name: BSD 3-Clause "Original" or "Old" License
   licenseId: BSD-4-Clause
   notes:
- 
   terms:
   - type: requirement
     description: Provide copy of license
@@ -233,7 +228,6 @@ BSD-4-Clause-UC:
   name: BSD-4-Clause (University of California-Specific)
   licenseId: BSD-4-Clause-UC
   notes:  The advertising clause was rescinded by the University of California in 1999 for all material under BSD-4-Clause with University of California copyright notice. Thus, you do not need to comply with the advertising/acknowledgment requirement, which makes the license essentially BSD-3-Clause.
-  
   terms:
   - type: requirement
     description: Provide copy of license
@@ -253,7 +247,6 @@ BSL-1.0:
   name: Boost Software License 1.0
   licenseId: BSL-1.0
   notes:
-  
   terms:
   - type: requirement
     description: Provide copy of license
@@ -284,7 +277,7 @@ CDDL-1.0:
   - type: requirement
     description: Modifications under same license
     use_cases: [MB, MS]
-    compliance_notes: Modifications are governed by the terms of this license.
+    compliance_notes: Modifications are governed by the terms of this license
     
   - type: termination
     description: License terminates upon failure to comply with license after a 30 day cure period
@@ -300,7 +293,7 @@ CDDL-1.0:
     description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.4 for more details.
     
   - type: other
-    description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differering terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
   - type: other
     description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
@@ -310,7 +303,7 @@ CDDL-1.1:
   name: Common Development and Distribution License 1.1
   licenseId: CDDL-1.1
   notes: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent infringement clause and choice of law.
-terms:
+  terms:
   - type: requirement
     description: Provide copy of license
     use_cases: [US, MS]
@@ -351,18 +344,49 @@ terms:
     description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
 
  
-EPL-1.0
+EPL-1.0:
   name: Eclipse Public License 1.0
   licenseId: EPL-1.0
   notes:
+  terms:
+  - type: requirement
+    description: Provide copy of license
+    use_cases: [US, MS]
+    compliance_notes: A copy of the license must be included with each copy of the program. While there is no explicit language requiring a copy of the license for a binary distribution, one would need to identify this license to meet other requirements, thus some reference to the license is practically necessary.
+
+  - type: requirement
+    description: Retain notices
+    use_cases: [US, MS]
+    compliance_notes: You must retain license notices with every source code distribution or include notices in another likely location
+
+  - type: requirement
+    description: Provide source code
+    use_cases: [UB, MB]
+    compliance_notes: Must inform recipients how to obtain source code by reasonable manner via a "medium customarily used for software exchange"
     
+  - type: requirement
+    description: Notice of contributions
+    use_cases: [MB, MS]
+    compliance_notes: Include a notes that identifies contributor as the originatory of its contribution
+ 
+   - type: termination
+     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonalbe period of time after becoming aware of noncompliance
+
+   - type: termination
+     description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients patents
+   
+   - type: other
+    description: You may distribute binary versions under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (See section 3 and 4 for details)
+    use_cases: [UB, MB]
+
+  - type: other
+    description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
     
-    
-EPL-2.0
+EPL-2.0:
   name: Eclipse Public License 2.0
   licenseId: EPL-2.0
   notes:
- 
+  terms:
  
  
 Entessa:
@@ -591,7 +615,7 @@ MPL-1.0:
     description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.5 for more details.
     
   - type: other
-    description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
   - type: other
     description: Allows use of covered code under the terms of of same version or any later version of the license.
@@ -646,7 +670,7 @@ MPL-1.1:
     description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.5 for more details.
     
   - type: other
-    description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
   - type: other
     description: Allows use of covered code under the terms of of same version or any later version of the license.
@@ -687,7 +711,7 @@ MPL-2.0:
     description: If you initiate a patent infringement alleging that the contributor's version infringes any patent, then the license granted to you from any and all contributors under section 2.1 terminates.
 
   - type: other
-    description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license.
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license.
     
   - type: other
     description: Allows use of covered code under the terms of same version or any later version of the license.
