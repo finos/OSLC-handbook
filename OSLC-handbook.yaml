@@ -34,6 +34,13 @@
   - type: other
     description: This license places no conditions whatsoever on using, copyring, modifying or distributions the software for any purpose.
     
+      
+AGPL-3.0:
+  name: GNU Affero General Public License 3.0
+  licenseId: AGPL-3.0
+  notes:
+  terms:
+      
         
 Apache 1.1:
   name: Apache Software License 1.1
@@ -517,6 +524,27 @@ ISC:
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: This information must appear "in all copies"
+
+
+LGPL-2.0:
+  name: GNU Library General Public License 2.0
+  licenseId: LGPL-2.0
+  notes:
+  terms:
+
+
+LGPL-2.1:
+  name: GNU Lesser General Public License 2.1
+  licenseId: LGPL-2.1
+  notes:
+  terms:
+
+
+LGPL-3.0:
+  name: GNU Lesser General Public License 3.0
+  licenseId: LGPL-3.0
+  notes:
+  terms:
 
 
 Libpng:
