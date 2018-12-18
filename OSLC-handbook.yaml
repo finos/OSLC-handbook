@@ -302,7 +302,7 @@ CDDL-1.0:
   - type: other
     description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differering terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
-  - type: other
+  - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
  
  
@@ -347,7 +347,7 @@ CDDL-1.1:
   - type: other
     description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
-  - type: other
+  - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
 
  
@@ -386,7 +386,7 @@ EPL-1.0:
     description: You may distribute binary versions under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (See section 3 and 4 for details)
     use_cases: [UB, MB]
 
-  - type: other
+  - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
     
 EPL-2.0:
@@ -419,7 +419,7 @@ EPL-2.0:
     description: You may distribute program under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (See section 3 for details)
     use_cases: [UB, MB, US, MS]
  
-   - type: other
+   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
  
 Entessa:
@@ -490,6 +490,8 @@ GPL-2.0:
   - type: termination
     description: License automatically terminates if you do not comply with the terms of the license
 
+  - type: license_versions
+    description:
 
 GPL-3.0:
   name: GNU General Public License 3.0
@@ -534,6 +536,8 @@ GPL-3.0:
   - type: termination
     description: License terminates if you initiate litigation claiming use of the program under this license violates a patent
 
+  - type: license_versions
+    description:
 
 ISC:
   name: ISC License
@@ -557,6 +561,9 @@ LGPL-2.0:
   licenseId: LGPL-2.0
   notes:
   terms:
+
+  - type: license_versions
+    description:
 
 
 LGPL-2.1:
@@ -601,6 +608,8 @@ LGPL-2.1:
   - type: other
     description: LPGL allows dynamic linking of the LGPL code with “a work that uses the Library” under a different license, under certain conditions as provided in Section 6: terms of the other license must permit reverse engineering and debugging; provide a copy of the license & prominent notice that the Library is used; provide source code via one of the options in section 6 of the license
 
+  - type: license_versions
+    description:
 
 LGPL-3.0:
   name: GNU Lesser General Public License 3.0
@@ -707,7 +716,7 @@ MPL-1.0:
   - type: other
     description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
-  - type: other
+  - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license.
 
   - type: other
@@ -762,7 +771,7 @@ MPL-1.1:
   - type: other
     description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
-  - type: other
+  - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license.
 
   - type: other
@@ -803,7 +812,7 @@ MPL-2.0:
   - type: other
     description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license.
     
-  - type: other
+  - type: license_versions
     description: Allows use of covered code under the terms of same version or any later version of the license.
     
   - type: other
@@ -928,7 +937,7 @@ PHP-3.0:
     use_cases: [UB, MB, US, MS]
     acknowledgement: This product includes PHP, freely available from <http://www.php.net/software/>
 
-  - type: other
+  - type: license_versions
     description: Allows use of covered code under the terms of same version or any later version of the license.
 
 
@@ -958,7 +967,7 @@ PHP-3.01:
     use_cases: [UB, MB, US, MS]
     acknowledgement: This product includes PHP software, freely available from <http://www.php.net/software/>
 
-  - type: other
+  - type: license_versions
     description: Allows use of covered code under the terms of same version or any later version of the license.
       
  
