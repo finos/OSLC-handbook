@@ -39,6 +39,7 @@ Key definitions are as follows:
     * restriction = a restriction or prohibition; applies to all and any use-cases unless specific set of use-cases are identified
     * termination = license termination clause 
     * other = other clauses that are neither squarely a requireement, restriction or termination but may be necessary to be aware of for license compliance purposes; applies to all and any use-cases, specific set of use-cases as identified by coding or in description
+    * license_versions = 
   * description = high-level description to explain the license term, e.g., what do you have to do to meet the requirement, what is the restriction, under what conditions does the license terminate. This field may also include specifics for the use-case where the use-case does not fit into the standard four use-cases as defined
   * use cases = the use case for which the terms (or condition) applies. These are the most common triggers for open source license conditions, but not exhaustive; if the use case or trigger does not fit in one of these categories, then it will be explained in the term description
     * UB = distribution of unmodified binary
