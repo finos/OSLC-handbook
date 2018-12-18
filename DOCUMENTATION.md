@@ -12,6 +12,8 @@ As to the latter, the conditions that need to be met for a given open source lic
 One way to think of this is as an if-then statement ... (add bit here from training slides)
 
 The license compliance requirements are summarized for the four most common use-cases as listed below. This document only provides license compliance information for licenses and use-cases that are easy to understand and summarize succinctly.  Cases where further analysis may be needed are flagged and may need consultation with your open source counsel.  Likewise, if your use-case varies in any way or you are using a different license (even if it seems similar) than those licenses listed here or you have any questions whatsoever about this information or how to properly comply, please contact your open source counsel.
+
+Other terms not related to license compliance are not capture here, for example, choice of law, jurisdiction, statutory references, or passive representations. As always, your open source counsel should familiarize themself with the entire license before relying on the information provided in this handbook. 
   
 ## Use-case:
 Distribution is defined as: 
