@@ -286,15 +286,15 @@ CDDL-1.0:
     use_cases: [MB, MS]
     compliance_notes: Modifications are governed by the terms of this license
     
+  - type: restriction
+    description: You may not impose any terms on source code that alters or restricts recipient's rights under this license
+    use_cases: [US, MB]
+        
   - type: termination
     description: License terminates upon failure to comply with license after a 30 day cure period
 
  - type: termination
     description: If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties. See section 6.2 for more details.
-    
-  - type: other
-    use_cases: [US, MB]
-    description: You may not impose any terms on source code that alters or restricts recipient's rights under this license
 
   - type: other
     description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.4 for more details.
@@ -330,16 +330,16 @@ CDDL-1.1:
     description: Modifications under same license
     use_cases: [MB, MS]
     compliance_notes: Modifications are governed by the terms of this license.
+
+  - type: restriction
+    description: You may not impose any terms on source code that alters or restricts recipient's rights under this license
+    use_cases: [US, MB]
     
   - type: termination
     description: License terminates upon failure to comply with license after a 30 day cure period
 
  - type: termination
     description: If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties. If such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such parties in this license shall be taken into account in determining the amount or value of any payment or license. See section 6.2 and 6.3 for more details.
-    
-  - type: other
-    use_cases: [US, MB]
-    description: You may not impose any terms on source code that alters or restricts recipient's rights under this license
 
   - type: other
     description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.4 for more details.
