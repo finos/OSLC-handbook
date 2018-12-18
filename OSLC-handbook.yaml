@@ -394,7 +394,33 @@ EPL-2.0:
   licenseId: EPL-2.0
   notes:
   terms:
+- type: requirement
+    description: Provide license
+    use_cases: [US, MB, US, MS]
+    compliance_notes: Accompany the program with a statement that the source code if available under the license. For source code distributions, must provide a copy of the license.
+        
+  - type: requirement
+    description: Provide source code
+    use_cases: [UB, MB]
+    compliance_notes: Must inform recipients how to obtain source code by reasonable manner via a "medium customarily used for software exchange"
  
+  - type: requirement
+    description: Retain notices
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: You must retain license notices with every source code distribution or include notices in another likely location
+ 
+   - type: termination
+     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonalbe period of time after becoming aware of noncompliance
+
+   - type: termination
+     description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients patents
+    
+   - type: other
+    description: You may distribute program under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (See section 3 for details)
+    use_cases: [UB, MB, US, MS]
+ 
+   - type: other
+    description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
  
 Entessa:
   name: Entessa Public License 1.0
