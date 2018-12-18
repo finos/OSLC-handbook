@@ -15,12 +15,12 @@ The license compliance requirements are summarized for the four most common use-
   
 ## Use-case:
 Distribution is defined as: 
-•	providing software to another entity, i.e., an individual or organization outside your company or organization. This is important as most open source license obligations are triggered by a distribution. Access via a web-based application is usually not considered a distribution, but some web-based applications involve the distribution of software (e.g., Javascript) and some open source licenses have obligations specifically triggered by access to software via a computer network.
+* providing software to another entity, i.e., an individual or organization outside your company or organization. This is important as most open source license obligations are triggered by a distribution. Access via a web-based application is usually not considered a distribution, but some web-based applications involve the distribution of software (e.g., Javascript) and some open source licenses have obligations specifically triggered by access to software via a computer network.
 
-1	UB = Distribution, unmodified, binary form 
-2	MB = Distribution, modified, binary form 
-3	US = Distribution, unmodified, source form 
-4	MS = Distribution, modified, source form 
+1)	UB = Distribution, unmodified, binary form 
+2)	MB = Distribution, modified, binary form 
+3)	US = Distribution, unmodified, source form 
+4)	MS = Distribution, modified, source form 
 
 # YAML key definitions
 Each license has its own block, even if the compliance profile is exactly the same as another license. 
