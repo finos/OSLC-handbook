@@ -776,7 +776,7 @@ MPL-1.1:
 MPL-2.0:
   name: Mozilla Public License 2.0
   licenseId: MPL-2.0
-  notes:
+  notes: This license includes a license-compatibility provision related to use of the code with the GPL-2.0-or-later, LGPL-2.1-or-later, and GPL-3.0-or-later which is difficult to capture, please see sections 1.12, 2.4, 3.3, and 10.4 for more details.
   terms:
   - type: requirement
     description: Provide license
@@ -1041,7 +1041,6 @@ zlib:
   name: zlib License
   licenseId: zlib
   notes:
-    
   terms:
   - type:  requirement
     description: Provide copy of license
