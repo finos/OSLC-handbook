@@ -387,7 +387,7 @@ EPL-1.0:
     use_cases: [UB, MB]
 
   - type: license_versions
-    description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
+    description: Allows use of covered code under the terms of of same version or any later version of the license.
     
 EPL-2.0:
   name: Eclipse Public License 2.0
@@ -420,7 +420,7 @@ EPL-2.0:
     use_cases: [UB, MB, US, MS]
  
    - type: license_versions
-    description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
+    description: Allows use of covered code under the terms of of same version or any later version of the license.
  
 Entessa:
   name: Entessa Public License 1.0
@@ -1030,9 +1030,6 @@ TCL:
     description: Retain copyright notices
     use_cases: [UB, MB, US, MS]
     compliance_notes:
-    
-  - type: restriction
-    description: Use by US government entities falls under specific US federal statutory definitions for "Restricted Rights" and "Commercial Computer Software". See license for specific details.
     
   - type: other
     description: Licensing of modified versions
