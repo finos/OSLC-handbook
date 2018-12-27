@@ -1,31 +1,4 @@
-[id]:
-  name:
-  licenseId:
-  notes:
-  terms:
-  - type: requirement
-    description:
-    use_cases: [UB, MB, US, MS]
-    compliance_notes:
-    
-    - type: requirement
-    description:
-    use_cases: [UB, MB, US, MS]
-    acknowledgement:
-    
-  - type: restriction
-    description:
-    use_cases: [UB, MB, US, MS]  (if applicable)
-    
-  - type: termination
-    description:
-    
-  - type: other
-    description:
-     use_cases: [UB, MB, US, MS]  (if applicable)
 
- =========
- 
 0BSD:
   name: BSD Zero Clause License
   licenseId: 0BSD
