@@ -103,7 +103,7 @@ Artistic-1.0-Perl:
   terms:
   - type: requirement
     description: Retain all notices
-    use_cases: [US, MS]
+    use_cases: [US]
     compliance_notes: Copyright notices and other notices
 
   - type: requirement
