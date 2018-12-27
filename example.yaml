@@ -1,0 +1,27 @@
+Below is an example of the yaml format. See DOCUMENTATION for further explanations for each tag/type
+
+[id]:
+  name:
+  licenseId:
+  notes:
+  terms:
+  - type: requirement
+    description:
+    use_cases: [UB, MB, US, MS]
+    compliance_notes:
+    
+  - type: requirement
+    description:
+    use_cases: [UB, MB, US, MS]
+    acknowledgement:
+    
+  - type: restriction
+    description:
+    use_cases: [UB, MB, US, MS]  (if applicable or omit)
+    
+  - type: termination
+    description:
+    
+  - type: other
+    description:
+     use_cases: [UB, MB, US, MS]  (if applicable or omit)
