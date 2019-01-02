@@ -571,8 +571,42 @@ ISC:
 LGPL-2.0:
   name: GNU Library General Public License 2.0
   licenseId: LGPL-2.0
-  notes:
+notes: When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel. LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1.
+  resources: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
+  - type: requirement
+    description: Provide copy of license
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: It must be an actual copy of the license not a website link
+
+  - type: requirement
+    description: Retain notices on all files
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only
+
+  - type: requirement
+    description: Notice of modifications
+    use_cases: [MB, MS]
+    compliance_notes: Modified files must have “prominent notices that you changed the files” and a date
+
+  - type: requirement
+    description: Modifications or derivative work must be licensed under same license
+    use_cases: [MB, MS]
+    compliance_notes: Derivative works of the library must also be under LGPL (this usually includes statically linked code).
+
+  - type: requirement
+    description: Provide corresponding source code
+    use_cases: [UB, MB]
+    compliance_notes: complete source code = all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the library (see section 4 or section 6, as applicable).
+
+  - type: restriction
+    description: You may not impose any further restrictions on the recipients' exercise of the rights granted herein. If you are distributing LGPL code with other code under other licenses, you will need to consider if the combination creates a conflict with this clause.
+
+  - type: termination
+    description: License automatically terminates if you do not comply with the terms of the license
+
+  - type: other
+    description: LPGL allows dynamic linking of the LGPL code with “a work that uses the Library” under a different license, under certain conditions as provided in Section 6: terms of the other license must permit reverse engineering and debugging; provide a copy of the license & prominent notice that the Library is used; provide source code via one of the options in section 6 of the license
 
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
@@ -583,7 +617,7 @@ LGPL-2.1:
   licenseId:
     - LGPL-2.1-only
     - LGPL-2.1-or-later
-  notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
+  notes: When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel. LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1.
   resources: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: requirement
