@@ -391,7 +391,7 @@ EPL-1.0:
     compliance_notes: Include a notes that identifies contributor as the originatory of its contribution
  
    - type: termination
-     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonalbe period of time after becoming aware of noncompliance
+     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance
 
    - type: termination
      description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients patents
@@ -424,7 +424,7 @@ EPL-2.0:
     compliance_notes: You must retain license notices with every source code distribution or include notices in another likely location
  
    - type: termination
-     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonalbe period of time after becoming aware of noncompliance
+     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance
 
    - type: termination
      description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients patents
