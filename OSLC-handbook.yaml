@@ -10,8 +10,10 @@
       
 AGPL-3.0:
   name: GNU Affero General Public License 3.0
-  licenseId: AGPL-3.0
-  notes: AGPL-3.0 is the same license as GPL-3.0, but with an additional term in section 13 which imposes a requirement for modified version accessed via remote computer network.
+  licenseId:
+  - AGPL-3.0-only
+  - AGPL-3.0-or-later
+  notes: AGPL-3.0 is the same license as GPL-3.0, but with an additional term in section 13 which imposes a requirement for modified version accessed via remote computer network. When distributing AGPL code, it is highly recommended to obtain advice from your open source legal counsel.
   terms:
   - type: requirement
     description: Provide copy of license
@@ -465,8 +467,8 @@ Entessa:
 GPL-2.0:
   name: GNU General Public License 2.0
   licenseId:
-      - GPL-2.0-only
-      - GPL-2.0-or-later
+  - GPL-2.0-only
+  - GPL-2.0-or-later
   notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
   resources: For more information about GPL compliance: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
 
@@ -508,8 +510,8 @@ GPL-2.0:
 GPL-3.0:
   name: GNU General Public License 3.0
   licenseId:
-      - GPL-3.0-only
-      - GPL-3.0-or-later
+  - GPL-3.0-only
+  - GPL-3.0-or-later
   notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
   resources: For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
 
@@ -570,8 +572,10 @@ ISC:
 
 LGPL-2.0:
   name: GNU Library General Public License 2.0
-  licenseId: LGPL-2.0
-notes: When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel. LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1.
+  licenseId:
+  - LGPL-2.0-only
+  - LGPL-2.0-or-later
+  notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
   resources: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: requirement
@@ -615,9 +619,9 @@ notes: When distributing LGPL code, it is highly recommended to obtain advice fr
 LGPL-2.1:
   name: GNU Lesser General Public License 2.1
   licenseId:
-    - LGPL-2.1-only
-    - LGPL-2.1-or-later
-  notes: When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel. LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1.
+  - LGPL-2.1-only
+  - LGPL-2.1-or-later
+  notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
   resources: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: requirement
@@ -659,7 +663,9 @@ LGPL-2.1:
 
 LGPL-3.0:
   name: GNU Lesser General Public License 3.0
-  licenseId: LGPL-3.0
+  licenseId:
+  - LGPL-3.0-only
+  - LGPL-3.0-or-later
   notes:
   terms:
 
