@@ -666,9 +666,24 @@ LGPL-3.0:
   licenseId:
   - LGPL-3.0-only
   - LGPL-3.0-or-later
-  notes:
+  parent-licenseID:
+  - GPL-3.0-only
+  - GPL-3.0-or-later
+  notes: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent licnese with the terms listed here.
+  resources:  For more information about LGPL compliance, see: https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
+  - type: other
+    description: Modified versions that contain a facilitiy that refers to a function or data to be supplied by another application that uses the facility must be provided under LGPL-3.0 or GPL-3.0.
 
+  - type: other
+    description: Object code incorporating header file material from the library that is not limited to numerical parameters, data structure layouts and accessors or small macros, inline functions and templates of fewer than ten lines must include a prominent notice that the library is used, its used is covered by LGPL-3.0, and provide a copy of the license. See section 3 for more details.
+    
+  - type: other
+    description: LPGL allows dynamic linking of the LGPL code with “a work that uses the Library” under a different license, under certain conditions as provided in section 4: terms of the other license must permit reverse engineering and debugging; provide a copy of the license & prominent notice that the Library is used; provide installation information as would otherwise be required under section 6 of GPL-3.0; and provide source code via one of the options in section 4 of the license.
+
+  - type: other
+    description: If combine with other libraries and distribute, then you must accopmany the combined library with a copy of the same work based on teh library uncombined; give prominent notice that the library is used and explain where to find the accompanying uncomibed form of the work. See section 5 for more details.
+        
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
 
