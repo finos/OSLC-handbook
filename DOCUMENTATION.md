@@ -26,7 +26,7 @@ Distribution is defined as:
 
 # YAML key definitions
 Each license has its own block, even if the compliance profile is exactly the same as another license. 
-License blocks are arranged alphabetically by licenseID.
+License blocks are arranged alphabetically by licenseID.  See https://github.com/jlovejoy/OSLC-handbook/blob/master/example.yaml for an example of keys and license block formatting. 
 
 Key definitions are as follows:
 
