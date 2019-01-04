@@ -6,9 +6,9 @@ Please see https://github.com/jlovejoy/OSLC-handbook/blob/master/DOCUMENTATION.m
 
 # License and Contributions
 
-Copyright 2018-2019 FINOS and contributors
+Copyright 2018-2019 FINOS, Jilayne Lovejoy, and contributors
 
-This work is licensed under ...
+This work is licensed under CC-BY-SA-4.0
 
 Contributions are accepted under the same license.
 
