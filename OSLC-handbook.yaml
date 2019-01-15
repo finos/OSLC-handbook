@@ -23,7 +23,7 @@ AGPL-3.0:
   - type: requirement
     description: Retain notices on all files
     use_cases: [UB, MB, US, MS]
-    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only
+    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also where you determine if the license is “or later” or the specific version only
 
   - type: requirement
     description: Notice of modifications
@@ -41,7 +41,9 @@ AGPL-3.0:
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See section 6 for more details.
 
   - type: restriction
-    description: You may not impose any further restrictions on the recipients' exercise of the rights granted herein. If you are distributing GPL code with other code under other licenses, you will need to consider if the combination creates a conflict with this clause.
+    description: No additional restrictions
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.
 
   - type: termination
     description: License automatically terminates if you do not comply with the terms of the license
