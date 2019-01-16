@@ -21,7 +21,12 @@ for license in licenses:
     if license["name"]:
         print("# ", license["name"])
     if license["licenseId"]:
-        print("- SPDX License ID: ", license["licenseId"])
+        if isinstance(license["licenseId"], list):
+            print("- SPDX License ID: ")
+            for id in license["licenseId"]:
+                print("  - ", id)
+        else:
+            print("- SPDX License ID: ", license["licenseId"])
     if license["notes"]:
         print("- Notes: ", license["notes"])
 

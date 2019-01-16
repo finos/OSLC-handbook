@@ -7,7 +7,9 @@ Input file is  OSLC-handbook.yaml
 | --- | --- |
 | This license places no conditions whatsoever on using, copyring, modifying or distributions the software for any purpose. ||
 #  GNU Affero General Public License 3.0
-- SPDX License ID:  ['AGPL-3.0-only', 'AGPL-3.0-or-later']
+- SPDX License ID: 
+  -  AGPL-3.0-only
+  -  AGPL-3.0-or-later
 - Notes:  AGPL-3.0 is the same license as GPL-3.0, but with an additional term in section 13 which imposes a requirement for modified version accessed via remote computer network. When distributing AGPL code, it is highly recommended to obtain advice from your open source legal counsel.
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
@@ -267,7 +269,9 @@ Input file is  OSLC-handbook.yaml
 | Cannot use name of copyright holder to endorse or promote ||
 | Cannot use name of project for derived products ||
 #  GNU General Public License 2.0
-- SPDX License ID:  ['GPL-2.0-only', 'GPL-2.0-or-later']
+- SPDX License ID: 
+  -  GPL-2.0-only
+  -  GPL-2.0-or-later
 - Notes:  When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
@@ -290,7 +294,9 @@ Input file is  OSLC-handbook.yaml
 | --- | --- |
 | Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF. ||
 #  GNU General Public License 3.0
-- SPDX License ID:  ['GPL-3.0-only', 'GPL-3.0-or-later']
+- SPDX License ID: 
+  -  GPL-3.0-only
+  -  GPL-3.0-or-later
 - Notes:  When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
@@ -321,7 +327,9 @@ Input file is  OSLC-handbook.yaml
 | Provide copy of license |X|X|X|X|This information must appear "in all copies"|
 | Provide copyright notice |X|X|X|X|This information must appear "in all copies"|
 #  GNU Library General Public License 2.0
-- SPDX License ID:  ['LGPL-2.0-only', 'LGPL-2.0-or-later']
+- SPDX License ID: 
+  -  LGPL-2.0-only
+  -  LGPL-2.0-or-later
 - Notes:  LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
@@ -348,7 +356,9 @@ Input file is  OSLC-handbook.yaml
 | --- | --- |
 | LPGL allows dynamic linking of the LGPL code with “a work that uses the Library” under a different license, under certain conditions as provided in Section 6: terms of the other license must permit reverse engineering and debugging; provide a copy of the license & prominent notice that the Library is used; provide source code via one of the options in section 6 of the license ||
 #  GNU Lesser General Public License 2.1
-- SPDX License ID:  ['LGPL-2.1-only', 'LGPL-2.1-or-later']
+- SPDX License ID: 
+  -  LGPL-2.1-only
+  -  LGPL-2.1-or-later
 - Notes:  LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
@@ -375,7 +385,9 @@ Input file is  OSLC-handbook.yaml
 | --- | --- |
 | LPGL allows dynamic linking of the LGPL code with “a work that uses the Library” under a different license, under certain conditions as provided in Section 6: terms of the other license must permit reverse engineering and debugging; provide a copy of the license & prominent notice that the Library is used; provide source code via one of the options in section 6 of the license ||
 #  GNU Lesser General Public License 3.0
-- SPDX License ID:  ['LGPL-3.0-only', 'LGPL-3.0-or-later']
+- SPDX License ID: 
+  -  LGPL-3.0-only
+  -  LGPL-3.0-or-later
 - Notes:  LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent licnese with the terms listed here.
 ## License Versioning
 |Summary|Notes|
