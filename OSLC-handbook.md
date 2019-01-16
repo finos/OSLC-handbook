@@ -43,7 +43,8 @@
 | --- | --- | --- | --- | --- | --- |
 | Provide copy of license |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
 | Provide copyright notice |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
-| Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear |X|X|X|X|## Restrictions
+| Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear |X|X|X|X||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
 | Cannot use name of copyright holder to endorse or promote ||
@@ -133,7 +134,8 @@
 | --- | --- | --- | --- | --- | --- |
 | Provide copy of license |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
 | Provide copyright notice |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
-| Advertising materials "mentioning the features or use of this software" must include acknowledgment |||||## Restrictions
+| Advertising materials "mentioning the features or use of this software" must include acknowledgment ||||||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
 | Cannot use name of copyright holder to endorse or promote ||
@@ -262,7 +264,8 @@
 | --- | --- | --- | --- | --- | --- |
 | Provide copy of license |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
 | Provide copyright notice |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
-| Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear |X|X|X|X|## Restrictions
+| Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear |X|X|X|X||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
 | Cannot use name of copyright holder to endorse or promote ||
@@ -539,7 +542,12 @@
 | --- | --- | --- | --- | --- | --- |
 | Provide copy of license |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
 | Provide copyright notice |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
-| Acknowledgement must be included for any redistribution |X|X|X|X|| Include acknowledgement in advertising mentioning features or use |||||| Include acknowledgement in advertising mentioning features or use. "The word 'cryptographic' can be left out if the rouines from the library being used are not cryptographic related". |||||| Include acknowledgement If you include any Windows specific code (or a derivative thereof) from the apps directory (application code) |||||| Cannot use name of copyright holder to endorse or promote |||||## Restrictions
+| Acknowledgement must be included for any redistribution |X|X|X|X||
+| Include acknowledgement in advertising mentioning features or use ||||||
+| Include acknowledgement in advertising mentioning features or use. "The word 'cryptographic' can be left out if the rouines from the library being used are not cryptographic related". ||||||
+| Include acknowledgement If you include any Windows specific code (or a derivative thereof) from the apps directory (application code) ||||||
+| Cannot use name of copyright holder to endorse or promote ||||||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
 | Cannot use name of project for derived products ||
@@ -551,7 +559,8 @@
 | --- | --- | --- | --- | --- | --- |
 | Provide copy of license |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
 | Provide copyright notice |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
-| Acknowlegment must be retained in all redistributions |X|X|X|X|## Restrictions
+| Acknowlegment must be retained in all redistributions |X|X|X|X||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
 | Cannot use name of copyright holder to endorse or promote ||
@@ -568,7 +577,8 @@
 | --- | --- | --- | --- | --- | --- |
 | Provide copy of license |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
 | Provide copyright notice |X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
-| Acknowlegment must be retained in all redistributions |X|X|X|X|## Restrictions
+| Acknowlegment must be retained in all redistributions |X|X|X|X||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
 | Cannot use name of copyright holder to endorse or promote ||

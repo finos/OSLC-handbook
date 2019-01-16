@@ -80,7 +80,8 @@ for license in licenses:
 
             if "compliance_notes" in req:
                 print(req["compliance_notes"], end="")
-                print("|")
+                
+            print("|")
     if len(restrictions) > 0:
         print("## Restrictions")
         print("|Summary|Notes|")
