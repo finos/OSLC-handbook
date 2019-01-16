@@ -1,4 +1,3 @@
-Input file is  OSLC-handbook.yaml
 #  BSD Zero Clause License
 - SPDX License ID:  0BSD
 - Notes:  This is a blanket license with no conditions.

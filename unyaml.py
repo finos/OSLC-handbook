@@ -11,7 +11,6 @@ parser = argparse.ArgumentParser(description='Process a license compliance info 
 parser.add_argument('inputfile', help='The filename of the input YAML file.')
 
 args = parser.parse_args()
-print("Input file is ", args.inputfile)
 
 fh = open(args.inputfile, "r", encoding='utf8')
 
