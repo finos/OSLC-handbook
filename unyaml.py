@@ -16,7 +16,6 @@ print("Input file is ", args.inputfile)
 fh = open(args.inputfile, "r", encoding='utf8')
 
 licenses = load(fh, Loader=Loader)
-print(licenses)
 
 for license in licenses:
     if license["name"]:
@@ -76,9 +75,8 @@ for license in licenses:
                 print("||||", end="")
 
             if "compliance_notes" in req:
-                print(req["compliance_notes"])
-
-            print("|")
+                print(req["compliance_notes"], end="")
+                print("|")
     if len(restrictions) > 0:
         print("## Restrictions")
         print("|Summary|Notes|")
