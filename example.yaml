@@ -1,8 +1,9 @@
 Below is an example of the yaml format. See DOCUMENTATION for further explanations for each tag/type
 
-[id]:
+-
   name:
   licenseId:
+  - (if more than one apply)
   notes:
   terms:
   - type: requirement
@@ -17,11 +18,11 @@ Below is an example of the yaml format. See DOCUMENTATION for further explanatio
     
   - type: restriction
     description:
-    use_cases: [UB, MB, US, MS]  (if applicable or omit)
+    use_cases: [UB, MB, US, MS]  (usually not used, but use if specifically applicable)
     
   - type: termination
     description:
     
   - type: other
     description:
-     use_cases: [UB, MB, US, MS]  (if applicable or omit)
+    use_cases: [UB, MB, US, MS]  (usually not used, but use if specifically applicable)
