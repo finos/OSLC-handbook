@@ -432,6 +432,9 @@
   - type: other
     description: You may distribute program under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (See section 3 for details)
     use_cases: [UB, MB, US, MS]
+    
+  - type: other
+    description: You may distribute under an enumerated 'Secondary License' if authorized by the initial Contributor or combined with code under that Secondary License (See section 3.2 for more details)
  
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license.
