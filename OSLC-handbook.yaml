@@ -41,7 +41,6 @@
 
   - type: restriction
     description: No additional restrictions
-    use_cases: [UB, MB, US, MS]
     compliance_notes: Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.
 
   - type: termination
@@ -610,7 +609,6 @@
 
   - type: restriction
     description: No additional restrictions
-    use_cases: [UB, MB, US, MS]
     compliance_notes: Other terms applicable to the work must not impose any restriction on the licensee's use of the library that does not appear in this license.
 
   - type: termination
@@ -658,8 +656,8 @@
 
   - type: restriction
     description: No additional restrictions
-    use_cases: [UB, MB, US, MS]
     compliance_notes: Other terms applicable to the work must not impose any restriction on the licensee's use of the library that does not appear in this license.
+ 
   - type: termination
     description: License automatically terminates if you do not comply with the terms of the license
 
