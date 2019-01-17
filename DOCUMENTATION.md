@@ -13,7 +13,7 @@ One way to think of this is as an if-then statement. For example: IF I am distri
 
 Some open source license conditions are easy to understand and comply with, while other conditions are open for (legal) interpretation or involved more complex use-cases. The license compliance requirements in this handbook are summarized for the four most common use-cases as listed below. This handbook only provides license compliance information for licenses and use-cases that are easy to understand and summarize succinctly.  Cases where further analysis may be needed are noted and may need consultation with your open source counsel.  Likewise, if your use-case varies in any way or you are using a different license than those licenses listed here (even if it seems similar) or you have any questions whatsoever about this information or how to properly comply, please contact your open source counsel.
 
-Other terms not related to license compliance are not captured here, for example, choice of law, jurisdiction, statutory references, or passive representations. As always, your open source counsel should familiarize themself with the entire license before relying on the information provided in this handbook. 
+Other terms not related to license compliance are not captured here, for example, choice of law, jurisdiction, statutory references, or passive representations. Likewise, information describing the license grants are not captured here. As always, your open source counsel should familiarize themself with the entire license before relying on the information provided in this handbook. 
   
 ## Use-case:
 Distribution is defined as: 
