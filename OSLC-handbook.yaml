@@ -690,7 +690,7 @@
   parent-licenseID:
   - GPL-3.0-only
   - GPL-3.0-or-later
-  notes: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent licnese with the terms listed here.
+  notes: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent license with the terms listed here.
   resources:  "For more information about LGPL compliance, see: https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"
   terms:
   - type: other
@@ -806,7 +806,7 @@
     description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
 
   - type: other
-    description: If it is impossible for you to comply with any of the terms of this license due to statute or regulation then you must comply with the terms of this License to the maximum extent possible; and describe the compliance limitations and the code they affect and include such description in all distributions of the source code (see section 3.4)
+    description: If it is impossible for you to comply with any of the terms of this license due to statute or regulation then you must comply with the terms of this License to the maximum extent possible; and describe the compliance limitations and the code they affect and include such description in all distributions of the source code (see section 3.4 for more details)
             
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license.
@@ -892,7 +892,7 @@
     compliance_notes: Must inform recipients how to obtain source code by reasonable means in a timely manner and at no cost more than the cost of distribution to the recipient.
 
   - type: termination
-    description: License terminates upon failure to comply with license unless certain conditions are met by you and contributor, see section 5.1 for more details.
+    description: License terminates upon failure to comply with license unless certain conditions are met by you and contributor (see section 5.1 for more details)
 
   - type: termination
     description: If you initiate a patent infringement alleging that the contributor's version infringes any patent, then the license granted to you from any and all contributors under section 2.1 terminates.
