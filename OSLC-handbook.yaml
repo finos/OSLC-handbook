@@ -298,7 +298,7 @@
   - type: requirement
     description: Modifications under same license
     use_cases: [MB, MS]
-    compliance_notes: Modifications are governed by the terms of this license
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.6, 1.9, and 3.6 for more information)
     
   - type: restriction
     description: You may not impose any terms on source code that alters or restricts recipient's rights under this license
@@ -343,7 +343,7 @@
   - type: requirement
     description: Modifications under same license
     use_cases: [MB, MS]
-    compliance_notes: Modifications are governed by the terms of this license.
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.6, 1.9, and 3.6 for more information)
 
   - type: restriction
     description: You may not impose any terms on source code that alters or restricts recipient's rights under this license
@@ -390,6 +390,11 @@
     use_cases: [MB, MS]
     compliance_notes: Include a notes that identifies contributor as the originatory of its contribution
  
+  - type: requirement
+    description: Modifications under same license
+    use_cases: [MS]
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3 for more information)
+ 
   - type: termination
     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance
 
@@ -417,6 +422,11 @@
     description: Provide source code
     use_cases: [UB, MB]
     compliance_notes: Must inform recipients how to obtain source code by reasonable manner via a "medium customarily used for software exchange"
+ 
+   - type: requirement
+    description: Modifications under same license
+    use_cases: [MS]
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3.2 for more information)
  
   - type: requirement
     description: Retain notices
@@ -499,7 +509,7 @@
   - type: requirement
     description: Provide corresponding source code
     use_cases: [UB, MB]
-    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer. See GPL-2.0 §3
+    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more info)
 
   - type: restriction
     description: No additional restrictions
@@ -791,7 +801,7 @@
   - type: requirement
     description: Modifications under same license
     use_cases: [MB, MS]
-    compliance_notes: Modifications are governed by the terms of this license. See 1.10 and 3.2 for more details.
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.10 and 3.7 for more details)
     
   - type: termination
     description: License terminates upon failure to comply with license after a 30 day cure period
@@ -840,13 +850,13 @@
   - type: requirement
     description: Modifications under same license
     use_cases: [MB, MS]
-    compliance_notes: Modifications are governed by the terms of this license. See 1.9 and 3.2 for more details.
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.9 and 3.7 for more details)
     
   - type: termination
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: "If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then the license from such parties terminates upon 60 days notice from such parties unless: you agree in writing to pay such parties a mutually agreed upon reasonable royalty for you past and futured use or  you withdraw your litigation. See section 8.2 and 8.3 for more details."
+    description: If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then the license from such parties terminates upon 60 days notice from such parties unless: you agree in writing to pay such parties a mutually agreed upon reasonable royalty for you past and futured use or  you withdraw your litigation. See section 8.2 and 8.3 for more details.
     
   - type: termination
     description: If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that any software, hardware or device other than a contributor's version infringed any patent, then the license from such parties terminates. See section 8.2 for more details.
@@ -879,7 +889,7 @@
   - type: requirement
     description: Modifications under same license
     use_cases: [MS]
-    compliance_notes: Modifications are governed by the terms of this license.
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.10 and 3.3 for more details)
     
   - type: requirement
     description: Retain notices
