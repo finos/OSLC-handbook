@@ -133,7 +133,7 @@
   - type: requirement
     description: Access to source
     use_cases: [UB, MB]
-    compliance_notes: 'Do at least one of the following: provide a Standard Version of the executables and library files; OR provide source for your modifications; OR give non-standard executables non-standard name and document the differences with instructions on where to get the Standard Version; OR "make other distribution arrangements" with the copyright holder. See section 4 for more details.'
+    compliance_notes: Do at least one of the following: provide a Standard Version of the executables and library files; OR provide source for your modifications; OR give non-standard executables non-standard name and document the differences with instructions on where to get the Standard Version; OR "make other distribution arrangements" with the copyright holder (see section 4 for more details)
          
   - type: restriction
     description: Cannot charge a fee for package itself, but may charge a reasonable copying fee or for support
@@ -145,7 +145,7 @@
     description: Cannot use name of copyright holder to endorse or promote
 
   - type: other
-    description: 'The following are not considered part of the package or do not fall under copyright of this package and subject to the license: scripts and library files supplied as input to or produced as output from the program; C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this package; aggregation of this package with other software where the package is embedded and the interfaces are not visible to the end user. See sections 6, 7, and 8 for more details.'
+    description: The following are not considered part of the package or do not fall under copyright of this package and subject to the license: scripts and library files supplied as input to or produced as output from the program; C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this package; aggregation of this package with other software where the package is embedded and the interfaces are not visible to the end user (see sections 6, 7, and 8 for more details)
 
 
 -
@@ -166,7 +166,7 @@
   - type: requirement
     description: Provide access to modified version
     use_cases: [MB, MS]
-    compliance_notes: "Do at least one of the following: make modified version available to copyright holder under same license; OR rensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license. See section 4 for more details."
+    compliance_notes: Do at least one of the following: make modified version available to copyright holder under same license; OR rensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license (see section 4 for more details)
     
   - type: requirement
     description: Access to source
@@ -308,13 +308,13 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: "If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties. See section 6.2 for more details."
+    description: If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties (see section 6.2 for more details)
 
   - type: other
     description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.4 for more details.
     
   - type: other
-    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differering terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differering terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.6 for more details)
         
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
@@ -343,7 +343,7 @@
   - type: requirement
     description: Modifications under same license
     use_cases: [MB, MS]
-    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.6, 1.9, and 3.6 for more information)
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.6, 1.9, and 3.6 for more details)
 
   - type: restriction
     description: You may not impose any terms on source code that alters or restricts recipient's rights under this license
@@ -353,13 +353,13 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: "If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties. If such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such parties in this license shall be taken into account in determining the amount or value of any payment or license. See section 6.2 and 6.3 for more details."
+    description: If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties. If such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such parties in this license shall be taken into account in determining the amount or value of any payment or license (see section 6.2 and 6.3 for more details)
 
   - type: other
-    description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.4 for more details.
+    description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.4 for more details)
     
   - type: other
-    description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+    description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.6 for more details)
         
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
@@ -393,7 +393,7 @@
   - type: requirement
     description: Modifications under same license
     use_cases: [MS]
-    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3 for more information)
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3 for more details)
  
   - type: termination
     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance
@@ -402,7 +402,7 @@
     description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients patents
    
   - type: other
-    description: You may distribute binary versions under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (See section 3 and 4 for details)
+    description: You may distribute binary versions under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (see section 3 and 4 for details)
     use_cases: [UB, MB]
 
   - type: license_versions
@@ -426,7 +426,7 @@
    - type: requirement
     description: Modifications under same license
     use_cases: [MS]
-    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3.2 for more information)
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3.2 for more details)
  
   - type: requirement
     description: Retain notices
@@ -440,11 +440,11 @@
     description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients patents
     
   - type: other
-    description: You may distribute program under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (See section 3 for details)
+    description: You may distribute program under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (see section 3 for details)
     use_cases: [UB, MB, US, MS]
     
   - type: other
-    description: You may distribute under an enumerated 'Secondary License' if authorized by the initial Contributor or combined with code under that Secondary License (See section 3.2 for more details)
+    description: You may distribute under an enumerated 'Secondary License' if authorized by the initial Contributor or combined with code under that Secondary License (see section 3.2 for more details)
  
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license.
@@ -483,7 +483,7 @@
   - GPL-2.0-only
   - GPL-2.0-or-later
   notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: "For more information about GPL compliance: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009"
+  resources: For more information about GPL compliance: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
 
   terms:
   - type: requirement
@@ -509,7 +509,7 @@
   - type: requirement
     description: Provide corresponding source code
     use_cases: [UB, MB]
-    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more info)
+    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details)
 
   - type: restriction
     description: No additional restrictions
@@ -528,7 +528,7 @@
   - GPL-3.0-only
   - GPL-3.0-or-later
   notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: "For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009"
+  resources: For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
 
   terms:
   - type: requirement
@@ -554,7 +554,7 @@
   - type: requirement
     description: Provide corresponding source code
     use_cases: [UB, MB]
-    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See section 6 for more details.
+    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server (see section 6 for more details)
 
   - type: restriction
     description: May not forbid users from circumventing technological measures that prevent exercise of rights under the license (see section 3 for more details)
@@ -605,7 +605,7 @@
   - LGPL-2.0-only
   - LGPL-2.0-or-later
   notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: "For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"
+  resources: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: requirement
     description: Provide copy of license
@@ -640,7 +640,7 @@
     description: License automatically terminates if you do not comply with the terms of the license
 
   - type: other
-    description: "LPGL allows dynamic linking of the LGPL code with “a work that uses the Library” under a different license, under certain conditions as provided in Section 6: terms of the other license must permit reverse engineering and debugging; provide a copy of the license & prominent notice that the Library is used; provide source code via one of the options in section 6 of the license"
+    description:  Allows dynamic linking of code with “a work that uses the Library” under a different license, under certain conditions; terms of the other license must permit reverse engineering and debugging; must provide a copy of the license and prominent notice that the Library is used; must provide source code via one of the options in section 6 of the license
 
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
@@ -652,7 +652,7 @@
   - LGPL-2.1-only
   - LGPL-2.1-or-later
   notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: "For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"
+  resources: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: requirement
     description: Provide copy of license
@@ -687,7 +687,7 @@
     description: License automatically terminates if you do not comply with the terms of the license
 
   - type: other
-    description: LPGL allows dynamic linking of the LGPL code with “a work that uses the Library” under a different license, under certain conditions as provided in Section 6: terms of the other license must permit reverse engineering and debugging; provide a copy of the license & prominent notice that the Library is used; provide source code via one of the options in section 6 of the license
+    description: Allows dynamic linking of code with “a work that uses the Library” under a different license, under certain conditions; terms of the other license must permit reverse engineering and debugging; must provide a copy of the license and prominent notice that the Library is used; must provide source code via one of the options in section 6 of the license
 
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
@@ -701,7 +701,7 @@
   - GPL-3.0-only
   - GPL-3.0-or-later
   notes: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent license with the terms listed here.
-  resources:  "For more information about LGPL compliance, see: https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"
+  resources:  For more information about LGPL compliance, see: https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: other
     description: If you modify the library so that it doesn't function without data or function supplied by your application, the modified library can only be distributed under the terms of GPL-3.0. This restriction doesn't apply if the data or function is supplied as an argument.
@@ -920,7 +920,6 @@
     description: Allows use of covered code under the terms of same version or any later version of the license.
 
     
- 
 -
   name: Microsoft Public License
   licenseId: Ms-PL
