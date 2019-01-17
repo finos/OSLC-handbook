@@ -547,6 +547,9 @@
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See section 6 for more details.
 
   - type: restriction
+    description: May not forbid users from circumventing technological measures that prevent exercise of rights under the license (see section 3 for more details)
+    
+  - type: restriction
     description: No additional restrictions
     use_cases: [UB, MB, US, MS]
     compliance_notes: Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.
@@ -556,6 +559,15 @@
     
   - type: termination
     description: License terminates if you initiate litigation claiming use of the program under this license violates a patent
+
+  - type: other
+    description: Author may include 'additional permissions' making exceptions from license terms. You may remove additional permission when you convey the work.
+    
+  - type: other
+    description: Contributors may add certain additional restrictions for their contributions, including disclaimers, legal notices, limitation of trademark and publicity rights, extension of indemnification received by licensor.
+
+  - type: other
+    description: If software is combined with software under AGPL-3.0, AGPL-3.0 applies to combined work and this license continues to the covered work originally under GPL-3.0 (see section 13 for more details).
 
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
