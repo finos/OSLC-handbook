@@ -32,6 +32,7 @@ Key definitions are as follows:
 
 * name = full name of license, corresponds to SPDX License List full names (consistent with tag from SPDX License List XML) 
 * licenseId = SPDX license identifiers (consistent with tag from SPDX License List XML) 
+* parent-licenseId = SPDX license identifier for over-arching license where the licenseId here refers to an exception to a license condition or additional permissions beyond those granted in the parent license. In this case, the parent-licenseId and the licenseId would be combined with the SPDX license operator, WITH, to create the complete SPDX license expression
 * notes = notes related to the license itself
 * resources = external recommended resources for further information on compliance with the particular license. This is limited to only the more complex licenses and trusted resources (e.g., license authors and active community enforcers)
 * terms = different types of license terms; each term item has a type (see types below), adescription, and may also have a use-case and compliance_notes
