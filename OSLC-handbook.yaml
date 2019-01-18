@@ -640,7 +640,7 @@
     description: License automatically terminates if you do not comply with the terms of the license
 
   - type: other
-    description:  Allows dynamic linking of code with “a work that uses the Library” under a different license, under certain conditions; terms of the other license must permit reverse engineering and debugging; must provide a copy of the license and prominent notice that the Library is used; must provide source code via one of the options in section 6 of the license
+    description:  Allows dynamic linking of code with “a work that uses the Library” under a different license, under certain conditions; terms of the other license must permit reverse engineering and debugging; must provide a copy of the license and prominent notice that the Library is used; must provide source code via one of the options in section 6 of the license. Also must include any data and utility programs needed for reproducing the executable, but this need not include anything that is normally distributed with the major components of the operating system. 
 
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
@@ -687,7 +687,7 @@
     description: License automatically terminates if you do not comply with the terms of the license
 
   - type: other
-    description: Allows dynamic linking of code with “a work that uses the Library” under a different license, under certain conditions; terms of the other license must permit reverse engineering and debugging; must provide a copy of the license and prominent notice that the Library is used; must provide source code via one of the options in section 6 of the license
+    description: Allows dynamic linking of code with “a work that uses the Library” under a different license, under certain conditions; terms of the other license must permit reverse engineering and debugging; must provide a copy of the license and prominent notice that the Library is used; must provide source code via one of the options in section 6 of the license. Also must include any data and utility programs needed for reproducing the executable, but this need not include anything that is normally distributed with the major components of the operating system.
 
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
