@@ -84,7 +84,7 @@ for license in licenses:
             if "compliance_notes" in req and req["compliance_notes"]:
                 of.write(req["compliance_notes"])
                 
-            of.write("|")
+            of.write("|\n")
     if len(restrictions) > 0:
         of.write("## Restrictions\n")
         of.write("|Summary|Notes|\n")
@@ -96,7 +96,7 @@ for license in licenses:
             if "compliance_notes" in res and res["compliance_notes"]:
                 of.write(res["compliance_notes"])
 
-            of.write("|")
+            of.write("|\n")
     if len(termination) > 0:
         of.write("## Termination Provisions\n")
         of.write("|Summary|Notes|\n")

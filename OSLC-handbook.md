@@ -13,10 +13,16 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|It must be an actual copy of the license not a website link||Retain notices on all files|X|X|X|X|Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also where you determine if the license is “or later” or the specific version only||Notice of modifications||X||X|Modified files must have “prominent notices that you changed the files” and a date||Modifications or derivative work must be licensed under same license||X||X|Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.||Provide corresponding source code|X|X|||Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See section 6 for more details.|## Restrictions
+|Provide copy of license|X|X|X|X|It must be an actual copy of the license not a website link|
+|Retain notices on all files|X|X|X|X|Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also where you determine if the license is “or later” or the specific version only|
+|Notice of modifications||X||X|Modified files must have “prominent notices that you changed the files” and a date|
+|Modifications or derivative work must be licensed under same license||X||X|Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.|
+|Provide corresponding source code|X|X|||Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See section 6 for more details.|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|No additional restrictions|Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.|## Termination Provisions
+|No additional restrictions|Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.|
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License automatically terminates if you do not comply with the terms of the license||
@@ -35,18 +41,27 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear|X|X|X|X||## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear|X|X|X|X||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of copyright holder to endorse or promote|||Cannot use name of project for derived products||# Apache Software License 2.0
+|Cannot use name of copyright holder to endorse or promote||
+|Cannot use name of project for derived products||
+# Apache Software License 2.0
 - SPDX License ID: Apache-2.0
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|Does not specify format for providing copy of license||Notice of modifications||X||X|Modified files must include "prominent notices" of the modifications||Retain all notices|||X|X|Copyright notices and other notices do not have to be reproduced for binary distribution|## Restrictions
+|Provide copy of license|X|X|X|X|Does not specify format for providing copy of license|
+|Notice of modifications||X||X|Modified files must include "prominent notices" of the modifications|
+|Retain all notices|||X|X|Copyright notices and other notices do not have to be reproduced for binary distribution|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use Licensor's trademarks, trade names, service marks, or product names except as reasonable use in describing origin of Work||## Termination Provisions
+|Cannot use Licensor's trademarks, trade names, service marks, or product names except as reasonable use in describing origin of Work||
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |The license terminates if patent litigation commences that alleges the licensed work infringes the licensee's patent||
@@ -56,10 +71,17 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Retain all notices|||X||Copyright notices and other notices||Notice of modifications||X||X|Modified files must have "prominent notice" in each file stating how the file was modified and when||Provide access to modifications||X||X|Do at least one of the following: place modification in the public domain or otherwise make them freely available; OR rename non-standard executables; OR "make other distribution arrangements" with the copyright holder. See section 3 for more details.||Access to source|X|X|||Do at least one of the following: provide a Standard Version of the executables and library files; OR provide source for your modifications; OR give non-standard executables non-standard name and document the differences with instructions on where to get the Standard Version; OR "make other distribution arrangements" with the copyright holder (see section 4 for more details)|## Restrictions
+|Retain all notices|||X||Copyright notices and other notices|
+|Notice of modifications||X||X|Modified files must have "prominent notice" in each file stating how the file was modified and when|
+|Provide access to modifications||X||X|Do at least one of the following: place modification in the public domain or otherwise make them freely available; OR rename non-standard executables; OR "make other distribution arrangements" with the copyright holder. See section 3 for more details.|
+|Access to source|X|X|||Do at least one of the following: provide a Standard Version of the executables and library files; OR provide source for your modifications; OR give non-standard executables non-standard name and document the differences with instructions on where to get the Standard Version; OR "make other distribution arrangements" with the copyright holder (see section 4 for more details)|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot charge a fee for package itself, but may charge a reasonable copying fee or for support|||Cannot advertise this package as a product of your own when included in a larger product or distribution|||Cannot use name of copyright holder to endorse or promote||## Other Terms
+|Cannot charge a fee for package itself, but may charge a reasonable copying fee or for support||
+|Cannot advertise this package as a product of your own when included in a larger product or distribution||
+|Cannot use name of copyright holder to endorse or promote||
+## Other Terms
 |Summary|Notes|
 | --- | --- |
 |The following are not considered part of the package or do not fall under copyright of this package and subject to the license: scripts and library files supplied as input to or produced as output from the program; C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this package; aggregation of this package with other software where the package is embedded and the interfaces are not visible to the end user (see sections 6, 7, and 8 for more details)||
@@ -69,10 +91,16 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Retain all notices|X||X||Copyright notices and other notices||Notice of modifications||X||X|Document how the modified version differs from the standard version||Provide access to modified version||X||X|Do at least one of the following: make modified version available to copyright holder under same license; OR rensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license (see section 4 for more details)||Access to source|X||||Provide complete instructions on how to get source for standard version; instructions must be kept current for your distribution|## Restrictions
+|Retain all notices|X||X||Copyright notices and other notices|
+|Notice of modifications||X||X|Document how the modified version differs from the standard version|
+|Provide access to modified version||X||X|Do at least one of the following: make modified version available to copyright holder under same license; OR rensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license (see section 4 for more details)|
+|Access to source|X||||Provide complete instructions on how to get source for standard version; instructions must be kept current for your distribution|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot charge a licensing fee for package itself, but may charge a reasonable copying fee or for support|||No right to use any trademark, service mark, tradname or logo of copyright holder||## Termination Provisions
+|Cannot charge a licensing fee for package itself, but may charge a reasonable copying fee or for support||
+|No right to use any trademark, service mark, tradname or logo of copyright holder||
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License terminates if you institute patent litigation (including cross or counter claim) against any party alleging the package direct or contributory patent infringement.||
@@ -86,46 +114,64 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|# BSD 3-Clause "New" or "Revised" License
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+# BSD 3-Clause "New" or "Revised" License
 - SPDX License ID: BSD-3-Clause
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of copyright holder to endorse or promote||# BSD 3-Clause "Original" or "Old" License
+|Cannot use name of copyright holder to endorse or promote||
+# BSD 3-Clause "Original" or "Old" License
 - SPDX License ID: BSD-4-Clause
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Advertising materials "mentioning the features or use of this software" must include acknowledgment||||||## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Advertising materials "mentioning the features or use of this software" must include acknowledgment||||||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of copyright holder to endorse or promote||# BSD-4-Clause (University of California-Specific)
+|Cannot use name of copyright holder to endorse or promote||
+# BSD-4-Clause (University of California-Specific)
 - SPDX License ID: BSD-4-Clause-UC
 - Notes: The advertising clause was rescinded by the University of California in 1999 for all material under BSD-4-Clause with University of California copyright notice. Thus, you do not need to comply with the advertising/acknowledgment requirement, which makes the license essentially BSD-3-Clause.
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of copyright holder to endorse or promote||# Boost Software License 1.0
+|Cannot use name of copyright holder to endorse or promote||
+# Boost Software License 1.0
 - SPDX License ID: BSL-1.0
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|||X|X|For distributions “of machine-executable object code generated by a source language processor” (i.e., UB and MB use cases), these requirements need not be met. However, you might consider the need to identify the presence of software under BSL-1.0 for other reasons, especially if you have an agreement that wraps around this code/license.|# Common Development and Distribution License 1.0
+|Provide copy of license|||X|X|For distributions “of machine-executable object code generated by a source language processor” (i.e., UB and MB use cases), these requirements need not be met. However, you might consider the need to identify the presence of software under BSL-1.0 for other reasons, especially if you have an agreement that wraps around this code/license.|
+# Common Development and Distribution License 1.0
 - SPDX License ID: CDDL-1.0
 - Notes: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent infringement clause and choice of law.
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|||X|X|||Provide source code|X|X||X|You must inform recipients of how they can obtain source code “in a reasonable manner on or through a medium customarily used for software exchange”, including your modifications, if any||Notice of modifications||X||X|Provide notice of your modifications that identifies you as the contributor of the modification||Modifications under same license||X||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.6, 1.9, and 3.6 for more information)|## Restrictions
+|Provide copy of license|||X|X||
+|Provide source code|X|X||X|You must inform recipients of how they can obtain source code “in a reasonable manner on or through a medium customarily used for software exchange”, including your modifications, if any|
+|Notice of modifications||X||X|Provide notice of your modifications that identifies you as the contributor of the modification|
+|Modifications under same license||X||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.6, 1.9, and 3.6 for more information)|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|You may not impose any terms on source code that alters or restricts recipient's rights under this license||## Termination Provisions
+|You may not impose any terms on source code that alters or restricts recipient's rights under this license||
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License terminates upon failure to comply with license after a 30 day cure period||
@@ -145,10 +191,15 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|||X|X|||Provide source code|X|X||X|You must inform recipients of how they can obtain source code “in a reasonable manner on or through a medium customarily used for software exchange”, including your modifications, if any||Notice of modifications||X||X|Provide notice of your modifications that identifies you as the contributor of the modification||Modifications under same license||X||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.6, 1.9, and 3.6 for more details)|## Restrictions
+|Provide copy of license|||X|X||
+|Provide source code|X|X||X|You must inform recipients of how they can obtain source code “in a reasonable manner on or through a medium customarily used for software exchange”, including your modifications, if any|
+|Notice of modifications||X||X|Provide notice of your modifications that identifies you as the contributor of the modification|
+|Modifications under same license||X||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.6, 1.9, and 3.6 for more details)|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|You may not impose any terms on source code that alters or restricts recipient's rights under this license||## Termination Provisions
+|You may not impose any terms on source code that alters or restricts recipient's rights under this license||
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License terminates upon failure to comply with license after a 30 day cure period||
@@ -167,7 +218,12 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|||X|X|A copy of the license must be included with each copy of the program. While there is no explicit language requiring a copy of the license for a binary distribution, one would need to identify this license to meet other requirements, thus some reference to the license is practically necessary.||Retain notices|||X|X|You must retain license notices with every source code distribution or include notices in another likely location||Provide source code|X|X|||Must inform recipients how to obtain source code by reasonable manner via a "medium customarily used for software exchange"||Notice of contributions||X||X|Include a notes that identifies contributor as the originatory of its contribution||Modifications under same license||||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3 for more details)|## Termination Provisions
+|Provide copy of license|||X|X|A copy of the license must be included with each copy of the program. While there is no explicit language requiring a copy of the license for a binary distribution, one would need to identify this license to meet other requirements, thus some reference to the license is practically necessary.|
+|Retain notices|||X|X|You must retain license notices with every source code distribution or include notices in another likely location|
+|Provide source code|X|X|||Must inform recipients how to obtain source code by reasonable manner via a "medium customarily used for software exchange"|
+|Notice of contributions||X||X|Include a notes that identifies contributor as the originatory of its contribution|
+|Modifications under same license||||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3 for more details)|
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance||
@@ -185,7 +241,11 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide license||X|X|X|Accompany the program with a statement that the source code if available under the license. For source code distributions, must provide a copy of the license.||Provide source code|X|X|||Must inform recipients how to obtain source code by reasonable manner via a "medium customarily used for software exchange"||Modifications under same license||||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3.2 for more details)||Retain notices|X|X|X|X|You must retain license notices with every source code distribution or include notices in another likely location|## Termination Provisions
+|Provide license||X|X|X|Accompany the program with a statement that the source code if available under the license. For source code distributions, must provide a copy of the license.|
+|Provide source code|X|X|||Must inform recipients how to obtain source code by reasonable manner via a "medium customarily used for software exchange"|
+|Modifications under same license||||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3.2 for more details)|
+|Retain notices|X|X|X|X|You must retain license notices with every source code distribution or include notices in another likely location|
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance||
@@ -205,10 +265,15 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear|X|X|X|X||## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear|X|X|X|X||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of copyright holder to endorse or promote|||Cannot use name of project for derived products||# GNU General Public License 2.0
+|Cannot use name of copyright holder to endorse or promote||
+|Cannot use name of project for derived products||
+# GNU General Public License 2.0
 - SPDX License ID:
   - GPL-2.0-only
   - GPL-2.0-or-later
@@ -216,10 +281,16 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|It must be an actual copy of the license not a website link||Retain notices on all files|X|X|X|X|Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only||Notice of modifications||X||X|Modified files must have “prominent notices that you changed the files” and a date||Modifications or derivative work must be licensed under same license||X||X|Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.||Provide corresponding source code|X|X|||Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details)|## Restrictions
+|Provide copy of license|X|X|X|X|It must be an actual copy of the license not a website link|
+|Retain notices on all files|X|X|X|X|Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only|
+|Notice of modifications||X||X|Modified files must have “prominent notices that you changed the files” and a date|
+|Modifications or derivative work must be licensed under same license||X||X|Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.|
+|Provide corresponding source code|X|X|||Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details)|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|No additional restrictions|Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.|## Termination Provisions
+|No additional restrictions|Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.|
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License automatically terminates if you do not comply with the terms of the license||
@@ -235,10 +306,17 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|It must be an actual copy of the license not a website link||Retain notices on all files|X|X|X|X|Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only||Notice of modifications||X||X|Modified files must have “prominent notices that you changed the files” and a date||Modifications or derivative work must be licensed under same license||X||X|Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.||Provide corresponding source code|X|X|||Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server (see section 6 for more details)|## Restrictions
+|Provide copy of license|X|X|X|X|It must be an actual copy of the license not a website link|
+|Retain notices on all files|X|X|X|X|Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only|
+|Notice of modifications||X||X|Modified files must have “prominent notices that you changed the files” and a date|
+|Modifications or derivative work must be licensed under same license||X||X|Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.|
+|Provide corresponding source code|X|X|||Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server (see section 6 for more details)|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|May not forbid users from circumventing technological measures that prevent exercise of rights under the license (see section 3 for more details)|||No additional restrictions|Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.|## Termination Provisions
+|May not forbid users from circumventing technological measures that prevent exercise of rights under the license (see section 3 for more details)||
+|No additional restrictions|Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.|
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License automatically terminates if you do not comply with the terms of the license||
@@ -258,7 +336,9 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|This information must appear "in all copies"||Provide copyright notice|X|X|X|X|This information must appear "in all copies"|# GNU Library General Public License 2.0
+|Provide copy of license|X|X|X|X|This information must appear "in all copies"|
+|Provide copyright notice|X|X|X|X|This information must appear "in all copies"|
+# GNU Library General Public License 2.0
 - SPDX License ID:
   - LGPL-2.0-only
   - LGPL-2.0-or-later
@@ -266,10 +346,16 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|It must be an actual copy of the license not a website link||Retain notices on all files|X|X|X|X|Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only||Notice of modifications||X||X|Modified files must have “prominent notices that you changed the files” and a date||Modifications or derivative work must be licensed under same license||X||X|Derivative works of the library must also be under LGPL (this usually includes statically linked code).||Provide corresponding source code|X|X|||complete source code = all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the library (see section 4 or section 6, as applicable).|## Restrictions
+|Provide copy of license|X|X|X|X|It must be an actual copy of the license not a website link|
+|Retain notices on all files|X|X|X|X|Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only|
+|Notice of modifications||X||X|Modified files must have “prominent notices that you changed the files” and a date|
+|Modifications or derivative work must be licensed under same license||X||X|Derivative works of the library must also be under LGPL (this usually includes statically linked code).|
+|Provide corresponding source code|X|X|||complete source code = all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the library (see section 4 or section 6, as applicable).|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|No additional restrictions|Other terms applicable to the work must not impose any restriction on the licensee's use of the library that does not appear in this license.|## Termination Provisions
+|No additional restrictions|Other terms applicable to the work must not impose any restriction on the licensee's use of the library that does not appear in this license.|
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License automatically terminates if you do not comply with the terms of the license||
@@ -289,10 +375,16 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|It must be an actual copy of the license not a website link||Retain notices on all files|X|X|X|X|Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only||Notice of modifications||X||X|Modified files must have “prominent notices that you changed the files” and a date||Modifications or derivative work must be licensed under same license||X||X|Derivative works of the library must also be under LGPL (this usually includes statically linked code).||Provide corresponding source code|X|X|||complete source code = all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the library (see section 4 or section 6, as applicable).|## Restrictions
+|Provide copy of license|X|X|X|X|It must be an actual copy of the license not a website link|
+|Retain notices on all files|X|X|X|X|Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only|
+|Notice of modifications||X||X|Modified files must have “prominent notices that you changed the files” and a date|
+|Modifications or derivative work must be licensed under same license||X||X|Derivative works of the library must also be under LGPL (this usually includes statically linked code).|
+|Provide corresponding source code|X|X|||complete source code = all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the library (see section 4 or section 6, as applicable).|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|No additional restrictions|Other terms applicable to the work must not impose any restriction on the licensee's use of the library that does not appear in this license.|## Termination Provisions
+|No additional restrictions|Other terms applicable to the work must not impose any restriction on the licensee's use of the library that does not appear in this license.|
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License automatically terminates if you do not comply with the terms of the license||
@@ -325,7 +417,9 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|notice of modifications||X||X|Modified verions must be "plainly marked as such" and not misrepresented as the original software||Provide copyright notice|||X|X|Copyright notices may not be removed or altered for any source distribution|## Other Terms
+|notice of modifications||X||X|Modified verions must be "plainly marked as such" and not misrepresented as the original software|
+|Provide copyright notice|||X|X|Copyright notices may not be removed or altered for any source distribution|
+## Other Terms
 |Summary|Notes|
 | --- | --- |
 |The origin of the code must not be misrepresented||
@@ -334,20 +428,30 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|This information "shall be included in all copies or substantial portions of the Software". Some people interpret MIT as not implicating these requirements for binary distribution (e.g., UB and MB), but this is not the prevailing view and best practice is to include it.||Provide copyright notice|X|X|X|X|This information "shall be included in all copies or substantial portions of the Software".Some people interpret MIT as not implicating these requirements for binary distribution (e.g., UB and MB), but this is not the prevailing view and best practice is to include it.|# CMU License
+|Provide copy of license|X|X|X|X|This information "shall be included in all copies or substantial portions of the Software". Some people interpret MIT as not implicating these requirements for binary distribution (e.g., UB and MB), but this is not the prevailing view and best practice is to include it.|
+|Provide copyright notice|X|X|X|X|This information "shall be included in all copies or substantial portions of the Software".Some people interpret MIT as not implicating these requirements for binary distribution (e.g., UB and MB), but this is not the prevailing view and best practice is to include it.|
+# CMU License
 - SPDX License ID: MIT-CMU
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, provide this information "in supporting documentation"||Provide copyright notice|X|X|X|X|For binary distributions, provide this information "in supporting documentation"|## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, provide this information "in supporting documentation"|
+|Provide copyright notice|X|X|X|X|For binary distributions, provide this information "in supporting documentation"|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of copyright holder in advertising or publicity related to distribution||# Mozilla Public License 1.0
+|Cannot use name of copyright holder in advertising or publicity related to distribution||
+# Mozilla Public License 1.0
 - SPDX License ID: MPL-1.0
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|||X|X|You must include a copy of the license with every source code distribution||Retain notices|||X|X|You must retain license notices with every source code distribution or include notices in another likely location||Provide source code|X|X|||Provide source code on same media as binary or make available via other electronic distribution mechanism for 12 months after initial availability or at least 6 months after a subsequent version has been made available. See section 3.2 for more details.||Notice of modifications||X||X|Document changes you made and date; include a prominent statement as to the origin of the original code. See section 3.3 for more details.||Modifications under same license||X||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.10 and 3.7 for more details)|## Termination Provisions
+|Provide copy of license|||X|X|You must include a copy of the license with every source code distribution|
+|Retain notices|||X|X|You must retain license notices with every source code distribution or include notices in another likely location|
+|Provide source code|X|X|||Provide source code on same media as binary or make available via other electronic distribution mechanism for 12 months after initial availability or at least 6 months after a subsequent version has been made available. See section 3.2 for more details.|
+|Notice of modifications||X||X|Document changes you made and date; include a prominent statement as to the origin of the original code. See section 3.3 for more details.|
+|Modifications under same license||X||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.10 and 3.7 for more details)|
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License terminates upon failure to comply with license after a 30 day cure period||
@@ -367,7 +471,12 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|||X|X|You must include a copy of the license with every source code distribution||Retain notices|||X|X|You must retain license notices with every source code distribution or include notices in another likely location||Provide source code|X|X|||Provide source code on same media as binary or make available via other electronic distribution mechanism for 12 months after initial availability or at least 6 months after a subsequent version has been made available. See section 3.2 for more details.||Notice of modifications||X||X|Document changes you made and date; include a prominent statement as to the origin of the original code. See section 3.3 for more details.||Modifications under same license||X||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.9 and 3.7 for more details)|## Termination Provisions
+|Provide copy of license|||X|X|You must include a copy of the license with every source code distribution|
+|Retain notices|||X|X|You must retain license notices with every source code distribution or include notices in another likely location|
+|Provide source code|X|X|||Provide source code on same media as binary or make available via other electronic distribution mechanism for 12 months after initial availability or at least 6 months after a subsequent version has been made available. See section 3.2 for more details.|
+|Notice of modifications||X||X|Document changes you made and date; include a prominent statement as to the origin of the original code. See section 3.3 for more details.|
+|Modifications under same license||X||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.9 and 3.7 for more details)|
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License terminates upon failure to comply with license after a 30 day cure period||
@@ -390,7 +499,11 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide license|||X|X|You must inform recipients that source code is goverened by this licenses and how to obtain a copy||Modifications under same license||||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.10 and 3.3 for more details)||Retain notices|||X|X|You must retain license notices with every source code distribution or include notices in another likely location||Provide source code|X|X|||Must inform recipients how to obtain source code by reasonable means in a timely manner and at no cost more than the cost of distribution to the recipient.|## Termination Provisions
+|Provide license|||X|X|You must inform recipients that source code is goverened by this licenses and how to obtain a copy|
+|Modifications under same license||||X|File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.10 and 3.3 for more details)|
+|Retain notices|||X|X|You must retain license notices with every source code distribution or include notices in another likely location|
+|Provide source code|X|X|||Must inform recipients how to obtain source code by reasonable means in a timely manner and at no cost more than the cost of distribution to the recipient.|
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |License terminates upon failure to comply with license unless certain conditions are met by you and contributor (see section 5.1 for more details)||
@@ -410,10 +523,15 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|||X|X|Include a complete copy of license with source code distributions||Retain all notices|X|X|X|X|Retain all notices present in software||Source code under same license|||X|X|Distributions of "any portion of the software in source code form" must be under this license||Comply with this license|X|X|||Object or compiled code distributions must be under a license that complies with this license|## Restrictions
+|Provide copy of license|||X|X|Include a complete copy of license with source code distributions|
+|Retain all notices|X|X|X|X|Retain all notices present in software|
+|Source code under same license|||X|X|Distributions of "any portion of the software in source code form" must be under this license|
+|Comply with this license|X|X|||Object or compiled code distributions must be under a license that complies with this license|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|No rights granted to use of contributor's name, logo, or trademarks||## Termination Provisions
+|No rights granted to use of contributor's name, logo, or trademarks||
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |If a patent claim is brought against a contributor allegaing the program infringed recipient's patents, patent rights granted under the license terminate automatically||
@@ -423,28 +541,44 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of copyright holder to endorse or promote||# OpenSSL License
+|Cannot use name of copyright holder to endorse or promote||
+# OpenSSL License
 - SPDX License ID: OpenSSL
 - Notes: This license is actually a set of two licenses, which have similar text and requirements but different copyright holders and therefore different acknowledgment text. Some requirements to include acknowledgements may only apply if you are using that part of the project written by a specific copyright holder.
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Acknowledgement must be included for any redistribution|X|X|X|X|||Include acknowledgement in advertising mentioning features or use|||||||Include acknowledgement in advertising mentioning features or use. "The word 'cryptographic' can be left out if the rouines from the library being used are not cryptographic related".|||||||Include acknowledgement If you include any Windows specific code (or a derivative thereof) from the apps directory (application code)|||||||Cannot use name of copyright holder to endorse or promote||||||## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Acknowledgement must be included for any redistribution|X|X|X|X||
+|Include acknowledgement in advertising mentioning features or use||||||
+|Include acknowledgement in advertising mentioning features or use. "The word 'cryptographic' can be left out if the rouines from the library being used are not cryptographic related".||||||
+|Include acknowledgement If you include any Windows specific code (or a derivative thereof) from the apps directory (application code)||||||
+|Cannot use name of copyright holder to endorse or promote||||||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of project for derived products||# PHP License v3.0
+|Cannot use name of project for derived products||
+# PHP License v3.0
 - SPDX License ID: PHP-3.0
 - Notes: PHP-3.0 and PHP-3.01 are the same license, but for a slight variation in the acknowledment text.
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Acknowlegment must be retained in all redistributions|X|X|X|X||## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Acknowlegment must be retained in all redistributions|X|X|X|X||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of copyright holder to endorse or promote|||Cannot use name of project for derived products||## License Versioning
+|Cannot use name of copyright holder to endorse or promote||
+|Cannot use name of project for derived products||
+## License Versioning
 |Summary|Notes|
 | --- | --- |
 |Allows use of covered code under the terms of same version or any later version of the license.||
@@ -454,10 +588,15 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Acknowlegment must be retained in all redistributions|X|X|X|X||## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Acknowlegment must be retained in all redistributions|X|X|X|X||
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of copyright holder to endorse or promote|||Cannot use name of project for derived products||## License Versioning
+|Cannot use name of copyright holder to endorse or promote||
+|Cannot use name of project for derived products||
+## License Versioning
 |Summary|Notes|
 | --- | --- |
 |Allows use of covered code under the terms of same version or any later version of the license.||
@@ -467,19 +606,27 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”||Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|## Restrictions
+|Provide copy of license|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+|Provide copyright notice|X|X|X|X|For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use name of copyright holder to endorse or promote|||Cannot use name of project for derived products||# Python License 2.0
+|Cannot use name of copyright holder to endorse or promote||
+|Cannot use name of project for derived products||
+# Python License 2.0
 - SPDX License ID: Python-2.0
 - Notes: This is a license “stack” comprised of various licenses that apply to Python as it has developed over the years.
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|||Provide copyright notice|X|X|X|X|||Notice of modifications||X||X|Indicate the nature of the modifiations made in the work|## Restrictions
+|Provide copy of license|X|X|X|X||
+|Provide copyright notice|X|X|X|X||
+|Notice of modifications||X||X|Indicate the nature of the modifiations made in the work|
+## Restrictions
 |Summary|Notes|
 | --- | --- |
-|Cannot use trademark or name to endorse or promote||## Termination Provisions
+|Cannot use trademark or name to endorse or promote||
+## Termination Provisions
 |Summary|Notes|
 | --- | --- |
 |Termination of license upon breach||
@@ -488,7 +635,9 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|X|X|X|X|||Retain copyright notices|X|X|X|X||## Other Terms
+|Provide copy of license|X|X|X|X||
+|Retain copyright notices|X|X|X|X||
+## Other Terms
 |Summary|Notes|
 | --- | --- |
 |Modified versions need not follow this license, provided that new license terms appear on first page of each applicable file||
@@ -497,7 +646,9 @@
 ## Requirements
 |Summary|UB|MB|US|MS|Notes|
 | --- | --- | --- | --- | --- | --- |
-|Provide copy of license|||X|X|Retain copyright and license in any source distribution. However, you might consider the need to identify the presence of software under zlib for other reasons, especially if you have an agreement that wraps around this code/license.||notice of modifications||X||X|Modified verions must be "plainly marked as such" and not misrepresented as the original software|## Other Terms
+|Provide copy of license|||X|X|Retain copyright and license in any source distribution. However, you might consider the need to identify the presence of software under zlib for other reasons, especially if you have an agreement that wraps around this code/license.|
+|notice of modifications||X||X|Modified verions must be "plainly marked as such" and not misrepresented as the original software|
+## Other Terms
 |Summary|Notes|
 | --- | --- |
 |This license also includes a request, but not a requirement for acknowledgment of use in your product documentation.||
