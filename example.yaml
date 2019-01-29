@@ -1,8 +1,8 @@
 Below is an example of the yaml format. See DOCUMENTATION for further explanations for each tag/type
 
 -
-  name:
-  licenseId:
+  name: License Full Name
+  licenseId: 
   - (if more than one apply)
   notes:
   terms:
@@ -12,7 +12,7 @@ Below is an example of the yaml format. See DOCUMENTATION for further explanatio
     compliance_notes:
     
   - type: requirement
-    description:
+    description: """Put description in triple quotes if it contains YAML-reserved characters like colons (:) or apostrophes (')."""
     use_cases: [UB, MB, US, MS]
     acknowledgement:
     
