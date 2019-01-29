@@ -308,7 +308,7 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: """If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties (see section 6.2 for more details)"""
+    description: "If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties (see section 6.2 for more details)"
 
   - type: other
     description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.4 for more details.
@@ -353,7 +353,7 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: """If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties. If such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such parties in this license shall be taken into account in determining the amount or value of any payment or license (see section 6.2 and 6.3 for more details)"""
+    description: "If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties. If such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such parties in this license shall be taken into account in determining the amount or value of any payment or license (see section 6.2 and 6.3 for more details)"
 
   - type: other
     description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.4 for more details)
@@ -422,8 +422,8 @@
     description: Provide source code
     use_cases: [UB, MB]
     compliance_notes: Must inform recipients how to obtain source code by reasonable manner via a "medium customarily used for software exchange"
- 
-   - type: requirement
+
+  - type: requirement
     description: Modifications under same license
     use_cases: [MS]
     compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3.2 for more details)
@@ -483,7 +483,7 @@
   - GPL-2.0-only
   - GPL-2.0-or-later
   notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: """For more information about GPL compliance: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009"""
+  resources: "For more information about GPL compliance: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009"
 
   terms:
   - type: requirement
@@ -528,7 +528,7 @@
   - GPL-3.0-only
   - GPL-3.0-or-later
   notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: """For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009"""
+  resources: "For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009"
 
   terms:
   - type: requirement
@@ -605,7 +605,7 @@
   - LGPL-2.0-only
   - LGPL-2.0-or-later
   notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: """For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"""
+  resources: "For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"
   terms:
   - type: requirement
     description: Provide copy of license
@@ -652,7 +652,7 @@
   - LGPL-2.1-only
   - LGPL-2.1-or-later
   notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: """For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"""
+  resources: "For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"
   terms:
   - type: requirement
     description: Provide copy of license
@@ -701,7 +701,7 @@
   - GPL-3.0-only
   - GPL-3.0-or-later
   notes: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent license with the terms listed here.
-  resources:  """For more information about LGPL compliance, see: https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"""
+  resources:  "For more information about LGPL compliance, see: https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"
   terms:
   - type: other
     description: If you modify the library so that it does not function without data or function supplied by your application, the modified library can only be distributed under the terms of GPL-3.0. This restriction does not apply if the data or function is supplied as an argument.
@@ -856,7 +856,7 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: """If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then the license from such parties terminates upon 60 days notice from such parties unless: you agree in writing to pay such parties a mutually agreed upon reasonable royalty for you past and futured use or  you withdraw your litigation. See section 8.2 and 8.3 for more details."""
+    description: "If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then the license from such parties terminates upon 60 days notice from such parties unless: you agree in writing to pay such parties a mutually agreed upon reasonable royalty for you past and futured use or you withdraw your litigation. See section 8.2 and 8.3 for more details."
     
   - type: termination
     description: If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that any software, hardware or device other than a contributor's version infringed any patent, then the license from such parties terminates. See section 8.2 for more details.
@@ -871,7 +871,7 @@
     description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
     
   - type: other
-  description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license.

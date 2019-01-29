@@ -9,25 +9,28 @@ except ImportError:
 
 parser = argparse.ArgumentParser(description='Process a license compliance info YAML file into GitHub-flavored Markdown.')
 parser.add_argument('inputfile', help='The filename of the input YAML file.')
+parser.add_argument('outputfile', help='The filename of the output Markdown file.')
 
 args = parser.parse_args()
 
-fh = open(args.inputfile, "r", encoding='utf8')
+nf = open(args.inputfile, "r", encoding='utf8')
+of = open(args.outputfile, 'w', encoding='utf-8')
 
-licenses = load(fh, Loader=Loader)
+licenses = load(nf, Loader=Loader)
+nf.close()
 
 for license in licenses:
     if license["name"]:
-        print("# ", license["name"])
+        of.write("# " + license["name"] + "\n")
     if license["licenseId"]:
         if isinstance(license["licenseId"], list):
-            print("- SPDX License ID: ")
+            of.write("- SPDX License ID:\n")
             for id in license["licenseId"]:
-                print("  - ", id)
+                of.write("  - " + id + "\n")
         else:
-            print("- SPDX License ID: ", license["licenseId"])
+            of.write("- SPDX License ID: " + license["licenseId"] + "\n")
     if license["notes"]:
-        print("- Notes: ", license["notes"])
+        of.write("- Notes: "+ license["notes"] + "\n")
 
     requirements = []
     restrictions = []
@@ -48,85 +51,87 @@ for license in licenses:
             other.append(term)
 
     if len(requirements) > 0:
-        print("## Requirements")
-        print("|Summary|UB|MB|US|MS|Notes|")
-        print("| --- | --- | --- | --- | --- | --- |")
+        of.write("## Requirements\n")
+        of.write("|Summary|UB|MB|US|MS|Notes|\n")
+        of.write("| --- | --- | --- | --- | --- | --- |\n")
 
         for req in requirements:
-            print("|",req["description"],"|",end="")
+            of.write("|" + req["description"] + "|")
 
             if "use_cases" in req:
                 if "UB" in req["use_cases"]:
-                    print("X", end="")
+                    of.write("X")
                 
-                print("|", end="")
+                of.write("|")
 
                 if "MB" in req["use_cases"]:
-                    print("X", end="")
+                    of.write("X")
                 
-                print("|", end="")
+                of.write("|")
 
                 if "US" in req["use_cases"]:
-                    print("X", end="")
+                    of.write("X")
                 
-                print("|", end="")
+                of.write("|")
 
                 if "MS" in req["use_cases"]:
-                    print("X", end="")
+                    of.write("X")
                 
-                print("|", end="")
+                of.write("|")
             else:
-                print("||||", end="")
+                of.write("||||")
 
-            if "compliance_notes" in req:
-                print(req["compliance_notes"], end="")
+            if "compliance_notes" in req and req["compliance_notes"]:
+                of.write(req["compliance_notes"])
                 
-            print("|")
+            of.write("|")
     if len(restrictions) > 0:
-        print("## Restrictions")
-        print("|Summary|Notes|")
-        print("| --- | --- |")
+        of.write("## Restrictions\n")
+        of.write("|Summary|Notes|\n")
+        of.write("| --- | --- |\n")
 
         for res in restrictions:
-            print("|",res["description"],"|", end="")
+            of.write("|" + res["description"] + "|")
 
-            if "compliance_notes" in res:
-                print(res["compliance_notes"], end="")
+            if "compliance_notes" in res and res["compliance_notes"]:
+                of.write(res["compliance_notes"])
 
-            print("|")
+            of.write("|")
     if len(termination) > 0:
-        print("## Termination Provisions")
-        print("|Summary|Notes|")
-        print("| --- | --- |")
+        of.write("## Termination Provisions\n")
+        of.write("|Summary|Notes|\n")
+        of.write("| --- | --- |\n")
 
         for termterm in termination:
-            print("|",termterm["description"],"|", end="")
+            of.write("|" + termterm["description"] + "|")
 
-            if "compliance_notes" in termterm:
-                print(termterm["compliance_notes"], end="")
+            if "compliance_notes" in termterm and termterm["compliance_notes"]:
+                of.write(termterm["compliance_notes"])
 
-            print("|")
+            of.write("|\n")
     if len(lvers) > 0:
-        print("## License Versioning")
-        print("|Summary|Notes|")
-        print("| --- | --- |")
+        of.write("## License Versioning\n")
+        of.write("|Summary|Notes|\n")
+        of.write("| --- | --- |\n")
 
         for lver in lvers:
-            print("|",lver["description"],"|", end="")
+            of.write("|" + lver["description"] + "|")
 
-            if "compliance_notes" in lvers:
-                print(lver["compliance_notes"], end="")
+            if "compliance_notes" in lvers and lvers["compliance_notes"]:
+                of.write(lver["compliance_notes"])
 
-            print("|")
+            of.write("|\n")
     if len(other) > 0:
-        print("## Other Terms")
-        print("|Summary|Notes|")
-        print("| --- | --- |")
+        of.write("## Other Terms\n")
+        of.write("|Summary|Notes|\n")
+        of.write("| --- | --- |\n")
 
         for o in other:
-            print("|",o["description"],"|", end="")
+            of.write("|" + o["description"] + "|")
 
-            if "compliance_notes" in o:
-                print(o["compliance_notes"], end="")
+            if "compliance_notes" in o and o["compliance_notes"]:
+                of.write(o["compliance_notes"])
 
-            print("|")
+            of.write("|\n")
+
+of.close()
