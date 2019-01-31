@@ -27,6 +27,8 @@ This is important as most open source license obligations are triggered by a dis
 3)	US = Distribution, unmodified, source form
 4)	MS = Distribution, modified, source form
 
+Where "binary" refers to compiled code, binary, executable, non-source form; and "source" refers to the human readable, editable form.
+
 # YAML key definitions
 Each license has its own block, even if the compliance profile is exactly the same as another license.
 License blocks are arranged alphabetically by licenseID.  See https://github.com/jlovejoy/OSLC-handbook/blob/master/example.yaml for an example of keys and license block formatting.
