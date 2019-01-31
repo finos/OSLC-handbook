@@ -308,13 +308,13 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: "If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties (see section 6.2 for more details)"
+    description: "If you initiate a patent infringement litigation against the initial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties (see section 6.2 for more details)"
 
   - type: other
-    description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.4 for more details.
+    description: You may offer and charge a fee for warranty, support, indemnity or liability obligations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.4 for more details.
     
   - type: other
-    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differering terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.6 for more details)
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.6 for more details)
         
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
@@ -353,13 +353,13 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: "If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties. If such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such parties in this license shall be taken into account in determining the amount or value of any payment or license (see section 6.2 and 6.3 for more details)"
+    description: "If you initiate a patent infringement litigation against the initial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties. If such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such parties in this license shall be taken into account in determining the amount or value of any payment or license (see section 6.2 and 6.3 for more details)"
 
   - type: other
-    description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.4 for more details)
+    description: You may offer and charge a fee for warranty, support, indemnity or liability obligations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.4 for more details)
     
   - type: other
-    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.6 for more details)
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.6 for more details)
         
   - type: license_versions
     description: Allows use of covered code under the terms of same version or any later version of the license, unless the version you received states otherwise.
@@ -388,12 +388,12 @@
   - type: requirement
     description: Notice of contributions
     use_cases: [MB, MS]
-    compliance_notes: Include a note that identifies contributor as the originatory of its contribution
+    compliance_notes: Include a note that identifies contributor as the originator of its contribution
  
   - type: requirement
     description: Modifications under same license
     use_cases: [MS]
-    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3 for more details)
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the program (see sections 1 and 3 for more details)
  
   - type: termination
     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance
@@ -426,7 +426,7 @@
   - type: requirement
     description: Modifications under same license
     use_cases: [MS]
-    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the progam (see sections 1 and 3.2 for more details)
+    compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the program (see sections 1 and 3.2 for more details)
  
   - type: requirement
     description: Retain notices
@@ -810,10 +810,10 @@
     description: Provide notice in a file called "LEGAL" containing any third party intellectual property rights for particular functionality or code, including if your modifications are an application programming intereface and you own or control patents which are reasonably necessary to implement the API. See section 3.4 for more details.
 
   - type: other
-    description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.5 for more details.
+    description: You may offer and charge a fee for warranty, support, indemnity or liability obligations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.5 for more details.
     
   - type: other
-    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
 
   - type: other
     description: If it is impossible for you to comply with any of the terms of this license due to statute or regulation then you must comply with the terms of this License to the maximum extent possible; and describe the compliance limitations and the code they affect and include such description in all distributions of the source code (see section 3.4 for more details)
@@ -856,22 +856,22 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: "If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that the contributor's version infringes any patent, then the license from such parties terminates upon 60 days notice from such parties unless: you agree in writing to pay such parties a mutually agreed upon reasonable royalty for you past and futured use or you withdraw your litigation. See section 8.2 and 8.3 for more details."
+    description: "If you initiate a patent infringement litigation against the initial developer or a contributor alleging that the contributor's version infringes any patent, then the license from such parties terminates upon 60 days notice from such parties unless: you agree in writing to pay such parties a mutually agreed upon reasonable royalty for you past and futured use or you withdraw your litigation. See section 8.2 and 8.3 for more details."
     
   - type: termination
-    description: If you initiate a patent infringement litigation against the intitial developer or a contributor alleging that any software, hardware or device other than a contributor's version infringed any patent, then the license from such parties terminates. See section 8.2 for more details.
+    description: If you initiate a patent infringement litigation against the initial developer or a contributor alleging that any software, hardware or device other than a contributor's version infringed any patent, then the license from such parties terminates. See section 8.2 for more details.
 
   - type: other
     description: Provide notice in a file called, LEGAL, of any third party intellectual property rights for particular functionality or code, including if your modifications are an application programming intereface and you own, control, or have knowledge of any patent licenses which are reasonably necessary to implement the API. See section 3.4 for more details.
 
   - type: other
-    description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.5 for more details.
+    description: You may offer and charge a fee for warranty, support, indemnity or liability obligations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.5 for more details.
     
   - type: other
-    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
     
   - type: other
-    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
         
   - type: license_versions
     description: Allows use of covered code under the terms of of same version or any later version of the license.
@@ -911,10 +911,10 @@
     description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license.
     
   - type: other
-    description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.5 for more details.
+    description: You may offer and charge a fee for warranty, support, indemnity or liability obligations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.5 for more details.
 
   - type: other
-    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.6 for more details.
   
   - type: license_versions
     description: Allows use of covered code under the terms of same version or any later version of the license.
