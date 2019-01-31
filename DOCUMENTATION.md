@@ -5,13 +5,13 @@ This handbook provides information on how to comply with some of the more common
 Determining the requirements that need to be met to comply with open source licenses involves:
 1) You must know what open source software you are using
 2) You must know what license applies to that open source software and the relevant legal interpretation of the license; and
-3) How are you using open source software? This is the “use-case”.
+3) How are you using that open source software? This is the “use-case”.
 
-The information in this handbook assumes you have already met step one in determining what open source software you are using (and under what license). It is the combination of the license (#2) and the use-case (#3) which determines what license conditions are triggered. This is open source license compliance.
+The information in this handbook assumes you have already met #1 in determining what open source software you are using (and under what license). It is the combination of the license (#2) and the use-case (#3) which determines what license conditions are triggered. This is open source license compliance.
 
 One way to think of this is as an if-then statement. For example: IF I am distributing unmodified open source software in binary form (use-case), THEN I must provide a copy of the license (requirement) by (HOW) placing a copy with my distribution.
 
-Some open source license conditions are easy to understand and comply with, while other conditions are open for (legal) interpretation or involved more complex use-cases. The license compliance requirements in this handbook are summarized for the four most common use-cases as listed below. This handbook only provides license compliance information for licenses and use-cases that are easy to understand and summarize succinctly.  Cases where further analysis may be needed are noted and may need consultation with your open source counsel.  Likewise, if your use-case varies in any way or you are using a different license than those licenses listed here (even if it seems similar) or you have any questions whatsoever about this information or how to properly comply, please contact your open source counsel.
+Some open source license conditions are easy to understand and comply with, while other conditions are open for (legal) interpretation or involve more complex use-cases. The license compliance requirements in this handbook are summarized for the four most common use-cases as listed below. This handbook only provides license compliance information for licenses and use-cases that are easy to understand and summarize succinctly.  Cases where further analysis may be needed are noted and may need consultation with your open source counsel.  Likewise, if your use-case varies in any way or you are using a different license than those licenses listed here (even if it seems similar) or you have any questions whatsoever about this information or how to properly comply, please contact your open source counsel.
 
 Other terms not related to license compliance are not captured here, for example, choice of law, jurisdiction, statutory references, or passive representations. Likewise, information describing the license grants are not captured here. As always, your open source counsel should familiarize themself with the entire license before relying on the information provided in this handbook.
 
@@ -41,7 +41,7 @@ Key definitions are as follows:
 * terms = different types of license terms; each term item has a type (see types below), a description, and may also have a use-case and compliance_notes
   * types:
     * requirement = active obligation that must be met for license compliance for the listed use-case(s)
-      * acknowledgment = if there is a requirement to include specific text as an acknowledgement, then that text is included in this field. Do not use quotations for this field. If a name or other similar text is replaceable within the acknowledgement text, it is denoted with double brackets
+      * acknowledgment = if there is a requirement to include specific text as an acknowledgement, then that text is included in this field. Do not use quotations for this field. If a name or other similar text is replaceable within the acknowledgment text, it is denoted with double brackets
     * restriction = a restriction or prohibition; applies to all and any use-cases unless specific set of use-cases are identified
     * termination = license termination clause
     * other = other clauses that are neither squarely a requirement, restriction or termination but may be necessary to be aware of for license compliance purposes; applies to all and any use-cases, specific set of use-cases as identified by coding or in description
