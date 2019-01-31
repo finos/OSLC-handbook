@@ -8,7 +8,7 @@ Please see https://github.com/jlovejoy/OSLC-handbook/blob/master/DOCUMENTATION.m
 
 Copyright 2018-2019 FINOS, Jilayne Lovejoy, and contributors
 
-This work is licensed under CC-BY-SA-4.0
+This work is licensed under [CC-BY-SA-4.0] (https://github.com/jlovejoy/OSLC-handbook/blob/master/LICENSE)
 
 Contributions are accepted under the same license.
 
