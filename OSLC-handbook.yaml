@@ -5,14 +5,14 @@
   notes: This is a blanket license with no conditions.
   terms:
   - type: other
-    description: This license places no conditions whatsoever on using, copyring, modifying or distributions the software for any purpose.
+    description: This license places no conditions whatsoever on using, copyring, modifying or distributing the software for any purpose.
       
 -
   name: GNU Affero General Public License 3.0
   licenseId:
   - AGPL-3.0-only
   - AGPL-3.0-or-later
-  notes: AGPL-3.0 is the same license as GPL-3.0, but with an additional term in section 13 which imposes a requirement for modified version accessed via remote computer network. When distributing AGPL code, it is highly recommended to obtain advice from your open source legal counsel.
+  notes: AGPL-3.0 is the same license as GPL-3.0, but with an additional term in section 13 which imposes a requirement for modified version accessed via remote computer network. When distributing AGPL-3.0 code, it is highly recommended to obtain advice from your open source legal counsel.
   terms:
   - type: requirement
     description: Provide copy of license
@@ -32,7 +32,7 @@
   - type: requirement
     description: Modifications or derivative work must be licensed under same license
     use_cases: [MB, MS]
-    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.
+    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under AGPL-3.0; this is interpreted to include statically and dynamically linked code.
 
   - type: requirement
     description: Provide corresponding source code
@@ -50,7 +50,7 @@
     description: License terminates if you initiate litigation claiming use of the program under this license violates a patent
 
   - type: license_versions
-    description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
+    description: Allows use of covered code under the terms of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
   
   - type: other
     description: Provide corresponding source code for modified versions to users interacting with the program remotely through a computer network. See section 13 for more details.
@@ -59,7 +59,7 @@
 -
   name: Apache Software License 1.1
   licenseId: Apache 1.1
-  notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately,  they are listed separately (here and on the SPDX License List).
+  notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately, they are listed separately (here and on the SPDX License List).
   terms:
   - type: requirement
     description: Provide copy of license
@@ -166,7 +166,7 @@
   - type: requirement
     description: Provide access to modified version
     use_cases: [MB, MS]
-    compliance_notes: 'Do at least one of the following: make modified version available to copyright holder under same license; OR rensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license (see section 4 for more details)'
+    compliance_notes: 'Do at least one of the following: make modified version available to copyright holder under same license; OR ensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license (see section 4 for more details)'
     
   - type: requirement
     description: Access to source
@@ -177,7 +177,7 @@
     description: Cannot charge a licensing fee for package itself, but may charge a reasonable copying fee or for support
     
   - type: restriction
-    description: No right to use any trademark, service mark, tradname or logo of copyright holder
+    description: No right to use any trademark, service mark, tradename or logo of copyright holder
 
   - type: termination
     description: License terminates if you institute patent litigation (including cross or counter claim) against any party alleging the package direct or contributory patent infringement.
@@ -223,7 +223,7 @@
     description: Cannot use name of copyright holder to endorse or promote
     
 -
-  name: BSD 3-Clause "Original" or "Old" License
+  name: BSD 4-Clause "Original" or "Old" License
   licenseId: BSD-4-Clause
   notes:
   terms:
@@ -359,10 +359,10 @@
     description: You may offer and charge a fee for warranty, support, indemnity or liability oblgiations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.4 for more details)
     
   - type: other
-    description: You may distributed binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.6 for more details)
+    description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license. You must make it clear that any differeing terms are offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.6 for more details)
         
   - type: license_versions
-    description: Allows use of covered code under the terms of of same version or any later version of the license, unless the version you received states otherwise.
+    description: Allows use of covered code under the terms of same version or any later version of the license, unless the version you received states otherwise.
 
  
 -
@@ -388,7 +388,7 @@
   - type: requirement
     description: Notice of contributions
     use_cases: [MB, MS]
-    compliance_notes: Include a notes that identifies contributor as the originatory of its contribution
+    compliance_notes: Include a note that identifies contributor as the originatory of its contribution
  
   - type: requirement
     description: Modifications under same license
@@ -399,14 +399,14 @@
     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance
 
   - type: termination
-    description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients patents
+    description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients' patents
    
-  - type: other
+  - type: other'
     description: You may distribute binary versions under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (see section 3 and 4 for details)
     use_cases: [UB, MB]
 
   - type: license_versions
-    description: Allows use of covered code under the terms of of same version or any later version of the license.
+    description: Allows use of covered code under the terms of same version or any later version of the license.
     
 -
   name: Eclipse Public License 2.0
@@ -437,7 +437,7 @@
     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance
 
   - type: termination
-    description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients patents
+    description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients' patents
     
   - type: other
     description: You may distribute program under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (see section 3 for details)
@@ -447,12 +447,12 @@
     description: You may distribute under an enumerated 'Secondary License' if authorized by the initial Contributor or combined with code under that Secondary License (see section 3.2 for more details)
  
   - type: license_versions
-    description: Allows use of covered code under the terms of of same version or any later version of the license.
+    description: Allows use of covered code under the terms of same version or any later version of the license.
  
 -
   name: Entessa Public License 1.0
   licenseId: Entessa
-  notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately,  they are listed separately (here and on the SPDX License List).
+  notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately, they are listed separately (here and on the SPDX License List).
   
   terms:
   - type: requirement
@@ -520,7 +520,7 @@
     description: License automatically terminates if you do not comply with the terms of the license
 
   - type: license_versions
-    description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
+    description: Allows use of covered code under the terms of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
 
 -
   name: GNU General Public License 3.0
@@ -580,7 +580,7 @@
     description: If software is combined with software under AGPL-3.0, AGPL-3.0 applies to combined work and this license continues to the covered work originally under GPL-3.0 (see section 13 for more details).
 
   - type: license_versions
-    description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
+    description: Allows use of covered code under the terms of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
 
 
 -
@@ -643,7 +643,7 @@
     description:  Allows dynamic linking of code with “a work that uses the Library” under a different license, under certain conditions; terms of the other license must permit reverse engineering and debugging; must provide a copy of the license and prominent notice that the Library is used; must provide source code via one of the options in section 6 of the license. Also must include any data and utility programs needed for reproducing the executable, but this need not include anything that is normally distributed with the major components of the operating system.
 
   - type: license_versions
-    description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
+    description: Allows use of covered code under the terms of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
 
 
 -
@@ -690,7 +690,7 @@
     description: Allows dynamic linking of code with “a work that uses the Library” under a different license, under certain conditions; terms of the other license must permit reverse engineering and debugging; must provide a copy of the license and prominent notice that the Library is used; must provide source code via one of the options in section 6 of the license. Also must include any data and utility programs needed for reproducing the executable, but this need not include anything that is normally distributed with the major components of the operating system.
 
   - type: license_versions
-    description: Allows use of covered code under the terms of of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
+    description: Allows use of covered code under the terms of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
 
 -
   name: GNU Lesser General Public License 3.0
