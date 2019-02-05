@@ -150,7 +150,7 @@
 
 -
   name: Artistic License 2.0
-  licenseId: Artistic-2.0-Perl
+  licenseId: Artistic-2.0
   notes: This license has specific use cases and conditions that are difficult to summarize; please see sections 4-9 and relevant definitions for more details.
   terms:
   - type: requirement
