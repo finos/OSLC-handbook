@@ -75,9 +75,6 @@
     description: Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear
     use_cases: [UB, MB, US, MS]
     acknowledgement: This product includes software developed by the [[Apache Software Foundation (http://www.apache.org/)]].
-    
-  - type: restriction
-    description: Cannot use name of copyright holder to endorse or promote
  
   - type: restriction
     description: Cannot use name of project for derived products
@@ -103,9 +100,6 @@
     use_cases: [US, MS]
     compliance_notes: Copyright notices and other notices do not have to be reproduced for binary distribution
 
-  - type: restriction
-    description: Cannot use Licensor's trademarks, trade names, service marks, or product names except as reasonable use in describing origin of Work
-
   - type: termination
     description: Patent license terminates if patent litigation commences that alleges the licensed work infringes the licensee's patent
 
@@ -128,12 +122,12 @@
   - type: condition
     description: Provide access to modifications
     use_cases: [MB, MS]
-    compliance_notes: 'Do at least one of the following: place modification in the public domain or otherwise make them freely available; OR rename non-standard executables; OR "make other distribution arrangements" with the copyright holder. See section 3 for more details.'
+    compliance_notes: Do at least one of the following: place modification in the public domain or otherwise make them freely available; OR rename non-standard executables; OR "make other distribution arrangements" with the copyright holder (see section 3 for more details).
     
   - type: condition
     description: Access to source
     use_cases: [UB, MB]
-    compliance_notes: 'Do at least one of the following: provide a Standard Version of the executables and library files; OR provide source for your modifications; OR give non-standard executables non-standard name and document the differences with instructions on where to get the Standard Version; OR "make other distribution arrangements" with the copyright holder (see section 4 for more details)'
+    compliance_notes: Do at least one of the following: provide a Standard Version of the executables and library files; OR provide source for your modifications; OR give non-standard executables non-standard name and document the differences with instructions on where to get the Standard Version; OR "make other distribution arrangements" with the copyright holder (see section 4 for more details)
          
   - type: restriction
     description: Cannot charge a fee for package itself, but may charge a reasonable copying fee or for support
@@ -141,11 +135,8 @@
   - type: restriction
     description: Cannot advertise this package as a product of your own when included in a larger product or distribution
 
-  - type: restriction
-    description: Cannot use name of copyright holder to endorse or promote
-
   - type: other
-    description: 'The following are not considered part of the package or do not fall under copyright of this package and subject to the license: scripts and library files supplied as input to or produced as output from the program; C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this package; aggregation of this package with other software where the package is embedded and the interfaces are not visible to the end user (see sections 6, 7, and 8 for more details)'
+    description: The following are not considered part of the package or do not fall under copyright of this package and subject to the license: scripts and library files supplied as input to or produced as output from the program; C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this package; aggregation of this package with other software where the package is embedded and the interfaces are not visible to the end user (see sections 6, 7, and 8 for more details)
 
 
 -
@@ -166,7 +157,7 @@
   - type: condition
     description: Provide access to modified version
     use_cases: [MB, MS]
-    compliance_notes: 'Do at least one of the following: make modified version available to copyright holder under same license; OR ensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license (see section 4 for more details)'
+    compliance_notes: Do at least one of the following: make modified version available to copyright holder under same license; OR ensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license (see section 4 for more details)
     
   - type: condition
     description: Access to source
@@ -175,9 +166,6 @@
          
   - type: restriction
     description: Cannot charge a licensing fee for package itself, but may charge a reasonable copying fee or for support
-    
-  - type: restriction
-    description: No right to use any trademark, service mark, tradename or logo of copyright holder
 
   - type: termination
     description: License terminates if you institute patent litigation (including cross or counter claim) against any party alleging the package direct or contributory patent infringement.
@@ -218,9 +206,6 @@
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
- 
-  - type: restriction
-    description: Cannot use name of copyright holder to endorse or promote
     
 -
   name: BSD 4-Clause "Original" or "Old" License
@@ -240,9 +225,6 @@
   - type: condition
     description: Advertising materials "mentioning the features or use of this software" must include acknowledgment
     acknowledgement: This product includes software developed by [[the organization]].
- 
-  - type: restriction
-    description: Cannot use name of copyright holder to endorse or promote
     
     
 -
@@ -259,9 +241,6 @@
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
-  
-  - type: restriction
-    description: Cannot use name of copyright holder to endorse or promote
     
     
 -
@@ -469,9 +448,6 @@
     description: Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear
     use_cases: [UB, MB, US, MS]
     acknowledgement: "This product includes open source software developed by openSEAL (http://www.openseal.org/)."
-  
-  - type: restriction
-    description: Cannot use name of copyright holder to endorse or promote
 
   - type: restriction
     description: Cannot use name of project for derived products
@@ -652,7 +628,7 @@
   - LGPL-2.1-only
   - LGPL-2.1-or-later
   notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: "For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"
+  resources: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: condition
     description: Provide copy of license
@@ -945,9 +921,6 @@
     use_cases: [UB, MB]
     compliance_notes: Object or compiled code distributions must be under a license that complies with this license
 
-  - type: restriction
-    description: No rights granted to use of contributor's name, logo, or trademarks
-
   - type: termination
     description: If a patent claim is brought against a contributor allegaing the program infringed recipient's patents, patent rights granted under the license terminate automatically
  
@@ -967,9 +940,6 @@
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
- 
-  - type: restriction
-    description: Cannot use name of copyright holder to endorse or promote
           
       
 -
@@ -1004,9 +974,6 @@
   - type: condition
     description: Include acknowledgement If you include any Windows specific code (or a derivative thereof) from the apps directory (application code)
     acknowledgement: "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
-
-  - type: condition
-    description: Cannot use name of copyright holder to endorse or promote
     
   - type: restriction
     description: Cannot use name of project for derived products
@@ -1026,9 +993,6 @@
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
-    
-  - type: restriction
-    description: Cannot use name of copyright holder to endorse or promote
  
   - type: restriction
     description: Cannot use name of project for derived products
@@ -1056,9 +1020,6 @@
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
-    
-  - type: restriction
-    description: Cannot use name of copyright holder to endorse or promote
  
   - type: restriction
     description: Cannot use name of project for derived products
@@ -1088,9 +1049,6 @@
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
   
   - type: restriction
-    description: Cannot use name of copyright holder to endorse or promote
-  
-  - type: restriction
     description: Cannot use name of project for derived products
  
 
@@ -1113,9 +1071,6 @@
     description: Notice of modifications
     use_cases: [MB, MS]
     compliance_notes: Indicate the nature of the modifiations made in the work
-  
-  - type: restriction
-    description: Cannot use trademark or name to endorse or promote
     
   - type: termination
     description: Termination of license upon breach
