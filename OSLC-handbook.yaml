@@ -39,9 +39,10 @@
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See section 6 for more details.
 
-  - type: restriction
+  - type: condition
     description: No additional restrictions
-    compliance_notes: Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: You may not impose any further restrictions on the exercise of the rights granted under this license.
 
   - type: termination
     description: License automatically terminates if you do not comply with the terms of the license
@@ -279,9 +280,10 @@
     use_cases: [MB, MS]
     compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.6, 1.9, and 3.6 for more information)
     
-  - type: restriction
-    description: You may not impose any terms on source code that alters or restricts recipient's rights under this license
-    use_cases: [US, MB]
+  - type: condition
+    description: No additional restrictions
+    use_cases: [US, MS]
+    compliance_notes: You may not impose any terms on source code that alters or restricts recipient's rights under this license
         
   - type: termination
     description: License terminates upon failure to comply with license after a 30 day cure period
@@ -324,9 +326,10 @@
     use_cases: [MB, MS]
     compliance_notes: File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.6, 1.9, and 3.6 for more details)
 
-  - type: restriction
-    description: You may not impose any terms on source code that alters or restricts recipient's rights under this license
-    use_cases: [US, MB]
+  - type: condition
+    description: No additional restrictions
+    use_cases: [US, MS]
+    compliance_notes: You may not impose any terms on source code that alters or restricts recipient's rights under this license
     
   - type: termination
     description: License terminates upon failure to comply with license after a 30 day cure period
@@ -487,10 +490,10 @@
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details)
 
-  - type: restriction
+  - type: condition
     description: No additional restrictions
     use_cases: [UB, MB, US, MS]
-    compliance_notes: Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.
+    compliance_notes: You may not impose any further restrictions on the exercise of the rights granted under this license.
 
   - type: termination
     description: License automatically terminates if you do not comply with the terms of the license
@@ -535,10 +538,10 @@
   - type: restriction
     description: May not forbid users from circumventing technological measures that prevent exercise of rights under the license (see section 3 for more details)
     
-  - type: restriction
+  - type: condition
     description: No additional restrictions
     use_cases: [UB, MB, US, MS]
-    compliance_notes: Other terms applicable to the work must not impose any restriction on the licensee that does not appear in this license.
+    compliance_notes: You may not impose any further restrictions on the exercise of the rights granted under this license.
 
   - type: termination
     description: License automatically terminates if you do not comply with the terms of the license
@@ -608,9 +611,10 @@
     use_cases: [UB, MB]
     compliance_notes: complete source code = all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the library (see section 4 or section 6, as applicable).
 
-  - type: restriction
+  - type: condition
     description: No additional restrictions
-    compliance_notes: Other terms applicable to the work must not impose any restriction on the licensee's use of the library that does not appear in this license.
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: You may not impose any further restrictions on the exercise of the rights granted under this license.
 
   - type: termination
     description: License automatically terminates if you do not comply with the terms of the license
@@ -655,10 +659,11 @@
     use_cases: [UB, MB]
     compliance_notes: complete source code = all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the library (see section 4 or section 6, as applicable).
 
-  - type: restriction
+  - type: condition
     description: No additional restrictions
-    compliance_notes: Other terms applicable to the work must not impose any restriction on the licensee's use of the library that does not appear in this license.
- 
+    use_cases: [UB, MB, US, MS]
+    compliance_notes: You may not impose any further restrictions on the exercise of the rights granted under this license.
+     
   - type: termination
     description: License automatically terminates if you do not comply with the terms of the license
 
