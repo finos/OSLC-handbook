@@ -380,7 +380,7 @@
   - type: termination
     description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients' patents
    
-  - type: other'
+  - type: other
     description: You may distribute binary versions under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (see section 3 and 4 for details)
     use_cases: [UB, MB]
 
@@ -581,7 +581,7 @@
   - LGPL-2.0-only
   - LGPL-2.0-or-later
   notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: "For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"
+  resources: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: condition
     description: Provide copy of license
@@ -677,7 +677,7 @@
   - GPL-3.0-only
   - GPL-3.0-or-later
   notes: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent license with the terms listed here.
-  resources:  "For more information about LGPL compliance, see: https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl"
+  resources:  For more information about LGPL compliance, see: https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: other
     description: If you modify the library so that it does not function without data or function supplied by your application, the modified library can only be distributed under the terms of GPL-3.0. This restriction does not apply if the data or function is supplied as an argument.
@@ -1038,12 +1038,12 @@
   licenseId: Plexus
   notes: This license also includes a clause that states, "due credit should be given" to the copyright holder, but given the non-obligatory nature of "should", this is not considered a requirement.
   terms:
-  - type:
+  - type: condition
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
   
-  - type:
+  - type: condition
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
@@ -1057,17 +1057,17 @@
   licenseId: Python-2.0
   notes: This is a license “stack” comprised of various licenses that apply to Python as it has developed over the years.
   terms:
-  - type:
+  - type: condition
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes:
     
-  - type:
+  - type: condition
     description: Provide copyright notice
     use_cases: [UB, MB, US, MS]
     compliance_notes:
     
-  - type:
+  - type: condition
     description: Notice of modifications
     use_cases: [MB, MS]
     compliance_notes: Indicate the nature of the modifiations made in the work
