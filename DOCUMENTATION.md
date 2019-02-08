@@ -55,3 +55,6 @@ Key definitions are as follows:
     * US = distribution of unmodified source
     * MS = distribution of modified source
   *  compliance_notes = specifics of how you need to comply with the term, this is usually present for a requirement, but often not needed or applicable for a restriction
+
+
+_SPDX-License-Identifier: CC-BY-SA-4.0_
