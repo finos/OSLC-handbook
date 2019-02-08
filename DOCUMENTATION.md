@@ -1,6 +1,6 @@
 
 # Description
-This handbook provides information on how to comply with some of the more common open source licenses under a specific set of use-cases. The goal here is to provide developers and engineers with some "self-serve" information to facilitate the end goal of open source license compliance, as well as identifying some of the more complex open source license compliance aspects for which consultation with open source counsel may be recommended.
+This handbook provides information on how to comply with some of the more common open source licenses under a specific set of use-cases. The goal here is to provide developers and engineers with some "self-serve" information to facilitate the end goal of open source license compliance, particularly for the easy-to-comply with conditions in open source licenses.  This handbook also aims to help identify some of the more complex open source license compliance conditions for which consultation with open source counsel may be needed.
 
 Determining the requirements that need to be met to comply with open source licenses involves:
 1) You must know what open source software you are using
@@ -11,9 +11,11 @@ The information in this handbook assumes you have already met #1 in determining 
 
 One way to think of this is as an if-then statement. For example: IF I am distributing unmodified open source software in binary form (use-case), THEN I must provide a copy of the license (requirement) by (HOW) placing a copy with my distribution.
 
-Some open source license conditions are easy to understand and comply with, while other conditions are open for (legal) interpretation or involve more complex use-cases. The license compliance requirements in this handbook are summarized for the four most common use-cases as listed below. This handbook only provides license compliance information for licenses and use-cases that are easy to understand and summarize succinctly.  Cases where further analysis may be needed are noted and may need consultation with your open source counsel.  Likewise, if your use-case varies in any way or you are using a different license than those licenses listed here (even if it seems similar) or you have any questions whatsoever about this information or how to properly comply, please contact your open source counsel.
+Some open source license conditions are easy to understand and comply with, while other conditions are open for (legal) interpretation or involve more complex use-cases that cannot be easily categorized. The license compliance requirements in this handbook are summarized for the four most common use-cases as listed below. 
 
-Other terms not related to license compliance are not captured here, for example, choice of law, jurisdiction, statutory references, or passive representations. Likewise, information describing the license grants are not captured here. As always, your open source counsel should familiarize themself with the entire license before relying on the information provided in this handbook.
+This handbook only provides license compliance information for licenses and use-cases that are easy to understand and summarize succinctly.  Cases where further analysis or consultation with your open source counsel may be needed are noted.  Likewise, if your use-case varies in any way or you are using a different license than those licenses listed here (even if it seems similar) or you have any questions whatsoever about this information or how to properly comply, please contact your open source counsel.
+
+Other terms not related to license compliance are not captured here. For example, choice of law, jurisdiction, statutory references, or licensee representations. Some open source licenses provide explicit clarification that no trademark license is granted; as this is essentially a restatement of basic trademark law and does not require any license compliance action, these clauses are not captured here. Likewise, information describing the license grants are not captured here. As always, your open source counsel should familiarize themself with the entire license before relying on the information provided in this handbook.
 
 ## Use-case:
 Distribution is defined as:
