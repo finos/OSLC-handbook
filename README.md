@@ -10,7 +10,9 @@ Copyright 2018-2019 FINOS, Jilayne Lovejoy, and contributors
 
 This work is licensed under [CC-BY-SA-4.0](https://github.com/jlovejoy/OSLC-handbook/blob/master/LICENSE)
 
-Contributions are accepted under the same license.
+Source files are licensed under [Apache-2.0](LICENSE-Apache-2.0)
+
+Contributions are accepted under the same license for the relevant file. See [CONTRIBUTING](CONTRIBUTING) for more information.
 
 # Acknowledgements
 Huge thanks to Jilayne Lovejoy and Aaron Williamson for the initial work on getting this project going and drafting this handbook.
