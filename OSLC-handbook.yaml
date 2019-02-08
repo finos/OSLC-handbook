@@ -335,7 +335,7 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: If you initiate a patent infringement litigation against the initial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties. If such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such parties in this license shall be taken into account in determining the amount or value of any payment or license (see section 6.2 and 6.3 for more details).
+    description: Any patent claims accusing the software by a licensee results in termination of patent licenses to the licensee, with a 60 day cure. If such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such parties in this license shall be taken into account in determining the amount or value of any payment or license (see section 6.2 and 6.3 for more details).
 
   - type: other
     description: You may offer and charge a fee for warranty, support, indemnity or liability obligations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make (see section 3.4 for more details)
