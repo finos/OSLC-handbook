@@ -102,7 +102,7 @@
     compliance_notes: Copyright notices and other notices do not have to be reproduced for binary distribution
 
   - type: termination
-    description: Patent license terminates if patent litigation commences that alleges the licensed work infringes the licensee's patent
+    description: Any patent claims accusing the work by a licensee results in termination of all patent licenses to the licensee.
 
 
 -
@@ -169,7 +169,7 @@
     description: Cannot charge a licensing fee for package itself, but may charge a reasonable copying fee or for support
 
   - type: termination
-    description: License terminates if you institute patent litigation (including cross or counter claim) against any party alleging the package direct or contributory patent infringement.
+    description: Any patent claims accusing the work by a licensee results in termination of all licenses to the licensee
 
   - type: other
     description:  Modified or standard versions linked with other works; embedding the package in a larger work of your own; or stand-alone binary or bytecode versions of applications that include the package may be distributed without restriction provided the result does not expose a direct interface to the package. See sections 8 for more details.
@@ -289,7 +289,7 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: If you initiate a patent infringement litigation against the initial developer or a contributor alleging that the contributor's version infringes any patent, then all license grants from such parties terminates upon 60 days notice from such parties unless: you withdraw your claim or pursuant to a written agreement with such parties (see section 6.2 for more details)
+    description: Any patent claims accusing the software by a licensee results in termination of patent licenses to the licensee, with a 60 day cure (see section 6.2 for more details)
 
   - type: other
     description: You may offer and charge a fee for warranty, support, indemnity or liability obligations to recipients. However, you must make it clear that any such offer is offered by you alone and you agree to indemnify the initial developer and every contributor for any liability incurred by them as a result of the offer you make. See section 3.4 for more details.
@@ -381,7 +381,7 @@
     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance
 
   - type: termination
-    description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients' patents
+    description: Any patent claims accusing the software by a licensee results in termination of patent licenses to the licensee
    
   - type: other
     description: You may distribute binary versions under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (see section 3 and 4 for details)
@@ -419,7 +419,7 @@
     description: License terminates upon failure to comply with "material terms or conditions" and failure to cure in a reasonable period of time after becoming aware of noncompliance
 
   - type: termination
-    description: Patent license terminates if recipient initiates patent litigation alleging the program infringes recipients' patents
+    description: Any patent claims accusing the software by a licensee results in termination of patent licenses to the licensee
     
   - type: other
     description: You may distribute program under a different license, provided you disclaim contributors from warranties, liability, and defend contributors against any third party claims brought as a result of your distribution. Clarify that any provisions offered by you are offered by you only (see section 3 for details)
@@ -837,7 +837,7 @@
     description: License terminates upon failure to comply with license after a 30 day cure period
 
   - type: termination
-    description: If you initiate a patent infringement litigation against the initial developer or a contributor alleging that the contributor's version infringes any patent, then the license from such parties terminates upon 60 days notice from such parties unless: you agree in writing to pay such parties a mutually agreed upon reasonable royalty for you past and futured use or you withdraw your litigation (see section 8.2 and 8.3 for more details).
+    description: Any patent claims accusing the software by a licensee results in termination of all licenses to the licensee, with a 60 day cure. Any patent claims by a licensee accusing any contributor results in termination of all of that contributor's patent licenses (see section 8.2 and 8.3 for more details).
     
   - type: termination
     description: If you initiate a patent infringement litigation against the initial developer or a contributor alleging that any software, hardware or device other than a contributor's version infringed any patent, then the license from such parties terminates (see section 8.2 for more details).
@@ -886,7 +886,7 @@
     description: License terminates upon failure to comply with license unless certain conditions are met by you and contributor (see section 5.1 for more details)
 
   - type: termination
-    description: If you initiate a patent infringement alleging that the contributor's version infringes any patent, then the license granted to you from any and all contributors under section 2.1 terminates.
+    description: Any patent claims accusing the software by a licensee results in termination of all licenses to the licensee
 
   - type: other
     description: You may distribute binary versions under a different license, so long as you do not limit or alter the recipient's right in the source code under this license.
@@ -927,7 +927,7 @@
     compliance_notes: Object or compiled code distributions must be under a license that complies with this license
 
   - type: termination
-    description: If a patent claim is brought against a contributor allegaing the program infringed recipient's patents, patent rights granted under the license terminate automatically
+    description: Any patent claims by licensee against any contributor accusing the software result in termination of all patent licenses from that contributor
  
  
 -
