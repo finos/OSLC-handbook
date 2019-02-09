@@ -44,11 +44,10 @@ Key definitions are as follows:
 * resources = external recommended resources for further information on compliance with the particular license. This is limited to only the more complex licenses and trusted resources (e.g., license authors and active community enforcers)
 * terms = different types of license terms; each term item has a type (see types below), a description, and may also have a use-case and compliance_notes
   * types:
-    * requirement = active obligation that must be met for license compliance for the listed use-case(s)
+    * condition = condition of the license or active obligation that must be met for license compliance for the listed use-case(s)
       * acknowledgment = if there is a requirement to include specific text as an acknowledgement, then that text is included in this field. Do not use quotations for this field. If a name or other similar text is replaceable within the acknowledgment text, it is denoted with double brackets
-    * restriction = a restriction or prohibition; applies to all and any use-cases unless specific set of use-cases are identified
     * termination = license termination clause
-    * other = other clauses that are neither squarely a requirement, restriction or termination but may be necessary to be aware of for license compliance purposes; applies to all and any use-cases, specific set of use-cases as identified by coding or in description
+    * other = other clauses may modify conditions or trigger obligations on different use-cases than the four defined here 
     * license_versions = information related to how other versions of the same license may be applied
   * description = high-level description to explain the license term, e.g., what do you have to do to meet the requirement, what is the restriction, under what conditions does the license terminate. This field may also include specifics for the use-case where the use-case does not fit into the standard four use-cases as defined
   * use cases = the use case for which the terms (or condition) applies. These are the most common triggers for open source license conditions, but not exhaustive; if the use case or trigger does not fit in one of these categories, then it will be explained in the term description
