@@ -77,10 +77,11 @@
     use_cases: [UB, MB, US, MS]
     acknowledgement: This product includes software developed by the [[Apache Software Foundation (http://www.apache.org/)]].
  
-  - type: restriction
-    description: Cannot use name of project for derived products
-
-
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
+ 
+    
 -
   name: Apache Software License 2.0
   licenseId: Apache-2.0
@@ -130,12 +131,10 @@
     use_cases: [UB, MB]
     compliance_notes: Do at least one of the following: provide a Standard Version of the executables and library files; OR provide source for your modifications; OR give non-standard executables non-standard name and document the differences with instructions on where to get the Standard Version; OR "make other distribution arrangements" with the copyright holder (see section 4 for more details)
          
-  - type: restriction
-    description: Cannot charge a fee for package itself, but may charge a reasonable copying fee or for support
+  - type: condition
+    description: You may distribute this package as part of a larger (commercial) distribution, but cannot charge a fee for the standalone package. You may charge a reasonable fee for copying or support.
+    use_cases: [UB, MB, US, MS]
     
-  - type: restriction
-    description: Cannot advertise this package as a product of your own when included in a larger product or distribution
-
   - type: other
     description: The following are not considered part of the package or do not fall under copyright of this package and subject to the license: scripts and library files supplied as input to or produced as output from the program; C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this package; aggregation of this package with other software where the package is embedded and the interfaces are not visible to the end user (see sections 6, 7, and 8 for more details)
 
@@ -165,9 +164,10 @@
     use_cases: [UB]
     compliance_notes: Provide complete instructions on how to get source for standard version; instructions must be kept current for your distribution
          
-  - type: restriction
-    description: Cannot charge a licensing fee for package itself, but may charge a reasonable copying fee or for support
-
+   - type: condition
+    description: You may distribute this package as part of a larger (commercial) distribution, but cannot charge a licensing fee for the standalone package. You may charge distributor fees or licensing fees for other components in the distribution.
+    use_cases: [UB, MB, US, MS]
+    
   - type: termination
     description: Any patent claims accusing the work by a licensee results in termination of all licenses to the licensee
 
@@ -452,9 +452,10 @@
     use_cases: [UB, MB, US, MS]
     acknowledgement: "This product includes open source software developed by openSEAL (http://www.openseal.org/)."
 
-  - type: restriction
-    description: Cannot use name of project for derived products
-
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
+    
 
 -
   name: GNU General Public License 2.0
@@ -535,8 +536,9 @@
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server (see section 6 for more details)
 
-  - type: restriction
-    description: May not forbid users from circumventing technological measures that prevent exercise of rights under the license (see section 3 for more details)
+  - type: condition
+    description: May not prohibit circumvention of technological measures that prevent users from exercising rights under the license (see section 3 for more details)
+    use_cases:  [UB, MB, US, MS]
     
   - type: condition
     description: No additional restrictions
@@ -750,10 +752,7 @@
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, provide this information "in supporting documentation"
     
-  - type: restriction
-    description: Cannot use name of copyright holder in advertising or publicity related to distribution
- 
- 
+   
 -
   name: Mozilla Public License 1.0
   licenseId: MPL-1.0
@@ -980,9 +979,9 @@
     description: Include acknowledgement If you include any Windows specific code (or a derivative thereof) from the apps directory (application code)
     acknowledgement: "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
     
-  - type: restriction
-    description: Cannot use name of project for derived products
-      
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
 
 -
   name: PHP License v3.0
@@ -999,9 +998,10 @@
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
  
-  - type: restriction
-    description: Cannot use name of project for derived products
-    
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
+        
   - type: condition
     description: Acknowlegment must be retained in all redistributions
     use_cases: [UB, MB, US, MS]
@@ -1026,8 +1026,9 @@
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
  
-  - type: restriction
-    description: Cannot use name of project for derived products
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
     
   - type: condition
     description: Acknowlegment must be retained in all redistributions
@@ -1053,9 +1054,9 @@
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
   
-  - type: restriction
-    description: Cannot use name of project for derived products
- 
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
 
 -
   name: Python License 2.0
