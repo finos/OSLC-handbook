@@ -462,7 +462,7 @@
   licenseId:
   - GPL-2.0-only
   - GPL-2.0-or-later
-  notes: Some people find compliance with the GPL-2.0 challenging and lots has been written on the topic. For the conditions that people find most challenging, see the resources for additional information authored by trusted sources. 
+  notes: Applying GPL-2.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For detailed guidance from trusted sources, see the resources. 
 
   terms:
   - type: condition
