@@ -462,7 +462,7 @@
   - GPL-2.0-only
   - GPL-2.0-or-later
   notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: For more information about GPL compliance: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
+  SeeAlso: For more information about GPL compliance: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
 
   terms:
   - type: condition
@@ -507,7 +507,7 @@
   - GPL-3.0-only
   - GPL-3.0-or-later
   notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
+  SeeAlso: For more information about GPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
 
   terms:
   - type: condition
@@ -584,7 +584,7 @@
   - LGPL-2.0-only
   - LGPL-2.0-or-later
   notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
+  SeeAlso: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: condition
     description: Provide copy of license
@@ -632,7 +632,7 @@
   - LGPL-2.1-only
   - LGPL-2.1-or-later
   notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  resources: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
+  SeeAlso: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: condition
     description: Provide copy of license
@@ -682,7 +682,7 @@
   - GPL-3.0-only
   - GPL-3.0-or-later
   notes: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent license with the terms listed here.
-  resources:  For more information about LGPL compliance, see: https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
+  SeeAlso:  For more information about LGPL compliance, see: https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
   terms:
   - type: other
     description: If you modify the library so that it does not function without data or function supplied by your application, the modified library can only be distributed under the terms of GPL-3.0. This restriction does not apply if the data or function is supplied as an argument.
