@@ -4,8 +4,8 @@
   licenseId:
   - GPL-2.0-only
   - GPL-2.0-or-later
-  notes: Applying GPL-2.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For detailed guidance from trusted sources, see the resources.
-
+  notes: Applying GPL-2.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. 
+  
   terms:
   - type: condition
     description: Provide copy of license
@@ -25,7 +25,7 @@
   - type: condition
     description: Modifications or derivative work must be licensed under same license
     use_cases: [MB, MS]
-    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel.
+    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel.
     SeeAlso: For more information about GPL-2.0 compliance and this condition in particular, see:
     - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005
     - https://www.gnu.org/licenses/gpl-faq.html#TheGPLSaysModifiedVersions
