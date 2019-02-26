@@ -17,4 +17,4 @@ Contributions are accepted under the same license for the relevant file. See [CO
 # Acknowledgements
 Huge thanks to Jilayne Lovejoy and Aaron Williamson for the initial work on getting this project going and drafting this handbook.
 
-Additional thanks for assistance and review of this material to: 
+Additional thanks for assistance and review of this material to: Gary O'Neall

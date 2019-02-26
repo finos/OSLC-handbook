@@ -1,260 +1,5 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
--
-  name: BSD Zero Clause License
-  licenseId: 0BSD
-  notes: This is a blanket license with no conditions.
-  terms:
-  - type: other
-    description: This license places no conditions whatsoever on using, copyring, modifying or distributing the software for any purpose.
-      
--
-  name: GNU Affero General Public License 3.0
-  licenseId:
-  - AGPL-3.0-only
-  - AGPL-3.0-or-later
-  notes: AGPL-3.0 is the same license as GPL-3.0, but with an additional term in section 13 which imposes a requirement for modified version accessed via remote computer network. When distributing AGPL-3.0 code, it is highly recommended to obtain advice from your open source legal counsel.
-  terms:
-  - type: condition
-    description: Provide copy of license
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: It must be an actual copy of the license not a website link
 
-  - type: condition
-    description: Retain notices on all files
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also where you determine if the license is “or later” or the specific version only
-
-  - type: condition
-    description: Notice of modifications
-    use_cases: [MB, MS]
-    compliance_notes: Modified files must have “prominent notices that you changed the files” and a date
-
-  - type: condition
-    description: Modifications or derivative work must be licensed under same license
-    use_cases: [MB, MS]
-    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under AGPL-3.0; this is interpreted to include statically and dynamically linked code.
-
-  - type: condition
-    description: Provide corresponding source code
-    use_cases: [UB, MB]
-    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See section 6 for more details.
-
-  - type: condition
-    description: No additional restrictions
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: You may not impose any further restrictions on the exercise of the rights granted under this license.
-
-  - type: termination
-    description: License automatically terminates if you do not comply with the terms of the license
-    
-  - type: termination
-    description: License terminates if you initiate litigation claiming use of the program under this license violates a patent
-
-  - type: license_versions
-    description: Allows use of covered code under the terms of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
-  
-  - type: other
-    description: Provide corresponding source code for modified versions to users interacting with the program remotely through a computer network. See section 13 for more details.
-
-      
--
-  name: Apache Software License 1.1
-  licenseId: Apache 1.1
-  notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately, they are listed separately (here and on the SPDX License List).
-  terms:
-  - type: condition
-    description: Provide copy of license
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
-
-  - type: condition
-    description: Provide copyright notice
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
-
-  - type: condition
-    description: Acknowledgement must be included in end-user documentation, in software or wherever third-party acknowledgments appear
-    use_cases: [UB, MB, US, MS]
-    acknowledgement: This product includes software developed by the [[Apache Software Foundation (http://www.apache.org/)]].
- 
-  - type: restriction
-    description: Cannot use name of project for derived products
-
-
--
-  name: Apache Software License 2.0
-  licenseId: Apache-2.0
-  notes:
-  terms:
-  - type: condition
-    description: Provide copy of license
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: Does not specify format for providing copy of license
-
-  - type: condition
-    description: Notice of modifications
-    use_cases: [MB, MS]
-    compliance_notes: Modified files must include "prominent notices" of the modifications
-    
-  - type: condition
-    description: Retain all notices
-    use_cases: [US, MS]
-    compliance_notes: Copyright notices and other notices do not have to be reproduced for binary distribution
-
-  - type: termination
-    description: Any patent claims accusing the work by a licensee results in termination of all patent licenses to the licensee.
-
-
--
-  name: Artistic License 1.0 (Perl)
-  licenseId: Artistic-1.0-Perl
-  notes: This is the Artistic License 1.0 found on the Perl site, which is different (particularly, clauses 5, 6, 7 and 8) than the Artistic License 1.0 w/clause 8 found on the OSI site. This license has specific use cases and conditions that are difficult to summarize; please see sections 5-8 and relevant definitions for more details.
-  terms:
-  - type: condition
-    description: Retain all notices
-    use_cases: [US]
-    compliance_notes: Copyright notices and other notices
-
-  - type: condition
-    description: Notice of modifications
-    use_cases: [MB, MS]
-    compliance_notes: Modified files must have "prominent notice" in each file stating how the file was modified and when
-    
-  - type: condition
-    description: Provide access to modifications
-    use_cases: [MB, MS]
-    compliance_notes: Do at least one of the following: place modification in the public domain or otherwise make them freely available; OR rename non-standard executables; OR "make other distribution arrangements" with the copyright holder (see section 3 for more details).
-    
-  - type: condition
-    description: Access to source
-    use_cases: [UB, MB]
-    compliance_notes: Do at least one of the following: provide a Standard Version of the executables and library files; OR provide source for your modifications; OR give non-standard executables non-standard name and document the differences with instructions on where to get the Standard Version; OR "make other distribution arrangements" with the copyright holder (see section 4 for more details)
-         
-  - type: restriction
-    description: Cannot charge a fee for package itself, but may charge a reasonable copying fee or for support
-    
-  - type: restriction
-    description: Cannot advertise this package as a product of your own when included in a larger product or distribution
-
-  - type: other
-    description: The following are not considered part of the package or do not fall under copyright of this package and subject to the license: scripts and library files supplied as input to or produced as output from the program; C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this package; aggregation of this package with other software where the package is embedded and the interfaces are not visible to the end user (see sections 6, 7, and 8 for more details)
-
-
--
-  name: Artistic License 2.0
-  licenseId: Artistic-2.0
-  notes: This license has specific use cases and conditions that are difficult to summarize; please see sections 4-9 and relevant definitions for more details.
-  terms:
-  - type: condition
-    description: Retain all notices
-    use_cases: [UB, US]
-    compliance_notes: Copyright notices and other notices
-
-  - type: condition
-    description: Notice of modifications
-    use_cases: [MB, MS]
-    compliance_notes: Document how the modified version differs from the standard version
-    
-  - type: condition
-    description: Provide access to modified version
-    use_cases: [MB, MS]
-    compliance_notes: Do at least one of the following: make modified version available to copyright holder under same license; OR ensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license (see section 4 for more details)
-    
-  - type: condition
-    description: Access to source
-    use_cases: [UB]
-    compliance_notes: Provide complete instructions on how to get source for standard version; instructions must be kept current for your distribution
-         
-  - type: restriction
-    description: Cannot charge a licensing fee for package itself, but may charge a reasonable copying fee or for support
-
-  - type: termination
-    description: Any patent claims accusing the work by a licensee results in termination of all licenses to the licensee
-
-  - type: other
-    description:  Modified or standard versions linked with other works; embedding the package in a larger work of your own; or stand-alone binary or bytecode versions of applications that include the package may be distributed without restriction provided the result does not expose a direct interface to the package. See sections 8 for more details.
-
-  - type: other
-    description: Works that merely extend or make use of the package do not cause the package to be a modified version, are not considered parts of the package itself, and are not subject to the terms of this license. See section 9 for more details.
-
-
--
-  name: BSD 2-Clause "Simplified" License
-  licenseId: BSD-2-Clause
-  notes:
-  terms:
-  - type: condition
-    description: Provide copy of license
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
-  
-  - type: condition
-    description: Provide copyright notice
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
-
--
-  name: BSD 3-Clause "New" or "Revised" License
-  licenseId: BSD-3-Clause
-  notes:
-  terms:
-  - type: condition
-    description: Provide copy of license
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
- 
-  - type: condition
-    description: Provide copyright notice
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
-    
--
-  name: BSD 4-Clause "Original" or "Old" License
-  licenseId: BSD-4-Clause
-  notes:
-  terms:
-  - type: condition
-    description: Provide copy of license
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
- 
-  - type: condition
-    description: Provide copyright notice
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
- 
-  - type: condition
-    description: Advertising materials "mentioning the features or use of this software" must include acknowledgment
-    acknowledgement: This product includes software developed by [[the organization]].
-    
-    
--
-  name: BSD-4-Clause (University of California-Specific)
-  licenseId: BSD-4-Clause-UC
-  notes:  The advertising clause was rescinded by the University of California in 1999 for all material under BSD-4-Clause with University of California copyright notice. Thus, you do not need to comply with the advertising/acknowledgment requirement, which makes the license essentially BSD-3-Clause.
-  terms:
-  - type: condition
-    description: Provide copy of license
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
-  
-  - type: condition
-    description: Provide copyright notice
-    use_cases: [UB, MB, US, MS]
-    compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
-    
-    
--
-  name: Boost Software License 1.0
-  licenseId: BSL-1.0
-  notes:
-  terms:
-  - type: condition
-    description: Provide copy of license
-    use_cases: [US, MS]
-    compliance_notes: For distributions “of machine-executable object code generated by a source language processor” (i.e., UB and MB use cases), these requirements need not be met. However, you might consider the need to identify the presence of software under BSL-1.0 for other reasons, especially if you have an agreement that wraps around this code/license.
- 
- 
 -
   name: Common Development and Distribution License 1.0
   licenseId: CDDL-1.0
@@ -452,17 +197,17 @@
     use_cases: [UB, MB, US, MS]
     acknowledgement: "This product includes open source software developed by openSEAL (http://www.openseal.org/)."
 
-  - type: restriction
-    description: Cannot use name of project for derived products
-
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
+    
 
 -
   name: GNU General Public License 2.0
   licenseId:
   - GPL-2.0-only
   - GPL-2.0-or-later
-  notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  SeeAlso: For more information about GPL compliance: http://copyleft.org/guide/comprehensive-gpl-guidech8.html#x11-500007  For a comparison of v3 to v2: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
+  notes: Applying GPL-2.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For detailed guidance from trusted sources, see the resources. 
 
   terms:
   - type: condition
@@ -483,12 +228,20 @@
   - type: condition
     description: Modifications or derivative work must be licensed under same license
     use_cases: [MB, MS]
-    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code.
+    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel.
+    resources: For more information about GPL-2.0 compliance and this condition in particular, see:
+    - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005  
+    - https://www.gnu.org/licenses/gpl-faq.html#TheGPLSaysModifiedVersions
+    - https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation
 
   - type: condition
     description: Provide corresponding source code
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details)
+    resources: For more information about GPL-2.0 compliance and this condition in particular, see:
+    - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005
+    - https://www.gnu.org/licenses/gpl-faq.html#SystemLibraryException
+    - https://www.gnu.org/licenses/gpl-faq.html#MustSourceBuildToMatchExactHashOfBinary
 
   - type: condition
     description: No additional restrictions
@@ -535,8 +288,9 @@
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server (see section 6 for more details)
 
-  - type: restriction
-    description: May not forbid users from circumventing technological measures that prevent exercise of rights under the license (see section 3 for more details)
+  - type: condition
+    description: May not prohibit circumvention of technological measures that prevent users from exercising rights under the license (see section 3 for more details)
+    use_cases:  [UB, MB, US, MS]
     
   - type: condition
     description: No additional restrictions
@@ -750,10 +504,7 @@
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, provide this information "in supporting documentation"
     
-  - type: restriction
-    description: Cannot use name of copyright holder in advertising or publicity related to distribution
- 
- 
+   
 -
   name: Mozilla Public License 1.0
   licenseId: MPL-1.0
@@ -980,9 +731,9 @@
     description: Include acknowledgement If you include any Windows specific code (or a derivative thereof) from the apps directory (application code)
     acknowledgement: "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
     
-  - type: restriction
-    description: Cannot use name of project for derived products
-      
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
 
 -
   name: PHP License v3.0
@@ -999,9 +750,10 @@
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
  
-  - type: restriction
-    description: Cannot use name of project for derived products
-    
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
+        
   - type: condition
     description: Acknowlegment must be retained in all redistributions
     use_cases: [UB, MB, US, MS]
@@ -1026,8 +778,9 @@
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
  
-  - type: restriction
-    description: Cannot use name of project for derived products
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
     
   - type: condition
     description: Acknowlegment must be retained in all redistributions
@@ -1053,9 +806,9 @@
     use_cases: [UB, MB, US, MS]
     compliance_notes: For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
   
-  - type: restriction
-    description: Cannot use name of project for derived products
- 
+  - type: condition
+    description: Name of project cannot be used for derived products without permission
+    use_cases: [MB, MS]
 
 -
   name: Python License 2.0

@@ -6,23 +6,19 @@ Below is an example of the yaml format. See DOCUMENTATION for further explanatio
   - (if more than one apply)
   notes:
   terms:
-  - type: requirement
+  - type: condition
     description:
     use_cases: [UB, MB, US, MS]
-    compliance_notes:
+    compliance_notes: (if no specific compliance_notes are necessary, that is, the description of the condition is sufficient, this can be omitted)
     
-  - type: requirement
+  - type: condition
     description: """Put description in triple quotes if it contains YAML-reserved characters like colons (:) or apostrophes (')."""
     use_cases: [UB, MB, US, MS]
-    acknowledgement:
-    
-  - type: restriction
-    description:
-    use_cases: [UB, MB, US, MS]  (usually not used, but use if specifically applicable)
+    acknowledgement: (for where there is specific acknowledgement text required, put here. Use double brackets around any text that is replaceable (e.g., names): [[text]] 
+
     
   - type: termination
     description:
     
   - type: other
     description:
-    use_cases: [UB, MB, US, MS]  (usually not used, but use if specifically applicable)
