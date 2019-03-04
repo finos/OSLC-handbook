@@ -14,7 +14,7 @@
     description: Object code incorporating header file material from the library that is not limited to numerical parameters, data structure layouts and accessors or small macros, inline functions and templates of fewer than ten lines must include a prominent notice that the library is used, its used is covered by LGPL-3.0, and provide a copy of the license (see section 3 for more details)
     
   - type: other
-    description:  Allows dynamic linking of code with non-LGPL-3.0 code, so long as the source code is provided to allow the user to recombine or relink the application with a modified version of the LGPL-3.0 library. This must include installation information as defined in GPL-3.0, if necessary to install and execute a modified version of the combined work (see sections 4d and 4e for more details)
+    description:  Allows use of a "suitable shared library mechanism" (inlcuidng dynamic linking) to combine the LGPL-3.0 codewith non-LGPL-3.0 code, so long as the source code is provided to allow the user to recombine or relink the application with a modified version of the LGPL-3.0 library. This must include installation information as defined in GPL-3.0, if necessary to install and execute a modified version of the combined work (see sections 4d and 4e for more details)
     seeAlso: For more information about LGPL-3.0 compliance and this condition in particular, see:
     - https://www.gnu.org/licenses/gpl-faq.html#LGPLStaticVsDynamic
     - https://copyleft.org/guide/comprehensive-gpl-guidech12.html#x15-11000011
