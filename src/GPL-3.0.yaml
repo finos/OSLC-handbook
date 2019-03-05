@@ -4,7 +4,9 @@
   licenseId:
   - GPL-3.0-only
   - GPL-3.0-or-later
+
   notes: Applying GPL-3.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For a comparison of GPL-3.0 to GPL-2.0: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
+
 
   terms:
   - type: condition

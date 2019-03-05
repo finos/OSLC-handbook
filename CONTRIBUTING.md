@@ -3,16 +3,18 @@ Thanks for your interest in the Open Source License Handbook!  We welcome input 
 
 Before you begin, please familiarize yourself with the [DOCUMENTATION.md] and other related information.  Check for [https://github.com/jlovejoy/OSLC-handbook/issues](open issues) or start a discussion around a new feature idea or a bug.
 
-# Ways to contribute
+# Types of contributions
 
 ## Improve documentation
-We've tried to explain the purpose, structure, and limitations of this handbook as clearly as possible. But if you think improvements can be made or additional information would be helpful, then do let us know.
+We've tried to explain the purpose, structure, and limitations of this handbook as clearly as possible. But if you think improvements can be made or additional information would be helpful, then do let us know by opening an issue with the proposed changes.
 
 ## Revise an existing license
 Maybe you spot a typo or a better way to word something or make an entry's wording more consistent with like entries.  
 
 ## Add a new license
-If there is license that is not included here, but you'd like to add the license compliance information to this handbook, great! Please create a new YAML file, following the structure as described in DOCUMENTATION, as shown in existing license YAML files, and as used in the example file.  Please only add open source licenses, that is, licenses that meet the Open Source Definition or the 4 freedoms as defined by the Free Software Foundation. 
+If there is license that is not included here, but you'd like to add the license compliance information to this handbook, great! Please create a new YAML file, following the structure as described in DOCUMENTATION, as shown in existing license YAML files, and as used in the example file.  If the new has similar terms as an existing license included here, please copy the wording or format of the existing license as appropriate to ensure consistency. 
+
+Please only add open source licenses, that is, licenses that meet the Open Source Definition as defined by the Open Source Initiative (OSI); or the 4 freedoms as defined by the Free Software Foundation (FSF). 
 
 ## Create a script for a new output type
 add some stuff here... 

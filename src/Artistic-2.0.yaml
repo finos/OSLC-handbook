@@ -17,14 +17,14 @@
   - type: condition
     description: Provide access to modified version
     use_cases: [MB, MS]
-    compliance_notes: Do at least one of the following: make modified version available to copyright holder under same license; OR ensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license (see section 4 for more details)
+    compliance_notes: 'Do at least one of the following: make modified version available to copyright holder under same license; OR ensure modified version does not prevent user from installing or running standard version and use different name; OR allow any recipients of modified version to make source available to others under same license or a similarly free/open license (see section 4 for more details)'
     
   - type: condition
     description: Access to source
     use_cases: [UB]
     compliance_notes: Provide complete instructions on how to get source for standard version; instructions must be kept current for your distribution
          
-   - type: condition
+  - type: condition
     description: You may distribute this package as part of a larger (commercial) distribution, but cannot charge a licensing fee for the standalone package. You may charge distributor fees or licensing fees for other components in the distribution.
     use_cases: [UB, MB, US, MS]
     
