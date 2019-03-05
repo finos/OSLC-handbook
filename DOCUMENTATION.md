@@ -55,7 +55,7 @@ Key definitions are as follows:
     * MB = distribution of modified binary
     * US = distribution of unmodified source
     * MS = distribution of modified source
-  * compliance_notes = specifics of how you need to comply with the term, this is usually present for a requirement, but often not needed or applicable for a restriction
+  * compliance_notes = specifics of how you need to comply with the term
   * seeAlso = external recommended resources for further information on compliance with the particular license term. This is limited to only the more complex terms and trusted resources (e.g., license authors and active community enforcers)
 
 
