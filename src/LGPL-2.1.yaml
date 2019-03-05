@@ -4,7 +4,9 @@
   licenseId:
   - LGPL-2.1-only
   - LGPL-2.1-or-later
+
   notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. Applying LGPL-2.1 can be complex in some circumstances, due to its specificity and weak copyleft requirement.
+
 
   terms:
   - type: condition
