@@ -5,7 +5,7 @@
   - LGPL-2.0-only
   - LGPL-2.0-or-later
   notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
-  SeeAlso: For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl
+  SeeAlso: 'For more information about LGPL compliance, see: http://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010 or https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl'
   terms:
   - type: condition
     description: Provide copy of license
