@@ -17,24 +17,35 @@ args = parser.parse_args()
 
 of = open(args.outputfile, 'w', encoding='utf-8')
 
+header = """
+Free & Open Source Software License Compliance Guide
+====================================================
+:Author:    The Fintech Open Source Foundation (FINOS), Jilayne Lovejoy, and other contributors.
+:Email:     info@finos.org, opensource@jilayne.com
+"""
+
 for filename in os.listdir(args.inputpath):
     infile = open(os.path.join(args.inputpath, filename), "r", encoding='utf8')
+
+    if filename = ".header":
+        of.write(header + "\n\n")
+
     license = load(infile, Loader=Loader)
     infile.close()
 
     license = license[0]
 
     if license["name"]:
-        of.write("= " + license["name"] + "\n")
+        of.write("== {0}\n".format(license["name"]))
     if license["licenseId"]:
         if isinstance(license["licenseId"], list):
-            of.write("* SPDX License ID:\n")
+            of.write("SPDX License IDs::\n")
             for id in license["licenseId"]:
-                of.write("** " + id + "\n")
+                of.write(id + " +\n")
         else:
-            of.write("* SPDX License ID: " + license["licenseId"] + "\n")
+            of.write("SPDX License ID:: " + license["licenseId"] + "\n")
     if license["notes"]:
-        of.write("* Notes: "+ license["notes"] + "\n")
+        of.write("Notes:: "+ license["notes"] + "\n")
     of.write("\n")
 
     conditions = []
@@ -53,7 +64,7 @@ for filename in os.listdir(args.inputpath):
             other.append(term)
 
     if len(conditions) > 0:
-        of.write("== Conditions\n")
+        of.write("=== Conditions\n")
         of.write("[cols=6*,options=header]\n")
         of.write("|===\n|Summary |UB |MB |US |MS |Notes\n\n")
 
@@ -81,7 +92,7 @@ for filename in os.listdir(args.inputpath):
         of.write("|===\n\n")
 
     if len(termination) > 0:
-        of.write("== Termination Provisions\n")
+        of.write("=== Termination Provisions\n")
         of.write("[cols=2*,options=header]\n")
         of.write("|===\n|Summary |Notes\n\n")
 
@@ -96,7 +107,7 @@ for filename in os.listdir(args.inputpath):
                      .format(desc = desc, compliance_notes = compliance_notes))
         of.write("|===\n\n")
     if len(lvers) > 0:
-        of.write("== License Versioning\n")
+        of.write("=== License Versioning\n")
         of.write("[cols=2*,options=header]\n")
         of.write("|===\n|Summary |Notes\n\n")
 
@@ -111,7 +122,7 @@ for filename in os.listdir(args.inputpath):
                      .format(desc = desc, compliance_notes = compliance_notes))
         of.write("|===\n\n")
     if len(other) > 0:
-        of.write("== Other Terms\n")
+        of.write("=== Other Terms\n")
         of.write("[cols=2*,options=header]\n")
         of.write("|===\n|Summary |Notes\n")
 

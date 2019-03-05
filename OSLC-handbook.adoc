@@ -1,8 +1,15 @@
-= BSD Zero Clause License
-* SPDX License ID: 0BSD
-* Notes: This is a blanket license with no conditions.
 
-== Other Terms
+Free & Open Source Software License Compliance Guide
+====================================================
+:Author:    The Fintech Open Source Foundation (FINOS), Jilayne Lovejoy, and other contributors.
+:Email:     info@finos.org, opensource@jilayne.com
+
+
+== BSD Zero Clause License
+SPDX License ID:: 0BSD
+Notes:: This is a blanket license with no conditions.
+
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -11,13 +18,13 @@
 
 |===
 
-= GNU Affero General Public License 3.0
-* SPDX License ID:
-** AGPL-3.0-only
-** AGPL-3.0-or-later
-* Notes: AGPL-3.0 is the same license as GPL-3.0, but with an additional term in section 13 which imposes a requirement for modified version accessed via remote computer network. When distributing AGPL-3.0 code, it is highly recommended to obtain advice from your open source legal counsel.
+== GNU Affero General Public License 3.0
+SPDX License IDs::
+AGPL-3.0-only +
+AGPL-3.0-or-later +
+Notes:: AGPL-3.0 is the same license as GPL-3.0, but with an additional term in section 13 which imposes a requirement for modified version accessed via remote computer network. When distributing AGPL-3.0 code, it is highly recommended to obtain advice from your open source legal counsel.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -60,7 +67,7 @@
 |You may not impose any further restrictions on the exercise of the rights granted under this license.
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -71,7 +78,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -80,7 +87,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -89,11 +96,11 @@
 
 |===
 
-= Apache Software License 1.1
-* SPDX License ID: Apache-1.1
-* Notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately, they are listed separately (here and on the SPDX License List).
+== Apache Software License 1.1
+SPDX License ID:: Apache-1.1
+Notes:: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately, they are listed separately (here and on the SPDX License List).
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -124,10 +131,10 @@
 |
 |===
 
-= Apache Software License 2.0
-* SPDX License ID: Apache-2.0
+== Apache Software License 2.0
+SPDX License ID:: Apache-2.0
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -152,7 +159,7 @@
 |Copyright notices and other notices do not have to be reproduced for binary distribution
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -161,11 +168,11 @@
 |
 |===
 
-= Artistic License 1.0 (Perl)
-* SPDX License ID: Artistic-1.0-Perl
-* Notes: This is the Artistic License 1.0 found on the Perl site, which is different (particularly, clauses 5, 6, 7 and 8) than the Artistic License 1.0 w/clause 8 found on the OSI site. This license has specific use cases and conditions that are difficult to summarize; please see sections 5-8 and relevant definitions for more details.
+== Artistic License 1.0 (Perl)
+SPDX License ID:: Artistic-1.0-Perl
+Notes:: This is the Artistic License 1.0 found on the Perl site, which is different (particularly, clauses 5, 6, 7 and 8) than the Artistic License 1.0 w/clause 8 found on the OSI site. This license has specific use cases and conditions that are difficult to summarize; please see sections 5-8 and relevant definitions for more details.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -202,7 +209,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -211,11 +218,11 @@
 
 |===
 
-= Artistic License 2.0
-* SPDX License ID: Artistic-2.0
-* Notes: This license has specific use cases and conditions that are difficult to summarize; please see sections 4-9 and relevant definitions for more details.
+== Artistic License 2.0
+SPDX License ID:: Artistic-2.0
+Notes:: This license has specific use cases and conditions that are difficult to summarize; please see sections 4-9 and relevant definitions for more details.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -252,7 +259,7 @@
 |
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -261,7 +268,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -273,10 +280,10 @@
 
 |===
 
-= BSD 2-Clause "Simplified" License
-* SPDX License ID: BSD-2-Clause
+== BSD 2-Clause "Simplified" License
+SPDX License ID:: BSD-2-Clause
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -295,10 +302,10 @@
 |For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
 |===
 
-= BSD 3-Clause "New" or "Revised" License
-* SPDX License ID: BSD-3-Clause
+== BSD 3-Clause "New" or "Revised" License
+SPDX License ID:: BSD-3-Clause
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -317,11 +324,11 @@
 |For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
 |===
 
-= BSD-4-Clause (University of California-Specific)
-* SPDX License ID: BSD-4-Clause-UC
-* Notes: The advertising clause was rescinded by the University of California in 1999 for all material under BSD-4-Clause with University of California copyright notice. Thus, you do not need to comply with the advertising/acknowledgment requirement, which makes the license essentially BSD-3-Clause.
+== BSD-4-Clause (University of California-Specific)
+SPDX License ID:: BSD-4-Clause-UC
+Notes:: The advertising clause was rescinded by the University of California in 1999 for all material under BSD-4-Clause with University of California copyright notice. Thus, you do not need to comply with the advertising/acknowledgment requirement, which makes the license essentially BSD-3-Clause.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -340,10 +347,10 @@
 |For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
 |===
 
-= BSD 4-Clause "Original" or "Old" License
-* SPDX License ID: BSD-4-Clause
+== BSD 4-Clause "Original" or "Old" License
+SPDX License ID:: BSD-4-Clause
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -368,10 +375,10 @@
 |For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
 |===
 
-= Boost Software License 1.0
-* SPDX License ID: BSL-1.0
+== Boost Software License 1.0
+SPDX License ID:: BSL-1.0
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -384,11 +391,11 @@
 |For distributions “of machine-executable object code generated by a source language processor” (i.e., UB and MB use cases), these requirements need not be met. However, you might consider the need to identify the presence of software under BSL-1.0 for other reasons, especially if you have an agreement that wraps around this code/license.
 |===
 
-= Common Development and Distribution License 1.0
-* SPDX License ID: CDDL-1.0
-* Notes: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent infringement clause and choice of law.
+== Common Development and Distribution License 1.0
+SPDX License ID:: CDDL-1.0
+Notes:: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent infringement clause and choice of law.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -425,7 +432,7 @@
 |You may not impose any terms on source code that alters or restricts recipient's rights under this license
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -436,7 +443,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -445,7 +452,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -457,11 +464,11 @@
 
 |===
 
-= Common Development and Distribution License 1.1
-* SPDX License ID: CDDL-1.1
-* Notes: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent infringement clause and choice of law.
+== Common Development and Distribution License 1.1
+SPDX License ID:: CDDL-1.1
+Notes:: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent infringement clause and choice of law.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -498,7 +505,7 @@
 |You may not impose any terms on source code that alters or restricts recipient's rights under this license
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -509,7 +516,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -518,7 +525,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -530,11 +537,11 @@
 
 |===
 
-= Entessa Public License 1.0
-* SPDX License ID: Entessa
-* Notes: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately, they are listed separately (here and on the SPDX License List).
+== Entessa Public License 1.0
+SPDX License ID:: Entessa
+Notes:: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately, they are listed separately (here and on the SPDX License List).
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -565,10 +572,10 @@
 |
 |===
 
-= Eclipse Public License 1.0
-* SPDX License ID: EPL-1.0
+== Eclipse Public License 1.0
+SPDX License ID:: EPL-1.0
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -605,7 +612,7 @@
 |File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. This does not include additional separate software modules that are distributed with the program and are not derivative works of the program (see sections 1 and 3 for more details)
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -616,7 +623,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -625,7 +632,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -634,10 +641,10 @@
 
 |===
 
-= Eclipse Public License 2.0
-* SPDX License ID: EPL-2.0
+== Eclipse Public License 2.0
+SPDX License ID:: EPL-2.0
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -668,7 +675,7 @@
 |You must retain license notices with every source code distribution or include notices in another likely location
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -679,7 +686,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -688,7 +695,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -700,13 +707,13 @@
 
 |===
 
-= GNU General Public License 2.0
-* SPDX License ID:
-** GPL-2.0-only
-** GPL-2.0-or-later
-* Notes: Applying GPL-2.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For detailed guidance from trusted sources, see the resources.
+== GNU General Public License 2.0
+SPDX License IDs::
+GPL-2.0-only +
+GPL-2.0-or-later +
+Notes:: Applying GPL-2.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For detailed guidance from trusted sources, see the resources.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -749,7 +756,7 @@
 |You may not impose any further restrictions on the exercise of the rights granted under this license.
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -758,7 +765,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -767,13 +774,13 @@
 |
 |===
 
-= GNU General Public License 3.0
-* SPDX License ID:
-** GPL-3.0-only
-** GPL-3.0-or-later
-* Notes: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
+== GNU General Public License 3.0
+SPDX License IDs::
+GPL-3.0-only +
+GPL-3.0-or-later +
+Notes:: When distributing GPL code, it is highly recommended to obtain advice from your open source legal counsel.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -822,7 +829,7 @@
 |You may not impose any further restrictions on the exercise of the rights granted under this license.
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -833,7 +840,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -842,7 +849,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -857,10 +864,10 @@
 
 |===
 
-= ISC License
-* SPDX License ID: ISC
+== ISC License
+SPDX License ID:: ISC
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -879,13 +886,13 @@
 |This information must appear "in all copies"
 |===
 
-= GNU Library General Public License 2.0
-* SPDX License ID:
-** LGPL-2.0-only
-** LGPL-2.0-or-later
-* Notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
+== GNU Library General Public License 2.0
+SPDX License IDs::
+LGPL-2.0-only +
+LGPL-2.0-or-later +
+Notes:: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -928,7 +935,7 @@
 |You may not impose any further restrictions on the exercise of the rights granted under this license.
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -937,7 +944,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -946,7 +953,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -955,13 +962,13 @@
 
 |===
 
-= GNU Lesser General Public License 2.1
-* SPDX License ID:
-** LGPL-2.1-only
-** LGPL-2.1-or-later
-* Notes: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
+== GNU Lesser General Public License 2.1
+SPDX License IDs::
+LGPL-2.1-only +
+LGPL-2.1-or-later +
+Notes:: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. When distributing LGPL code, it is highly recommended to obtain advice from your open source legal counsel.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1004,7 +1011,7 @@
 |You may not impose any further restrictions on the exercise of the rights granted under this license.
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1013,7 +1020,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1022,7 +1029,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1031,13 +1038,13 @@
 
 |===
 
-= GNU Lesser General Public License 3.0
-* SPDX License ID:
-** LGPL-3.0-only
-** LGPL-3.0-or-later
-* Notes: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent license with the terms listed here.
+== GNU Lesser General Public License 3.0
+SPDX License IDs::
+LGPL-3.0-only +
+LGPL-3.0-or-later +
+Notes:: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent license with the terms listed here.
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1046,7 +1053,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1064,10 +1071,10 @@
 
 |===
 
-= libpng License
-* SPDX License ID: Libpng
+== libpng License
+SPDX License ID:: Libpng
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1086,7 +1093,7 @@
 |Copyright notices may not be removed or altered for any source distribution
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1095,10 +1102,10 @@
 
 |===
 
-= CMU License
-* SPDX License ID: MIT-CMU
+== CMU License
+SPDX License ID:: MIT-CMU
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1117,10 +1124,10 @@
 |For binary distributions, provide this information "in supporting documentation"
 |===
 
-= MIT License
-* SPDX License ID: MIT
+== MIT License
+SPDX License ID:: MIT
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1139,10 +1146,10 @@
 |This information "shall be included in all copies or substantial portions of the Software".Some people interpret MIT as not implicating these requirements for binary distribution (e.g., UB and MB), but this is not the prevailing view and best practice is to include it.
 |===
 
-= Mozilla Public License 1.0
-* SPDX License ID: MPL-1.0
+== Mozilla Public License 1.0
+SPDX License ID:: MPL-1.0
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1179,7 +1186,7 @@
 |File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.10 and 3.7 for more details)
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1188,7 +1195,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1197,7 +1204,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1215,10 +1222,10 @@
 
 |===
 
-= Mozilla Public License 1.1
-* SPDX License ID: MPL-1.1
+== Mozilla Public License 1.1
+SPDX License ID:: MPL-1.1
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1255,7 +1262,7 @@
 |File-level reciprocal license meaning that modifications to any file or new files that contain part of original software are governed by the terms of this license. Larger works may be created by combining covered software with code not governed by this license, so long as you comply with this license for the covered software (see sections 1.9 and 3.7 for more details)
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1268,7 +1275,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1277,7 +1284,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1295,11 +1302,11 @@
 
 |===
 
-= Mozilla Public License 2.0
-* SPDX License ID: MPL-2.0
-* Notes: This license includes a license-compatibility provision related to use of the code with the GPL-2.0-or-later, LGPL-2.1-or-later, and GPL-3.0-or-later which is difficult to capture, please see sections 1.12, 2.4, 3.3, and 10.4 for more details.
+== Mozilla Public License 2.0
+SPDX License ID:: MPL-2.0
+Notes:: This license includes a license-compatibility provision related to use of the code with the GPL-2.0-or-later, LGPL-2.1-or-later, and GPL-3.0-or-later which is difficult to capture, please see sections 1.12, 2.4, 3.3, and 10.4 for more details.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1330,7 +1337,7 @@
 |Must inform recipients how to obtain source code by reasonable means in a timely manner and at no cost more than the cost of distribution to the recipient.
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1341,7 +1348,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1350,7 +1357,7 @@
 |
 |===
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1365,10 +1372,10 @@
 
 |===
 
-= Microsoft Public License
-* SPDX License ID: Ms-PL
+== Microsoft Public License
+SPDX License ID:: Ms-PL
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1399,7 +1406,7 @@
 |Object or compiled code distributions must be under a license that complies with this license
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1408,11 +1415,11 @@
 |
 |===
 
-= University of Illinois/NCSA Open Source License
-* SPDX License ID: NCSA
-* Notes: NCSA is essentially an MIT grant with BSD-3-Clause conditions, thus compliance is the same as BSD-3-Clause.
+== University of Illinois/NCSA Open Source License
+SPDX License ID:: NCSA
+Notes:: NCSA is essentially an MIT grant with BSD-3-Clause conditions, thus compliance is the same as BSD-3-Clause.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1431,11 +1438,11 @@
 |For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution”
 |===
 
-= OpenSSL License
-* SPDX License ID: OpenSSL
-* Notes: This license is actually a set of two licenses, which have similar text and requirements but different copyright holders and therefore different acknowledgment text. Some requirements to include acknowledgements may only apply if you are using that part of the project written by a specific copyright holder.
+== OpenSSL License
+SPDX License ID:: OpenSSL
+Notes:: This license is actually a set of two licenses, which have similar text and requirements but different copyright holders and therefore different acknowledgment text. Some requirements to include acknowledgements may only apply if you are using that part of the project written by a specific copyright holder.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1484,11 +1491,11 @@
 |
 |===
 
-= PHP License v3.0
-* SPDX License ID: PHP-3.0
-* Notes: PHP-3.0 and PHP-3.01 are the same license, but for a slight variation in the acknowledment text.
+== PHP License v3.0
+SPDX License ID:: PHP-3.0
+Notes:: PHP-3.0 and PHP-3.01 are the same license, but for a slight variation in the acknowledment text.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1519,7 +1526,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1528,11 +1535,11 @@
 |
 |===
 
-= PHP License v3.01
-* SPDX License ID: PHP-3.01
-* Notes: PHP-3.0 and PHP-3.01 are the same license, but for a slight variation in the acknowledment text.
+== PHP License v3.01
+SPDX License ID:: PHP-3.01
+Notes:: PHP-3.0 and PHP-3.01 are the same license, but for a slight variation in the acknowledment text.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1563,7 +1570,7 @@
 |
 |===
 
-== License Versioning
+=== License Versioning
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1572,11 +1579,11 @@
 |
 |===
 
-= Plexus Classworlds License
-* SPDX License ID: Plexus
-* Notes: This license also includes a clause that states, "due credit should be given" to the copyright holder, but given the non-obligatory nature of "should", this is not considered a requirement.
+== Plexus Classworlds License
+SPDX License ID:: Plexus
+Notes:: This license also includes a clause that states, "due credit should be given" to the copyright holder, but given the non-obligatory nature of "should", this is not considered a requirement.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1601,11 +1608,11 @@
 |
 |===
 
-= Python License 2.0
-* SPDX License ID: Python-2.0
-* Notes: This is a license “stack” comprised of various licenses that apply to Python as it has developed over the years.
+== Python License 2.0
+SPDX License ID:: Python-2.0
+Notes:: This is a license “stack” comprised of various licenses that apply to Python as it has developed over the years.
 
-== Conditions
+=== Conditions
 [cols=6*,options=header]
 |===
 |Summary |UB |MB |US |MS |Notes
@@ -1630,7 +1637,7 @@
 |Indicate the nature of the modifiations made in the work
 |===
 
-== Termination Provisions
+=== Termination Provisions
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1639,10 +1646,10 @@
 |
 |===
 
-= TCL/TK License
-* SPDX License ID: TCL
+== TCL/TK License
+SPDX License ID:: TCL
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
@@ -1651,10 +1658,10 @@
 
 |===
 
-= zlib License
-* SPDX License ID: zlib
+== zlib License
+SPDX License ID:: zlib
 
-== Other Terms
+=== Other Terms
 [cols=2*,options=header]
 |===
 |Summary |Notes
