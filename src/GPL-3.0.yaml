@@ -5,7 +5,7 @@
   - GPL-3.0-only
   - GPL-3.0-or-later
 
-  notes: Applying GPL-3.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For a comparison of GPL-3.0 to GPL-2.0: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
+  notes: 'Applying GPL-3.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For a comparison of GPL-3.0 to GPL-2.0: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009'
 
 
   terms:
@@ -28,18 +28,18 @@
     description: Modifications or derivative work must be licensed under same license
     use_cases: [MB, MS]
     compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel.
-    SeeAlso: For more information about GPL-3.0 compliance and this condition in particular, see:
+    SeeAlso: "For more information about GPL-3.0 compliance and this condition in particular, see:
     - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-650009
-    - https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation
+    - https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation"
 
   - type: condition
     description: Provide corresponding source code
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server (see section 6 for more details)
-    SeeAlso: For more information about GPL-3.0 compliance and this condition in particular, see:
+    SeeAlso: "For more information about GPL-3.0 compliance and this condition in particular, see:
     - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-740009.3
     - https://www.gnu.org/licenses/gpl-faq.html#SystemLibraryException
-    - https://www.gnu.org/licenses/gpl-faq.html#MustSourceBuildToMatchExactHashOfBinary
+    - https://www.gnu.org/licenses/gpl-faq.html#MustSourceBuildToMatchExactHashOfBinary"
 
   - type: condition
     description: May not prohibit circumvention of technological measures that prevent users from exercising rights under the license (see section 3 for more details)
