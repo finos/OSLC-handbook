@@ -4,9 +4,10 @@
 This handbook provides information on how to comply with some of the more common open source licenses under a specific set of use-cases. The goal here is to provide developers and engineers with some "self-serve" information to facilitate the end goal of open source license compliance, particularly for the easy-to-comply with conditions in open source licenses.  This handbook also aims to help identify some of the more complex open source license compliance conditions for which consultation with open source counsel may be needed.
 
 Determining the requirements that need to be met to comply with open source licenses involves:
-1) You must know what open source software you are using
-2) You must know what license applies to that open source software and the relevant legal interpretation of the license; and
-3) How are you using that open source software? This is the “use-case”.
+
+. You must know what open source software you are using
+. You must know what license applies to that open source software and the relevant legal interpretation of the license; and
+. How are you using that open source software? This is the “use-case”.
 
 The information in this handbook assumes you have already met #1 in determining what open source software you are using (and under what license). It is the combination of the license (#2) and the use-case (#3) which determines what license conditions are triggered. This is open source license compliance.
 
@@ -26,10 +27,10 @@ ____
 
 This is important as most open source license obligations are triggered by a distribution. Some web-based applications involve the distribution of software (e.g., Javascript). Access via a web-based application is usually not considered a distribution, however some open source licenses have obligations specifically triggered by access to software via a computer network; these are captured via the "other" term type.
 
-1)	UB = Distribution, unmodified, binary form
-2)	MB = Distribution, modified, binary form
-3)	US = Distribution, unmodified, source form
-4)	MS = Distribution, modified, source form
+.	UB = Distribution, unmodified, binary form
+.	MB = Distribution, modified, binary form
+.	US = Distribution, unmodified, source form
+.	MS = Distribution, modified, source form
 
 Where "binary" refers to compiled code, binary, executable, non-source form; and "source" refers to the human readable, editable form.
 

@@ -25,13 +25,13 @@ input_file_list = os.listdir(args.inputpath)
 if '.header.adoc' in input_file_list:
     if not args.no_header:
         header_file = open(os.path.join(args.inputpath, ".header.adoc"), "r", encoding='utf8')
-        of.write(header_file.read() + "\n\n")
+        of.write(header_file.read() + "\n\n<<<\n\n")
         input_file_list.remove('.header.adoc')
 
 # Include the preface if one exists
 if args.preface:
     preface_file = open(args.preface, "r", encoding='utf8')
-    of.write(preface_file.read() + "\n\n")
+    of.write(preface_file.read() + "\n\n<<<\n\n")
 
 of.write("== Licenses\n\n")
 
@@ -88,7 +88,7 @@ for filename in input_file_list:
 
     if len(conditions["terms"]) > 0:
         of.write("==== Conditions\n")
-        of.write('[width="100%", cols="30,5,5,5,5,50", options="header"]\n')
+        of.write('[width="100%", cols="30,5,5,5,5,50a", options="header"]\n')
         of.write("|===\n|Description |UB |MB |US |MS ")
         if conditions["notes_col"]:
             of.write("|Compliance Notes")
@@ -110,6 +110,9 @@ for filename in input_file_list:
 
             if "compliance_notes" in req and req["compliance_notes"]:
                 compliance_notes = req["compliance_notes"]
+
+            if "SeeAlso" in req and req["SeeAlso"]:
+                compliance_notes += "\n\nIMPORTANT: {0}".format(req["SeeAlso"])
                 
             if conditions["notes_col"]:
                 row_format = "|{desc} \n|{ub} \n|{mb} \n|{us} \n|{ms} \n|{compliance_notes} \n\n"
@@ -158,7 +161,7 @@ for filename in input_file_list:
         of.write("|===\n\n")
     if len(other["terms"]) > 0:
         of.write("==== Other Terms\n")
-        of.write('[width="100%", options="header, autowidth.stretch"]\n')
+        of.write('[width="100%", options="header"]\n')
         of.write("|===\n|Description ")
         if other["notes_col"]:
             of.write("|Compliance Notes")
@@ -174,6 +177,7 @@ for filename in input_file_list:
             of.write("|{desc}\n{compliance_notes}\n\n"
                      .format(desc = desc, compliance_notes = compliance_notes))
         of.write("|===\n\n")
+    of.write("<<<\n\n")
 
 # Include the postscript if one exists
 if args.postscript:

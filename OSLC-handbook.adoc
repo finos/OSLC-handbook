@@ -1,10 +1,12 @@
 = Open Source License Compliance Handbook
-:Author:    The Fintech Open Source Foundation (FINOS) <info@finos.org>
-            Jilayne Lovejoy <opensource@jilayne.com>
-            Additional Contributors (see README.md)
+The Fintech Open Source Foundation (FINOS) <info@finos.org>; Jilayne Lovejoy <opensource@jilayne.com>; Additional Contributors (see README.md)
 :revnumber: v1.0
 :revdate:   2019-03-08
+:toc:
 :toclevels: 1
+:icons: font
+
+<<<
 
 // SPDX-License-Identifier: CC-BY-SA-4.0
 
@@ -12,9 +14,10 @@
 This handbook provides information on how to comply with some of the more common open source licenses under a specific set of use-cases. The goal here is to provide developers and engineers with some "self-serve" information to facilitate the end goal of open source license compliance, particularly for the easy-to-comply with conditions in open source licenses.  This handbook also aims to help identify some of the more complex open source license compliance conditions for which consultation with open source counsel may be needed.
 
 Determining the requirements that need to be met to comply with open source licenses involves:
-1) You must know what open source software you are using
-2) You must know what license applies to that open source software and the relevant legal interpretation of the license; and
-3) How are you using that open source software? This is the “use-case”.
+
+. You must know what open source software you are using
+. You must know what license applies to that open source software and the relevant legal interpretation of the license; and
+. How are you using that open source software? This is the “use-case”.
 
 The information in this handbook assumes you have already met #1 in determining what open source software you are using (and under what license). It is the combination of the license (#2) and the use-case (#3) which determines what license conditions are triggered. This is open source license compliance.
 
@@ -34,10 +37,10 @@ ____
 
 This is important as most open source license obligations are triggered by a distribution. Some web-based applications involve the distribution of software (e.g., Javascript). Access via a web-based application is usually not considered a distribution, however some open source licenses have obligations specifically triggered by access to software via a computer network; these are captured via the "other" term type.
 
-1)	UB = Distribution, unmodified, binary form
-2)	MB = Distribution, modified, binary form
-3)	US = Distribution, unmodified, source form
-4)	MS = Distribution, modified, source form
+.	UB = Distribution, unmodified, binary form
+.	MB = Distribution, modified, binary form
+.	US = Distribution, unmodified, source form
+.	MS = Distribution, modified, source form
 
 Where "binary" refers to compiled code, binary, executable, non-source form; and "source" refers to the human readable, editable form.
 
@@ -68,6 +71,8 @@ Key definitions are as follows:
 **  compliance_notes = specifics of how you need to comply with the term, this is usually present for a requirement, but often not needed or applicable for a restriction
 
 
+<<<
+
 == Licenses
 
 === BSD Zero Clause License
@@ -75,7 +80,7 @@ SPDX License ID:: https://spdx.org/licenses/0BSD.html[0BSD]
 Notes:: This is a blanket license with no conditions.
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -84,6 +89,8 @@ Notes:: This is a blanket license with no conditions.
 
 |===
 
+<<<
+
 === GNU Affero General Public License 3.0
 SPDX License IDs::
 https://spdx.org/licenses/AGPL-3.0-only.html[AGPL-3.0-only] +
@@ -91,7 +98,7 @@ https://spdx.org/licenses/AGPL-3.0-or-later.html[AGPL-3.0-or-later] +
 Notes:: AGPL-3.0 is the same license as GPL-3.0, but with an additional term in section 13 which imposes a requirement for a modified version accessed via remote computer network. Applying AGPL-3.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -163,7 +170,7 @@ Notes:: AGPL-3.0 is the same license as GPL-3.0, but with an additional term in 
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -172,12 +179,14 @@ Notes:: AGPL-3.0 is the same license as GPL-3.0, but with an additional term in 
 
 |===
 
+<<<
+
 === Apache Software License 1.1
 SPDX License ID:: https://spdx.org/licenses/Apache-1.1.html[Apache-1.1]
 Notes:: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately, they are listed separately (here and on the SPDX License List).
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -211,11 +220,13 @@ Notes:: Apache-1.1 and Entessa are essentially the same license (as per SPDX Lic
 
 |===
 
+<<<
+
 === Apache Software License 2.0
 SPDX License ID:: https://spdx.org/licenses/Apache-2.0.html[Apache-2.0]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -252,12 +263,14 @@ SPDX License ID:: https://spdx.org/licenses/Apache-2.0.html[Apache-2.0]
 
 |===
 
+<<<
+
 === Artistic License 1.0 (Perl)
 SPDX License ID:: https://spdx.org/licenses/Artistic-1.0-Perl.html[Artistic-1.0-Perl]
 Notes:: This is the Artistic License 1.0 found on the Perl site, which is different (particularly, clauses 5, 6, 7 and 8) than the Artistic License 1.0 w/clause 8 found on the OSI site. This license has specific use cases and conditions that are difficult to summarize; please see sections 5-8 and relevant definitions for more details.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -299,7 +312,7 @@ Notes:: This is the Artistic License 1.0 found on the Perl site, which is differ
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -308,12 +321,14 @@ Notes:: This is the Artistic License 1.0 found on the Perl site, which is differ
 
 |===
 
+<<<
+
 === Artistic License 2.0
 SPDX License ID:: https://spdx.org/licenses/Artistic-2.0.html[Artistic-2.0]
 Notes:: This license has specific use cases and conditions that are difficult to summarize; please see sections 4-9 and relevant definitions for more details.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -365,7 +380,7 @@ Notes:: This license has specific use cases and conditions that are difficult to
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -377,11 +392,13 @@ Notes:: This license has specific use cases and conditions that are difficult to
 
 |===
 
+<<<
+
 === BSD 2-Clause "Simplified" License
 SPDX License ID:: https://spdx.org/licenses/BSD-2-Clause.html[BSD-2-Clause]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -400,12 +417,14 @@ SPDX License ID:: https://spdx.org/licenses/BSD-2-Clause.html[BSD-2-Clause]
 |For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution” 
 
 |===
+
+<<<
 
 === BSD 3-Clause "New" or "Revised" License
 SPDX License ID:: https://spdx.org/licenses/BSD-3-Clause.html[BSD-3-Clause]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -424,13 +443,15 @@ SPDX License ID:: https://spdx.org/licenses/BSD-3-Clause.html[BSD-3-Clause]
 |For binary distributions, this information must be provided in “the documentation and/or other materials provided with the distribution” 
 
 |===
+
+<<<
 
 === BSD-4-Clause (University of California-Specific)
 SPDX License ID:: https://spdx.org/licenses/BSD-4-Clause-UC.html[BSD-4-Clause-UC]
 Notes:: The advertising clause was rescinded by the University of California in 1999 for all material under BSD-4-Clause with University of California copyright notice. Thus, you do not need to comply with the advertising/acknowledgment requirement, which makes the license essentially BSD-3-Clause.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -450,11 +471,13 @@ Notes:: The advertising clause was rescinded by the University of California in 
 
 |===
 
+<<<
+
 === BSD 4-Clause "Original" or "Old" License
 SPDX License ID:: https://spdx.org/licenses/BSD-4-Clause.html[BSD-4-Clause]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -481,11 +504,13 @@ SPDX License ID:: https://spdx.org/licenses/BSD-4-Clause.html[BSD-4-Clause]
 
 |===
 
+<<<
+
 === Boost Software License 1.0
 SPDX License ID:: https://spdx.org/licenses/BSL-1.0.html[BSL-1.0]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -498,12 +523,14 @@ SPDX License ID:: https://spdx.org/licenses/BSL-1.0.html[BSL-1.0]
 
 |===
 
+<<<
+
 === Common Development and Distribution License 1.0
 SPDX License ID:: https://spdx.org/licenses/CDDL-1.0.html[CDDL-1.0]
 Notes:: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent infringement clause and choice of law.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -568,7 +595,7 @@ Notes:: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -580,12 +607,14 @@ Notes:: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent
 
 |===
 
+<<<
+
 === Common Development and Distribution License 1.1
 SPDX License ID:: https://spdx.org/licenses/CDDL-1.1.html[CDDL-1.1]
 Notes:: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent infringement clause and choice of law.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -650,7 +679,7 @@ Notes:: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -662,12 +691,14 @@ Notes:: Versions 1.0 and 1.1 are essentially the same, except v1.1 adds a patent
 
 |===
 
+<<<
+
 === Entessa Public License 1.0
 SPDX License ID:: https://spdx.org/licenses/Entessa.html[Entessa]
 Notes:: Apache-1.1 and Entessa are essentially the same license (as per SPDX License List Matching Guidelines).  Because the OSI approved them separately, they are listed separately (here and on the SPDX License List).
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -701,11 +732,13 @@ Notes:: Apache-1.1 and Entessa are essentially the same license (as per SPDX Lic
 
 |===
 
+<<<
+
 === Eclipse Public License 1.0
 SPDX License ID:: https://spdx.org/licenses/EPL-1.0.html[EPL-1.0]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -770,7 +803,7 @@ SPDX License ID:: https://spdx.org/licenses/EPL-1.0.html[EPL-1.0]
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -779,11 +812,13 @@ SPDX License ID:: https://spdx.org/licenses/EPL-1.0.html[EPL-1.0]
 
 |===
 
+<<<
+
 === Eclipse Public License 2.0
 SPDX License ID:: https://spdx.org/licenses/EPL-2.0.html[EPL-2.0]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -841,7 +876,7 @@ SPDX License ID:: https://spdx.org/licenses/EPL-2.0.html[EPL-2.0]
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -853,6 +888,8 @@ SPDX License ID:: https://spdx.org/licenses/EPL-2.0.html[EPL-2.0]
 
 |===
 
+<<<
+
 === GNU General Public License 2.0
 SPDX License IDs::
 https://spdx.org/licenses/GPL-2.0-only.html[GPL-2.0-only] +
@@ -860,7 +897,7 @@ https://spdx.org/licenses/GPL-2.0-or-later.html[GPL-2.0-or-later] +
 Notes:: Applying GPL-2.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For detailed guidance from trusted sources, see the resources.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -890,14 +927,18 @@ Notes:: Applying GPL-2.0 can be complex in some circumstances, due to its specif
 |X 
 | 
 |X 
-|Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel. 
+|Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel.
+
+IMPORTANT: For more information about GPL-2.0 compliance and this condition in particular, see: - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005 - https://www.gnu.org/licenses/gpl-faq.html#TheGPLSaysModifiedVersions - https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation 
 
 |Provide corresponding source code 
 |X 
 |X 
 | 
 | 
-|Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details) 
+|Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details)
+
+IMPORTANT: For more information about GPL-2.0 compliance and this condition in particular, see: - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005 - https://www.gnu.org/licenses/gpl-faq.html#SystemLibraryException - https://www.gnu.org/licenses/gpl-faq.html#MustSourceBuildToMatchExactHashOfBinary 
 
 |No additional restrictions 
 |X 
@@ -928,6 +969,8 @@ Notes:: Applying GPL-2.0 can be complex in some circumstances, due to its specif
 
 |===
 
+<<<
+
 === GNU General Public License 3.0
 SPDX License IDs::
 https://spdx.org/licenses/GPL-3.0-only.html[GPL-3.0-only] +
@@ -935,7 +978,7 @@ https://spdx.org/licenses/GPL-3.0-or-later.html[GPL-3.0-or-later] +
 Notes:: Applying GPL-3.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For a comparison of GPL-3.0 to GPL-2.0: http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -965,14 +1008,18 @@ Notes:: Applying GPL-3.0 can be complex in some circumstances, due to its specif
 |X 
 | 
 |X 
-|Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel. 
+|Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel.
+
+IMPORTANT: For more information about GPL-3.0 compliance and this condition in particular, see: - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-650009 - https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation 
 
 |Provide corresponding source code 
 |X 
 |X 
 | 
 | 
-|Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server (see section 6 for more details) 
+|Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server (see section 6 for more details)
+
+IMPORTANT: For more information about GPL-3.0 compliance and this condition in particular, see: - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-740009.3 - https://www.gnu.org/licenses/gpl-faq.html#SystemLibraryException - https://www.gnu.org/licenses/gpl-faq.html#MustSourceBuildToMatchExactHashOfBinary 
 
 |May not prohibit circumvention of technological measures that prevent users from exercising rights under the license (see section 3 for more details) 
 |X 
@@ -1014,7 +1061,7 @@ Notes:: Applying GPL-3.0 can be complex in some circumstances, due to its specif
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -1029,11 +1076,13 @@ Notes:: Applying GPL-3.0 can be complex in some circumstances, due to its specif
 
 |===
 
+<<<
+
 === ISC License
 SPDX License ID:: https://spdx.org/licenses/ISC.html[ISC]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1053,6 +1102,8 @@ SPDX License ID:: https://spdx.org/licenses/ISC.html[ISC]
 
 |===
 
+<<<
+
 === GNU Library General Public License 2.0
 SPDX License IDs::
 https://spdx.org/licenses/LGPL-2.0-only.html[LGPL-2.0-only] +
@@ -1060,7 +1111,7 @@ https://spdx.org/licenses/LGPL-2.0-or-later.html[LGPL-2.0-or-later] +
 Notes:: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. Applying LGPL-2.0 can be complex in some circumstances, due to its specificity and weak copyleft requirement.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1129,7 +1180,7 @@ Notes:: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the ad
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -1137,6 +1188,8 @@ Notes:: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the ad
 
 
 |===
+
+<<<
 
 === GNU Lesser General Public License 2.1
 SPDX License IDs::
@@ -1145,7 +1198,7 @@ https://spdx.org/licenses/LGPL-2.1-or-later.html[LGPL-2.1-or-later] +
 Notes:: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the addition of section 6(b) in LGPL-2.1. Applying LGPL-2.1 can be complex in some circumstances, due to its specificity and weak copyleft requirement.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1214,7 +1267,7 @@ Notes:: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the ad
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -1222,6 +1275,8 @@ Notes:: LGPL-2.0 and LGPL-2.1 are the same substantive license except for the ad
 
 
 |===
+
+<<<
 
 === GNU Lesser General Public License 3.0
 SPDX License IDs::
@@ -1240,7 +1295,7 @@ Notes:: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent li
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -1258,11 +1313,13 @@ Notes:: LGPL-3.0 incorporates the terms of GPL-3.0 and supplements the parent li
 
 |===
 
+<<<
+
 === libpng License
 SPDX License ID:: https://spdx.org/licenses/Libpng.html[Libpng]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1283,7 +1340,7 @@ SPDX License ID:: https://spdx.org/licenses/Libpng.html[Libpng]
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -1292,11 +1349,13 @@ SPDX License ID:: https://spdx.org/licenses/Libpng.html[Libpng]
 
 |===
 
+<<<
+
 === CMU License
 SPDX License ID:: https://spdx.org/licenses/MIT-CMU.html[MIT-CMU]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1316,11 +1375,13 @@ SPDX License ID:: https://spdx.org/licenses/MIT-CMU.html[MIT-CMU]
 
 |===
 
+<<<
+
 === MIT License
 SPDX License ID:: https://spdx.org/licenses/MIT.html[MIT]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1340,11 +1401,13 @@ SPDX License ID:: https://spdx.org/licenses/MIT.html[MIT]
 
 |===
 
+<<<
+
 === Mozilla Public License 1.0
 SPDX License ID:: https://spdx.org/licenses/MPL-1.0.html[MPL-1.0]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1406,7 +1469,7 @@ SPDX License ID:: https://spdx.org/licenses/MPL-1.0.html[MPL-1.0]
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -1424,11 +1487,13 @@ SPDX License ID:: https://spdx.org/licenses/MPL-1.0.html[MPL-1.0]
 
 |===
 
+<<<
+
 === Mozilla Public License 1.1
 SPDX License ID:: https://spdx.org/licenses/MPL-1.1.html[MPL-1.1]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1496,7 +1561,7 @@ SPDX License ID:: https://spdx.org/licenses/MPL-1.1.html[MPL-1.1]
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -1514,12 +1579,14 @@ SPDX License ID:: https://spdx.org/licenses/MPL-1.1.html[MPL-1.1]
 
 |===
 
+<<<
+
 === Mozilla Public License 2.0
 SPDX License ID:: https://spdx.org/licenses/MPL-2.0.html[MPL-2.0]
 Notes:: This license includes a license-compatibility provision related to use of the code with the GPL-2.0-or-later, LGPL-2.1-or-later, and GPL-3.0-or-later which is difficult to capture, please see sections 1.12, 2.4, 3.3, and 10.4 for more details.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1577,7 +1644,7 @@ Notes:: This license includes a license-compatibility provision related to use o
 |===
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -1592,11 +1659,13 @@ Notes:: This license includes a license-compatibility provision related to use o
 
 |===
 
+<<<
+
 === Microsoft Public License
 SPDX License ID:: https://spdx.org/licenses/Ms-PL.html[Ms-PL]
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1640,12 +1709,14 @@ SPDX License ID:: https://spdx.org/licenses/Ms-PL.html[Ms-PL]
 
 |===
 
+<<<
+
 === University of Illinois/NCSA Open Source License
 SPDX License ID:: https://spdx.org/licenses/NCSA.html[NCSA]
 Notes:: NCSA is essentially an MIT grant with BSD-3-Clause conditions, thus compliance is the same as BSD-3-Clause.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1665,12 +1736,14 @@ Notes:: NCSA is essentially an MIT grant with BSD-3-Clause conditions, thus comp
 
 |===
 
+<<<
+
 === OpenSSL License
 SPDX License ID:: https://spdx.org/licenses/OpenSSL.html[OpenSSL]
 Notes:: This license is actually a set of two licenses, which have similar text and requirements but different copyright holders and therefore different acknowledgment text. Some requirements to include acknowledgements may only apply if you are using that part of the project written by a specific copyright holder.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1725,12 +1798,14 @@ Notes:: This license is actually a set of two licenses, which have similar text 
 
 |===
 
+<<<
+
 === PHP License v3.0
 SPDX License ID:: https://spdx.org/licenses/PHP-3.0.html[PHP-3.0]
 Notes:: PHP-3.0 and PHP-3.01 are the same license, but for a slight variation in the acknowledment text.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1773,13 +1848,15 @@ Notes:: PHP-3.0 and PHP-3.01 are the same license, but for a slight variation in
 
 
 |===
+
+<<<
 
 === PHP License v3.01
 SPDX License ID:: https://spdx.org/licenses/PHP-3.01.html[PHP-3.01]
 Notes:: PHP-3.0 and PHP-3.01 are the same license, but for a slight variation in the acknowledment text.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1823,12 +1900,14 @@ Notes:: PHP-3.0 and PHP-3.01 are the same license, but for a slight variation in
 
 |===
 
+<<<
+
 === Plexus Classworlds License
 SPDX License ID:: https://spdx.org/licenses/Plexus.html[Plexus]
 Notes:: This license also includes a clause that states, "due credit should be given" to the copyright holder, but given the non-obligatory nature of "should", this is not considered a requirement.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1855,12 +1934,14 @@ Notes:: This license also includes a clause that states, "due credit should be g
 
 |===
 
+<<<
+
 === Python License 2.0
 SPDX License ID:: https://spdx.org/licenses/Python-2.0.html[Python-2.0]
 Notes:: This is a license “stack” comprised of various licenses that apply to Python as it has developed over the years.
 
 ==== Conditions
-[width="100%", cols="30,5,5,5,5,50", options="header"]
+[width="100%", cols="30,5,5,5,5,50a", options="header"]
 |===
 |Description |UB |MB |US |MS |Compliance Notes
 
@@ -1897,11 +1978,13 @@ Notes:: This is a license “stack” comprised of various licenses that apply t
 
 |===
 
+<<<
+
 === TCL/TK License
 SPDX License ID:: https://spdx.org/licenses/TCL.html[TCL]
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -1910,11 +1993,13 @@ SPDX License ID:: https://spdx.org/licenses/TCL.html[TCL]
 
 |===
 
+<<<
+
 === zlib License
 SPDX License ID:: https://spdx.org/licenses/zlib.html[zlib]
 
 ==== Other Terms
-[width="100%", options="header, autowidth.stretch"]
+[width="100%", options="header"]
 |===
 |Description 
 
@@ -1922,4 +2007,6 @@ SPDX License ID:: https://spdx.org/licenses/zlib.html[zlib]
 
 
 |===
+
+<<<
 
