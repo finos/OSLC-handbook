@@ -25,18 +25,17 @@
   - type: condition
     description: Modifications or derivative work must be licensed under same license
     use_cases: [MB, MS]
-    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under AGPL-3.0; this is interpreted to include statically and dynamically linked code.
-    seeAlso: "For more information about AGPL-3.0 compliance and this condition in particular, which is the same as for GPL-3.0, see:
+    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under AGPL-3.0; For more information about AGPL-3.0 compliance and this condition in particular (which is the same as for GPL-3.0) it is strongly recommended to consult the reference materials below.
+    seeAlso: 
     - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-650009
     - https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation"
 
   - type: condition
     description: Provide corresponding source code
     use_cases: [UB, MB]
-    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See section 6 for more details.
-    seeAlso: "For more information about AGPL-3.0 compliance and this condition in particular see:
+    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See section 6 for more details. For more information about AGPL-3.0 compliance and this condition in particular see the reference materials below.
+    seeAlso: 
     - https://www.gnu.org/licenses/gpl-faq.html#AGPLv3CorrespondingSource"
-            
 
   - type: condition
     description: No additional restrictions
@@ -58,5 +57,8 @@
     - https://www.gnu.org/licenses/gpl-faq.html#AGPLv3InteractingRemotely
     - https://www.gnu.org/licenses/gpl-faq.html#AGPLv3ServerAsUser
     
-
-      
+  - type: other
+    description: If convey object code in, with, or specificially for use in a User Product and the right of possession for the User Product is tranferred as part of the conveyance, then the corresponding source code must include Installation Information (methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source) (see section 6 for more details)
+    seeAlso:
+    - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-830009.9
+    - https://www.gnu.org/licenses/gpl-faq.en.html#InstInfo  
