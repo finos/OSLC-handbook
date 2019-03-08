@@ -3,19 +3,17 @@
 This handbook provides information on how to comply with some common open source licenses under a specific set of use-cases. The goal here is to provide developers and engineers with some "self-serve" information to facilitate the end goal of open source license compliance, particularly for the easy-to-comply with conditions in open source licenses.  This handbook also aims to help identify some of the more complex open source license compliance conditions for which consultation with open source counsel may be needed.
 
 ## Open source license compliance explained
-Determining the requirements that need to be met to comply with open source licenses involves:
-1) You must know what open source software you are using
+Determining the requirements that need to be met to comply with open source licenses involves the following:
+1) You must know what open source software you are using;
 2) You must know what license applies to that open source software and the relevant legal interpretation of the license; and
-3) How are you using that open source software? This is the “use-case”.
+3) You must know how you using that open source software. This is the “use-case”.
 
-The information in this handbook assumes you have already met #1 in determining what open source software you are using (and under what license). It is the combination of the license (#2) and the use-case (#3) which determines what license conditions are triggered. This is open source license compliance.
+The information in this handbook assumes you have already determined what open source software you are using and under what license (#1 and #2). It is the combination of the license (#2) and the use-case (#3) which determines what license conditions are triggered. This is open source license compliance.
 
 One way to think of this is as an if-then statement. For example: IF I am distributing unmodified open source software in binary form (use-case), THEN I must provide a copy of the license (requirement) by (HOW) placing a copy with my distribution.
 
-Some open source license conditions are easy to understand and comply with, while other conditions are open for (legal) interpretation or involve more complex use-cases that cannot be easily categorized. The license compliance requirements in this handbook are summarized for the four most common use-cases as listed below. 
-
 ## Scope of this handbook
-This handbook only provides license compliance information for licenses and use-cases that are easy to understand and summarize succinctly.  Cases where further analysis or consultation with your open source counsel may be needed are noted.  Likewise, if your use-case varies in any way or you are using a different license than those licenses listed here (even if it seems similar) or you have any questions whatsoever about this information or how to properly comply, please contact your open source counsel.
+Some open source license conditions are easy to understand and comply with, while other conditions are open for (legal) interpretation or involve more complex use-cases that cannot be easily categorized. The license compliance requirements in this handbook are summarized for the four most common use-cases as listed below. Licnese terms or conditions where further analysis or consultation with your open source counsel may be needed are noted. For these license terms or conditions, external references that may be helpful are noted in the seeAlso key.  Likewise, if your use-case varies in any way or you are using a different license than those licenses listed here (even if it seems similar) or you have any questions about this information or how to properly comply, please contact your open source counsel.
 
 Other terms not related to license compliance are not captured here. For example, choice of law, jurisdiction, statutory references, or licensee representations. Some open source licenses provide explicit clarification that no trademark license is granted; as this is essentially a restatement of basic trademark law and does not require any license compliance action, these clauses are not captured here. Likewise, information describing the license grants are not captured here. As always, your open source counsel should familiarize themself with the entire license before relying on the information provided in this handbook.
 
@@ -35,14 +33,13 @@ Where "binary" refers to compiled code, binary, executable, non-source form; and
 
 # YAML key definitions
 Each license is contained in its own YAML file, even if the compliance profile is exactly the same as another license.
-See https://github.com/jlovejoy/OSLC-handbook/blob/master/example.yaml for an example of keys and license block formatting.
 
 Key definitions are as follows:
 
 * name = full name of license, corresponds to SPDX License List full names (consistent with tag from SPDX License List XML)
 * licenseId = SPDX license identifiers (consistent with tag from SPDX License List XML)
 * notes = general notes related to the license itself
-* terms = different types of license terms; each term item has a type (see types below), a description, and may also have a use-case and compliance_notes
+* terms = different types of license terms; each term item has a type (see types below), a description, and may also have a use-case, compliance_notes, or seeAlso. 
   * types:
     * condition = condition of the license or active requirement that must be met for license compliance for the listed use-case(s)
       * acknowledgment = if there is a requirement to include specific text as an acknowledgement, then that text is included in this field. Do not use quotations for this field. If a name or other similar text is replaceable within the acknowledgment text, it is denoted with double brackets
