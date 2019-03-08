@@ -59,6 +59,12 @@
     
   - type: other
     description: Contributors may add certain additional restrictions for their contributions, including disclaimers, legal notices, limitation of trademark and publicity rights, extension of indemnification received by licensor.
+    
+  - type: other
+    description: If convey object code in, with, or specificially for use in a User Product and the right of possession for the User Product is tranferred as part of the conveyance, then the corresponding source code must include Installation Information (methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source) (see section 6 for more details)
+    seeAlso:
+    - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-830009.9
+    - https://www.gnu.org/licenses/gpl-faq.en.html#InstInfo  
 
   - type: other
     description: If software is combined with software under AGPL-3.0, AGPL-3.0 applies to combined work and this license continues to the covered work originally under GPL-3.0 (see section 13 for more details).
