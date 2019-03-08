@@ -4,7 +4,9 @@
   licenseId:
   - GPL-2.0-only
   - GPL-2.0-or-later
-  notes: Applying GPL-2.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. 
+  notes: GPL-2.0 provides the option to use either that version of the license only or to make it available under any later version of that license. This is denoted in the standard license header and by using GPL-2.0-only or GPL-2.0-or-later
+  seeAlso:
+  - https://www.gnu.org/licenses/identify-licenses-clearly.html[Stallman: For Clarity's Sake] 
   
   terms:
   - type: condition
@@ -15,7 +17,7 @@
   - type: condition
     description: Retain notices on all files
     use_cases: [UB, MB, US, MS]
-    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the license is “or later” or the specific version only
+    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the -only or -or-later version option.
 
   - type: condition
     description: Notice of modifications
@@ -25,20 +27,20 @@
   - type: condition
     description: Modifications or derivative work must be licensed under same license
     use_cases: [MB, MS]
-    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL-2.0. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel. For more information about GPL-2.0 compliance and this condition in particular, see the references below.
-    SeeAlso: 
-    - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005
-    - https://www.gnu.org/licenses/gpl-faq.html#TheGPLSaysModifiedVersions
-    - https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation'
+    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL-2.0. For more information about GPL-2.0 compliance and this condition in particular, see the references below or consult your open source legal counsel.
+    seeAlso: 
+    - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005[Copyleft Guide]
+    - https://www.gnu.org/licenses/gpl-faq.html#TheGPLSaysModifiedVersions[FSF FAQ: GPL says modified versions]
+    - https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation[FSF FAQ: mere aggregation]
 
   - type: condition
     description: Provide corresponding source code
     use_cases: [UB, MB]
-    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details). For more information about GPL-2.0 compliance and this condition in particular, see the references below.
+    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details). For more information about GPL-2.0 compliance and this condition in particular, see the references below or consult your open source legal counsel.
     SeeAlso: 
-    - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005
-    - https://www.gnu.org/licenses/gpl-faq.html#SystemLibraryException
-    - https://www.gnu.org/licenses/gpl-faq.html#MustSourceBuildToMatchExactHashOfBinary'
+    - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005[Copyleft Guide]
+    - https://www.gnu.org/licenses/gpl-faq.html#SystemLibraryException[FSF FAQ: System library exception]
+    - https://www.gnu.org/licenses/gpl-faq.html#MustSourceBuildToMatchExactHashOfBinary[FSF FAQ: source code match binary]
 
   - type: condition
     description: No additional restrictions
