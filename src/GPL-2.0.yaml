@@ -4,8 +4,8 @@
   licenseId:
   - GPL-2.0-only
   - GPL-2.0-or-later
-  notes: Applying GPL-2.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. For detailed guidance from trusted sources, see the resources.
-
+  notes: Applying GPL-2.0 can be complex in some circumstances, due to its specificity and broad copyleft requirement. 
+  
   terms:
   - type: condition
     description: Provide copy of license
@@ -25,8 +25,8 @@
   - type: condition
     description: Modifications or derivative work must be licensed under same license
     use_cases: [MB, MS]
-    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL; this is interpreted to include statically and dynamically linked code. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel.
-    SeeAlso: 'For more information about GPL-2.0 compliance and this condition in particular, see:
+    compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under GPL-2.0. When distributing modified GPL-2.0 code, it is highly recommended to obtain advice from your open source legal counsel. For more information about GPL-2.0 compliance and this condition in particular, see the references below.
+    SeeAlso: 
     - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005
     - https://www.gnu.org/licenses/gpl-faq.html#TheGPLSaysModifiedVersions
     - https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation'
@@ -34,8 +34,8 @@
   - type: condition
     description: Provide corresponding source code
     use_cases: [UB, MB]
-    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details)
-    SeeAlso: 'For more information about GPL-2.0 compliance and this condition in particular, see:
+    compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer (see section 3 for more details). For more information about GPL-2.0 compliance and this condition in particular, see the references below.
+    SeeAlso: 
     - https://copyleft.org/guide/comprehensive-gpl-guidech6.html#x9-410005
     - https://www.gnu.org/licenses/gpl-faq.html#SystemLibraryException
     - https://www.gnu.org/licenses/gpl-faq.html#MustSourceBuildToMatchExactHashOfBinary'
