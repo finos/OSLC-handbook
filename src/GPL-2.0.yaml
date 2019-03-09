@@ -17,7 +17,7 @@
   - type: condition
     description: Retain notices on all files
     use_cases: [UB, MB, US, MS]
-    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also were you determine if the -only or -or-later version option.
+    compliance_notes: Source files usually have a standard license header that includes a copyright notice and disclaimer of warranty. This is also where projects typically indicate if the -or-later version option is available.
 
   - type: condition
     description: Notice of modifications
@@ -51,5 +51,5 @@
     description: License automatically terminates if you do not comply with the terms of the license
 
   - type: license_versions
-    description: Allows use of covered code under the terms of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
+    description: Allows use of covered code under the terms of same version or any later version of the license or that version only, as specified. If no license version is specified, then you may use any version ever published by the FSF.
 
