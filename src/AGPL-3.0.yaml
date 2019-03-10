@@ -58,7 +58,8 @@
     - https://www.gnu.org/licenses/gpl-faq.html#AGPLv3ServerAsUser
     
   - type: other
-    description: If convey object code in, with, or specificially for use in a User Product and the right of possession for the User Product is tranferred as part of the conveyance, then the corresponding source code must include Installation Information (methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source) (see section 6 for more details)
+    description: Provide information necessary to install modified versions on 'User Products'
+    compliance_notes: If convey object code in, with, or specificially for use in a User Product and the right of possession for the User Product is tranferred as part of the conveyance, then the corresponding source code must include Installation Information (methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source) (see section 6 for more details)
     seeAlso:
     - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-830009.9
     - https://www.gnu.org/licenses/gpl-faq.en.html#InstInfo  
