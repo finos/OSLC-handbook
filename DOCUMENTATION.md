@@ -36,8 +36,8 @@ Each license is contained in its own YAML file, even if the compliance profile i
 
 Key definitions are as follows:
 
-* name = full name of license, corresponds to SPDX License List full names (consistent with tag from SPDX License List XML)
-* licenseId = SPDX license identifiers (consistent with tag from SPDX License List XML)
+* name = full name of license, corresponds to SPDX License List full names (and key consistent with SPDX for XML, JSON, RDF, and tag/value)
+* licenseId = SPDX license identifiers (and key consistent with SPDX for XML, JSON, RDF, and tag/value)
 * notes = general notes related to the license itself
 * terms = different types of license terms; each term item has a type (see types below), a description, and may also have a use-case, compliance_notes, or seeAlso. 
   * types:
