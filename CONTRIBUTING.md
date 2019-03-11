@@ -17,7 +17,7 @@ If there is license that is not included here, but you'd like to add the license
 Please only add open source licenses, that is, licenses that meet the Open Source Definition as defined by the Open Source Initiative (OSI); or the 4 freedoms as defined by the Free Software Foundation (FSF). 
 
 ## Create a script for a new output type
-add some stuff here... 
+We also wrote a little Python code to process the compliance data into readily consumable document formats, including asciidoc, DocBook, docx, odt, and pdf.  If there is an additional format you'd like to see, please feel free to add this.
 
 # How to contribute
 
