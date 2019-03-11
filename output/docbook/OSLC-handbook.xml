@@ -5,13 +5,13 @@
 
 <article lang="en">
 <articleinfo>
-    <title>Open Source License Compliance Handbook</title>
-    <date>2019-03-08</date>
+    <title>FINOS Open Source License Compliance Handbook</title>
+    <date>2019-03-11</date>
     <author>
-        <firstname># The Fintech Open Source Foundation (FINOS) &lt;info@finos.org&gt;; Jilayne Lovejoy &lt;opensource@jilayne.com&gt;; Additional Contributors (see README.md)</firstname>
+        <firstname>Fintech Open Source Foundation &lt;info@finos.org&gt;; Jilayne Lovejoy &lt;opensource@jilayne.com&gt;</firstname>
     </author>
-    <authorinitials>#</authorinitials>
-<revhistory><revision><revnumber>v1.0</revnumber><date>2019-03-08</date><authorinitials>#</authorinitials></revision></revhistory>
+    <authorinitials>F</authorinitials>
+<revhistory><revision><revnumber>v1.0</revnumber><date>2019-03-11</date><authorinitials>F</authorinitials></revision></revhistory>
 </articleinfo>
 <simpara><?asciidoc-pagebreak?></simpara>
 <section id="_overview">
@@ -75,6 +75,10 @@ MS = Distribution, modified, source form
 </listitem>
 </orderedlist>
 <simpara>Where "binary" refers to compiled code, binary, executable, non-source form; and "source" refers to the human readable, editable form.</simpara>
+</section>
+<section id="_copyright_and_license_notice">
+<title>Copyright and License Notice</title>
+<simpara>&#169; 2019 Fintech Open Source Foundation, Jilayne Lovejoy, and other contributors. This document is licensed under the terms of the <ulink url="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike (CC By-SA) License, version 4.0</ulink>. It is offered as-is and as-available, without representation or warranty of any kind, whether express, implied, statutory, or other. The original version of this document is available at <ulink url="https://github.com/finos-osr/OSLC-handbook/">https://github.com/finos-osr/OSLC-handbook/</ulink>. Any modified version must indicate modifications. This notice and disclaimer must be retained on any copies and derivative works.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
