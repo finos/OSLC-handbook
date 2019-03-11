@@ -489,6 +489,8 @@ p.tableblock:last-child { margin-bottom: 0; }
 
 td.tableblock > .content { margin-bottom: -1.25em; }
 
+div.tableblock {border: 1 solid #dedede;}
+
 table.tableblock, th.tableblock, td.tableblock { border: 0 solid #dedede; }
 
 table.grid-all > thead > tr > .tableblock, table.grid-all > tbody > tr > .tableblock { border-width: 0 1px 1px 0; }
