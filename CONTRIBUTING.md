@@ -1,7 +1,7 @@
 
 Thanks for your interest in the Open Source License Handbook!  We welcome input and contributions to this work.  Please review the information below related to ways and how to contribute.
 
-Before you begin, please familiarize yourself with the [DOCUMENTATION.adoc] and other related information.  Check for [https://github.com/jlovejoy/OSLC-handbook/issues](open issues) or start a discussion around a new feature idea or a bug.
+Before you begin, please familiarize yourself with the [DOCUMENTATION.adoc] and other related information.  Check for [https://github.com/finos-osr/OSLC-handbook/issues](open issues) or start a discussion around a new feature idea or a bug.
 
 # Types of contributions
 
@@ -16,8 +16,8 @@ If there is license that is not included here, but you'd like to add the license
 
 Please only add open source licenses, that is, licenses that meet the [https://opensource.org/osd](Open Source Definition) as defined by the Open Source Initiative (OSI); or the [https://www.gnu.org/philosophy/free-sw.en.html](4 freedoms) as defined by the Free Software Foundation (FSF). 
 
-## Create a script for a new output type
-We also wrote a little Python code to process the compliance data into readily consumable document formats, including asciidoc, DocBook, docx, odt, and pdf.  If there is an additional format you'd like to see, please feel free to add this.
+## Improve and expand the output formats
+The `unyaml.py` script compiles the handbook into a single asciidoc file that can be readily converted into html, docbook, and pdf formats (and from docbook to docx, odt, and more). All of the output formats could use a little polishing up. And if there is an additional format you'd like to see, please help us by adding directions or a makefile to generate it.
 
 # YAML key definitions
 Each license is contained in its own YAML file, even if the compliance profile is exactly the same as another license.
@@ -47,7 +47,7 @@ Key definitions are as follows:
 
 First off, clone the repository locally
 
-    clone https://github.com/jlovejoy/OSLC-handbook.git
+    clone https://github.com/finos-osr/OSLC-handbook.git
 
 That creates an identical copy of whatever is on the online repository.
 

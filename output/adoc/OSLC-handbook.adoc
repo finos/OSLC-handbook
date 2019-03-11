@@ -1,5 +1,5 @@
 = FINOS Open Source License Compliance Handbook
-Fintech Open Source Foundation <info@finos.org>; Jilayne Lovejoy <opensource@jilayne.com>
+Fintech Open Source Foundation; Jilayne Lovejoy
 :revnumber: v1.0
 :revdate:   2019-03-11
 :toc:
