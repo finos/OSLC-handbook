@@ -1,11 +1,11 @@
 
 Thanks for your interest in the Open Source License Handbook!  We welcome input and contributions to this work.  Please review the information below related to ways and how to contribute.
 
-Before you begin, please familiarize yourself with the [DOCUMENTATION.adoc] and other related information.  Check for [https://github.com/finos-osr/OSLC-handbook/issues](open issues) or start a discussion around a new feature idea or a bug.
+Before you begin, please familiarize yourself with the [DOCUMENTATION.adoc] and other related information.  Check for [open issues](https://github.com/finos-osr/OSLC-handbook/issues) or start a discussion around a new feature idea or a bug.
 
 # Contributor license agreements
 
-Before making your first contribution, please first complete a [https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement](contributor license agreement) (either a [https://www.finos.org/hubfs/FINOS/governance/FINOS%20CCLA.pdf](CCLA) or [https://www.finos.org/hubfs/FINOS/governance/FINOS%20ICLA.pdf](ICLA)) and send it to legal@finos.org. (We know CLAs are a chore, but we serve a community that places a high value on legal certainty, so we appreciate your patience.)
+Before making your first contribution, please first complete a [contributor license agreement](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement) (either a [CCLA](https://www.finos.org/hubfs/FINOS/governance/FINOS%20CCLA.pdf) or [ICLA](https://www.finos.org/hubfs/FINOS/governance/FINOS%20ICLA.pdf)) and send it to legal@finos.org. (We know CLAs are a chore, but we serve a community that places a high value on legal certainty, so we appreciate your patience.)
 
 # Types of contributions
 
@@ -18,7 +18,7 @@ Maybe you spot a typo or a better way to word something or make an entry's wordi
 ## Add a new license
 If there is license that is not included here, but you'd like to add the license compliance information to this handbook, great! Please create a new YAML file, following the structure as described in below and as shown in existing license YAML files.  If the new license has similar terms as an existing license included here, please copy the wording or format of the existing license as appropriate to ensure consistency. 
 
-Please only add open source licenses, that is, licenses that meet the [https://opensource.org/osd](Open Source Definition) as defined by the Open Source Initiative (OSI); or the [https://www.gnu.org/philosophy/free-sw.en.html](4 freedoms) as defined by the Free Software Foundation (FSF). 
+Please only add open source licenses, that is, licenses that meet the [Open Source Definition](https://opensource.org/osd) as defined by the Open Source Initiative (OSI); or the [4 freedoms](https://www.gnu.org/philosophy/free-sw.en.html) as defined by the Free Software Foundation (FSF). 
 
 ## Improve and expand the output formats
 The `unyaml.py` script compiles the handbook into a single asciidoc file that can be readily converted into html, docbook, and pdf formats (and from docbook to docx, odt, and more). All of the output formats could use a little polishing up. And if there is an additional format you'd like to see, please help us by adding directions or a makefile to generate it.
