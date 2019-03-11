@@ -22,12 +22,12 @@ Some open source license conditions are easy to understand and comply with, whil
 Other terms not related to license compliance are not captured here. For example, choice of law, jurisdiction, statutory references, or licensee representations. Some open source licenses provide explicit clarification that no trademark license is granted; as this is essentially a restatement of basic trademark law and does not require any license compliance action, these clauses are not captured here. Likewise, information describing the license grants are not captured here. As always, your open source counsel should familiarize themself with the entire license before relying on the information provided in this handbook.
 
 === Use Cases
-.Distribution is defined as:
-____
- providing software to another entity, i.e., an individual or organization outside your company or organization. 
-____
 
-This is important as most open source license obligations are triggered by a distribution. Some web-based applications involve the distribution of software (e.g., Javascript). Access via a web-based application is usually not considered a distribution, however some open source licenses have obligations specifically triggered by access to software via a computer network; these are captured via the "other" term type.
+The Handbook is focused on use cases involving distribution of open source software, because most compliance obligations only apply when the software is distributed. 
+
+We define **distribution** as "providing software to another entity, i.e., an individual or organization outside your company or organization."
+
+The use cases addressed in the compliance entires are:
 
 .	UB = Distribution, unmodified, binary form
 .	MB = Distribution, modified, binary form
@@ -35,6 +35,8 @@ This is important as most open source license obligations are triggered by a dis
 .	MS = Distribution, modified, source form
 
 Where "binary" refers to compiled code, binary, executable, non-source form; and "source" refers to the human readable, editable form.
+
+Note that while accessing a web-based application does not typically involve a "distribution" of the application in this sense, it might involve the transfer of some Javascript code from the server to the user's browser that is a distribution. A few open source licenses also have obligations specifically triggered by access to software via a computer network; we address these as special cases.
 
 === Copyright and License Notice
 
