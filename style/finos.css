@@ -31,6 +31,8 @@ a:focus { outline: thin dotted; }
 /** Improve readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
 
+a:visited { color: #a2acab; }
+
 /* ========================================================================== Typography ========================================================================== */
 /** Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari 5, and Chrome. */
 h1 { font-size: 2em; margin: 0.67em 0; }
@@ -173,7 +175,7 @@ object, svg { display: inline-block; vertical-align: middle; }
 
 p.lead { font-size: 1.21875em; line-height: 1.6; }
 
-.subheader, .admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { line-height: 1.45; color: #7a2518; font-weight: normal; margin-top: 0; margin-bottom: 0.25em; }
+.subheader, .admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { line-height: 1.45; color: #0086bf; font-weight: normal; margin-top: 0; margin-bottom: 0.25em; }
 
 /* Typography resets */
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; direction: ltr; }
@@ -188,7 +190,7 @@ p { font-family: inherit; font-weight: normal; font-size: 1em; line-height: 1.6;
 p aside { font-size: 0.875em; line-height: 1.35; font-style: italic; }
 
 /* Default header styles */
-h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: "Montserrat", sans-serif; font-weight: 300; font-style: normal; color: #ba3925; text-rendering: optimizeLegibility; margin-top: 1em; margin-bottom: 0.5em; line-height: 1.0125em; }
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: "Montserrat", sans-serif; font-weight: 300; font-style: normal; color: #0086bf; text-rendering: optimizeLegibility; margin-top: 1em; margin-bottom: 0.5em; line-height: 1.0125em; }
 h1 small, h2 small, h3 small, #toctitle small, .sidebarblock > .content > .title small, h4 small, h5 small, h6 small { font-size: 60%; color: #e99b8f; line-height: 0; }
 
 h1 { font-size: 2.125em; }
@@ -234,6 +236,7 @@ ol li ul, ol li ol { margin-left: 1.25em; margin-bottom: 0; }
 /* Definition Lists */
 dl dt { margin-bottom: 0.3125em; font-weight: bold; }
 dl dd { margin-bottom: 1.25em; }
+dl dt { color: #487a7b; }
 
 /* Abbreviations */
 abbr, acronym { text-transform: uppercase; font-size: 90%; color: rgba(0, 0, 0, 0.8); border-bottom: 1px dotted #dddddd; cursor: help; }
@@ -336,6 +339,7 @@ p a > code:hover { color: rgba(0, 0, 0, 0.9); }
 #header .details br + span#revremark:before { content: "\00a0|\00a0"; }
 #header #revnumber { text-transform: capitalize; }
 #header #revnumber:after { content: "\00a0"; }
+#header #author { font-weight: normal; font-size: 1em; }
 
 #content > h1:first-child:not([class]) { color: rgba(0, 0, 0, 0.85); border-bottom: 1px solid #dddddf; padding-bottom: 8px; margin-top: 0; padding-top: 1rem; margin-bottom: 1.25rem; }
 
@@ -348,7 +352,7 @@ p a > code:hover { color: rgba(0, 0, 0, 0.9); }
 #toc a { text-decoration: none; }
 #toc a:active { text-decoration: underline; }
 
-#toctitle { color: #7a2518; font-size: 1.2em; }
+#toctitle { color: #0086bf; font-size: 1.2em; }
 
 @media only screen and (min-width: 768px) { #toctitle { font-size: 1.375em; }
   body.toc2 { padding-left: 15em; padding-right: 0; }
@@ -386,7 +390,7 @@ p a > code:hover { color: rgba(0, 0, 0, 0.9); }
 #content h1 > a.anchor, h2 > a.anchor, h3 > a.anchor, #toctitle > a.anchor, .sidebarblock > .content > .title > a.anchor, h4 > a.anchor, h5 > a.anchor, h6 > a.anchor { position: absolute; z-index: 1001; width: 1.5ex; margin-left: -1.5ex; display: block; text-decoration: none !important; visibility: hidden; text-align: center; font-weight: normal; }
 #content h1 > a.anchor:before, h2 > a.anchor:before, h3 > a.anchor:before, #toctitle > a.anchor:before, .sidebarblock > .content > .title > a.anchor:before, h4 > a.anchor:before, h5 > a.anchor:before, h6 > a.anchor:before { content: "\00A7"; font-size: 0.85em; display: block; padding-top: 0.1em; }
 #content h1:hover > a.anchor, #content h1 > a.anchor:hover, h2:hover > a.anchor, h2 > a.anchor:hover, h3:hover > a.anchor, #toctitle:hover > a.anchor, .sidebarblock > .content > .title:hover > a.anchor, h3 > a.anchor:hover, #toctitle > a.anchor:hover, .sidebarblock > .content > .title > a.anchor:hover, h4:hover > a.anchor, h4 > a.anchor:hover, h5:hover > a.anchor, h5 > a.anchor:hover, h6:hover > a.anchor, h6 > a.anchor:hover { visibility: visible; }
-#content h1 > a.link, h2 > a.link, h3 > a.link, #toctitle > a.link, .sidebarblock > .content > .title > a.link, h4 > a.link, h5 > a.link, h6 > a.link { color: #ba3925; text-decoration: none; }
+#content h1 > a.link, h2 > a.link, h3 > a.link, #toctitle > a.link, .sidebarblock > .content > .title > a.link, h4 > a.link, h5 > a.link, h6 > a.link { color: #0086bf; text-decoration: none; }
 #content h1 > a.link:hover, h2 > a.link:hover, h3 > a.link:hover, #toctitle > a.link:hover, .sidebarblock > .content > .title > a.link:hover, h4 > a.link:hover, h5 > a.link:hover, h6 > a.link:hover { color: #a53221; }
 
 .audioblock, .imageblock, .literalblock, .listingblock, .stemblock, .videoblock { margin-bottom: 1.25em; }
@@ -413,7 +417,7 @@ table.tableblock #preamble > .sectionbody > [class="paragraph"]:first-of-type p 
 .sidebarblock { border-style: solid; border-width: 1px; border-color: #dbdbd6; margin-bottom: 1.25em; padding: 1.25em; background: #f3f3f2; -webkit-border-radius: 4px; border-radius: 4px; }
 .sidebarblock > :first-child { margin-top: 0; }
 .sidebarblock > :last-child { margin-bottom: 0; }
-.sidebarblock > .content > .title { color: #7a2518; margin-top: 0; text-align: center; }
+.sidebarblock > .content > .title { color: #0086bf; margin-top: 0; text-align: center; }
 
 .exampleblock > .content > :last-child > :last-child, .exampleblock > .content .olist > ol > li:last-child > :last-child, .exampleblock > .content .ulist > ul > li:last-child > :last-child, .exampleblock > .content .qlist > ol > li:last-child > :last-child, .sidebarblock > .content > :last-child > :last-child, .sidebarblock > .content .olist > ol > li:last-child > :last-child, .sidebarblock > .content .ulist > ul > li:last-child > :last-child, .sidebarblock > .content .qlist > ol > li:last-child > :last-child { margin-bottom: 0; }
 
@@ -462,7 +466,7 @@ pre.pygments .lineno:before { content: ""; margin-right: -0.125em; }
 .quoteblock > .title { margin-left: -1.5em; margin-bottom: 0.75em; }
 .quoteblock blockquote, .quoteblock p { color: rgba(0, 0, 0, 0.85); font-size: 1.15rem; line-height: 1.75; word-spacing: 0.1em; letter-spacing: 0; font-style: italic; text-align: justify; }
 .quoteblock blockquote { margin: 0; padding: 0; border: 0; }
-.quoteblock blockquote:before { content: "\201c"; float: left; font-size: 2.75em; font-weight: bold; line-height: 0.6em; margin-left: -0.6em; color: #7a2518; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+.quoteblock blockquote:before { content: "\201c"; float: left; font-size: 2.75em; font-weight: bold; line-height: 0.6em; margin-left: -0.6em; color: #0086bf; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
 .quoteblock blockquote > .paragraph:last-child p { margin-bottom: 0; }
 .quoteblock .attribution { margin-top: 0.75em; margin-right: 0.5ex; text-align: right; }
 
@@ -479,9 +483,13 @@ pre.pygments .lineno:before { content: ""; margin-right: -0.125em; }
 .quoteblock.abstract blockquote, .quoteblock.abstract p, .quoteblock.excerpt blockquote, .quoteblock.excerpt p, .quoteblock .quoteblock blockquote, .quoteblock .quoteblock p { line-height: 1.6; word-spacing: 0; }
 .quoteblock.abstract { margin: 0 1em 1.25em 1em; display: block; }
 .quoteblock.abstract > .title { margin: 0 0 0.375em 0; font-size: 1.15em; text-align: center; }
-.quoteblock.excerpt, .quoteblock .quoteblock { margin: 0 0 1.25em 0; padding: 0 0 0.25em 1em; border-left: 0.25em solid #dddddf; }
+.quoteblock.content { margin: 0 0 1.25em 0; padding: 0 0 0.25em 1em; border-left: 0.25em solid #dddddf; }
 .quoteblock.excerpt blockquote, .quoteblock.excerpt p, .quoteblock .quoteblock blockquote, .quoteblock .quoteblock p { color: inherit; font-size: 1.0625rem; }
 .quoteblock.excerpt .attribution, .quoteblock .quoteblock .attribution { color: inherit; text-align: left; margin-right: 0; }
+
+div.quoteblock { border: 0; }
+
+div.quoteblock .content { border-left: 0.25em solid #dddddf; }
 
 table.tableblock { max-width: 100%; border-collapse: separate; }
 
@@ -489,7 +497,7 @@ p.tableblock:last-child { margin-bottom: 0; }
 
 td.tableblock > .content { margin-bottom: -1.25em; }
 
-div.tableblock {border: 1 solid #dedede;}
+div.tableblock > table {border: 1 solid #dedede;}
 
 table.tableblock, th.tableblock, td.tableblock { border: 0 solid #dedede; }
 

@@ -8,10 +8,10 @@
     <title>Open Source License Compliance Handbook</title>
     <date>2019-03-08</date>
     <author>
-        <firstname>The Fintech Open Source Foundation (FINOS) &lt;info@finos.org&gt;; Jilayne Lovejoy &lt;opensource@jilayne.com&gt;; Additional Contributors (see README.md)</firstname>
+        <firstname># The Fintech Open Source Foundation (FINOS) &lt;info@finos.org&gt;; Jilayne Lovejoy &lt;opensource@jilayne.com&gt;; Additional Contributors (see README.md)</firstname>
     </author>
-    <authorinitials>T</authorinitials>
-<revhistory><revision><revnumber>v1.0</revnumber><date>2019-03-08</date><authorinitials>T</authorinitials></revision></revhistory>
+    <authorinitials>#</authorinitials>
+<revhistory><revision><revnumber>v1.0</revnumber><date>2019-03-08</date><authorinitials>#</authorinitials></revision></revhistory>
 </articleinfo>
 <simpara><?asciidoc-pagebreak?></simpara>
 <section id="_overview">

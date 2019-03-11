@@ -1,10 +1,11 @@
-= Open Source License Compliance Handbook
-# The Fintech Open Source Foundation (FINOS) <info@finos.org>; Jilayne Lovejoy <opensource@jilayne.com>; Additional Contributors (see README.md)
+= FINOS Open Source License Compliance Handbook
+Fintech Open Source Foundation <info@finos.org>; Jilayne Lovejoy <opensource@jilayne.com>
 :revnumber: v1.0
 :revdate:   2019-03-08
 :toc:
 :toclevels: 2
 :icons: font
+:imagesdir: ../../images
 
 <<<
 
@@ -46,7 +47,9 @@ This is important as most open source license obligations are triggered by a dis
 
 Where "binary" refers to compiled code, binary, executable, non-source form; and "source" refers to the human readable, editable form.
 
+== Copyright and License Notice
 
+(C) 2019 Fintech Open Source Foundation, Jilayne Lovejoy, and link:/README.md[other contributors]. This document is licensed under the terms of the https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike (CC By-SA) License, version 4.0]. It is offered as-is and as-available, without representation or warranty of any kind, whether express, implied, statutory, or other. The original version of this document is available at https://github.com/finos-osr/OSLC-handbook/. Any modified version must indicate modifications. This notice and disclaimer must be retained on any copies and derivative works.
 
 <<<
 

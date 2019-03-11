@@ -1,7 +1,8 @@
-= Open Source License Compliance Handbook
-# The Fintech Open Source Foundation (FINOS) <info@finos.org>; Jilayne Lovejoy <opensource@jilayne.com>; Additional Contributors (see README.md)
+= FINOS Open Source License Compliance Handbook
+Fintech Open Source Foundation <info@finos.org>; Jilayne Lovejoy <opensource@jilayne.com>
 :revnumber: v1.0
-:revdate:   2019-03-08
+:revdate:   2019-03-11
 :toc:
 :toclevels: 2
 :icons: font
+:imagesdir: ../../images
