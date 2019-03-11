@@ -1,7 +1,7 @@
 
 Thanks for your interest in the Open Source License Handbook!  We welcome input and contributions to this work.  Please review the information below related to ways and how to contribute.
 
-Before you begin, please familiarize yourself with the [DOCUMENTATION.md] and other related information.  Check for [https://github.com/jlovejoy/OSLC-handbook/issues](open issues) or start a discussion around a new feature idea or a bug.
+Before you begin, please familiarize yourself with the [DOCUMENTATION.adoc] and other related information.  Check for [https://github.com/jlovejoy/OSLC-handbook/issues](open issues) or start a discussion around a new feature idea or a bug.
 
 # Types of contributions
 
@@ -12,12 +12,36 @@ We've tried to explain the purpose, structure, and limitations of this handbook 
 Maybe you spot a typo or a better way to word something or make an entry's wording more consistent with like entries.  
 
 ## Add a new license
-If there is license that is not included here, but you'd like to add the license compliance information to this handbook, great! Please create a new YAML file, following the structure as described in DOCUMENTATION, as shown in existing license YAML files, and as used in the example file.  If the new has similar terms as an existing license included here, please copy the wording or format of the existing license as appropriate to ensure consistency. 
+If there is license that is not included here, but you'd like to add the license compliance information to this handbook, great! Please create a new YAML file, following the structure as described in below and as shown in existing license YAML files.  If the new license has similar terms as an existing license included here, please copy the wording or format of the existing license as appropriate to ensure consistency. 
 
-Please only add open source licenses, that is, licenses that meet the Open Source Definition as defined by the Open Source Initiative (OSI); or the 4 freedoms as defined by the Free Software Foundation (FSF). 
+Please only add open source licenses, that is, licenses that meet the [https://opensource.org/osd](Open Source Definition) as defined by the Open Source Initiative (OSI); or the [https://www.gnu.org/philosophy/free-sw.en.html](4 freedoms) as defined by the Free Software Foundation (FSF). 
 
 ## Create a script for a new output type
 We also wrote a little Python code to process the compliance data into readily consumable document formats, including asciidoc, DocBook, docx, odt, and pdf.  If there is an additional format you'd like to see, please feel free to add this.
+
+# # YAML key definitions
+Each license is contained in its own YAML file, even if the compliance profile is exactly the same as another license.
+
+Key definitions are as follows:
+
+* name = full name of license, corresponds to SPDX License List full names (and key consistent with SPDX for XML, JSON, RDF, and tag/value)
+* licenseId = SPDX license identifiers (and key consistent with SPDX for XML, JSON, RDF, and tag/value)
+* notes = general notes related to the license itself
+* terms = different types of license terms; each term item has a type (see types below), a description, and may also have a use-case, compliance_notes, or seeAlso. 
+  * types:
+    * condition = condition of the license or active requirement that must be met for license compliance for the listed use-case(s)
+      * acknowledgment = if there is a requirement to include specific text as an acknowledgement, then that text is included in this field. Do not use quotations for this field. If a name or other similar text is replaceable within the acknowledgment text, it is denoted with double brackets
+    * termination = license termination clause
+    * other = other clauses may modify conditions or trigger requirement on different use-cases than the four defined here 
+    * license_versions = information related to how other versions of the same license may be applied
+  * description = high-level description to explain the license term, e.g., what do you have to do to meet the requirement, what is the condition, under what conditions does the license terminate. This field may also include specifics for the use-case where the use-case does not fit into the standard four use-cases as defined
+  * use cases = the use case for which the terms (or condition) applies. These are the most common triggers for open source license conditions, but not exhaustive; if the use case or trigger does not fit in one of these categories, then it will be explained in the term description
+    * UB = distribution of unmodified binary
+    * MB = distribution of modified binary
+    * US = distribution of unmodified source
+    * MS = distribution of modified source
+  * compliance_notes = specifics of how you need to comply with the term
+  * seeAlso = external recommended resources for further information on compliance with the particular license term. This is limited to only the more complex terms and trusted resources (e.g., license authors and active community enforcers)
 
 # How to contribute
 
