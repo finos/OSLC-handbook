@@ -19,7 +19,7 @@ Please only add open source licenses, that is, licenses that meet the [https://o
 ## Create a script for a new output type
 We also wrote a little Python code to process the compliance data into readily consumable document formats, including asciidoc, DocBook, docx, odt, and pdf.  If there is an additional format you'd like to see, please feel free to add this.
 
-# # YAML key definitions
+# YAML key definitions
 Each license is contained in its own YAML file, even if the compliance profile is exactly the same as another license.
 
 Key definitions are as follows:
