@@ -3,6 +3,10 @@ Thanks for your interest in the Open Source License Handbook!  We welcome input 
 
 Before you begin, please familiarize yourself with the [DOCUMENTATION.adoc] and other related information.  Check for [https://github.com/finos-osr/OSLC-handbook/issues](open issues) or start a discussion around a new feature idea or a bug.
 
+# Contributor license agreements
+
+Before making your first contribution, please first complete a [https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement](contributor license agreement) (either a [https://www.finos.org/hubfs/FINOS/governance/FINOS%20CCLA.pdf](CCLA) or [https://www.finos.org/hubfs/FINOS/governance/FINOS%20ICLA.pdf](ICLA)) and send it to legal@finos.org. (We know CLAs are a chore, but we serve a community that places a high value on legal certainty, so we appreciate your patience.)
+
 # Types of contributions
 
 ## Improve documentation
