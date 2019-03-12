@@ -51,7 +51,7 @@ Key definitions are as follows:
 
 First off, clone the repository locally
 
-    clone https://github.com/finos-osr/OSLC-handbook.git
+    git clone https://github.com/finos-osr/OSLC-handbook.git
 
 That creates an identical copy of whatever is on the online repository.
 
