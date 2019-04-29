@@ -18,6 +18,8 @@ Maybe you spot a typo or a better way to word something or make an entry's wordi
 ## Add a new license
 If there is license that is not included here, but you'd like to add the license compliance information to this handbook, great! Please create a new YAML file, following the structure as described in below and as shown in existing license YAML files.  If the new license has similar terms as an existing license included here, please copy the wording or format of the existing license as appropriate to ensure consistency. 
 
+If you are not comfortable with the YAML format, then create a [new issue](https://github.com/finos-osr/OSLC-handbook/issues) and use the [Add new license issue template](https://github.com/finos-osr/OSLC-handbook/issues/new?assignees=jlovejoy&labels=add+new+license&template=add-new-license.md&title=New+license%3A+%5BlicenseId%5D).
+
 Please only add open source licenses, that is, licenses that meet the [Open Source Definition](https://opensource.org/osd) as defined by the Open Source Initiative (OSI); or the [4 freedoms](https://www.gnu.org/philosophy/free-sw.en.html) as defined by the Free Software Foundation (FSF). 
 
 ## Improve and expand the output formats
