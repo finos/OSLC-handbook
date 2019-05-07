@@ -44,11 +44,11 @@
     description: Allows dynamic linking of code with “a work that uses the Library” under a different license, under certain conditions.
     compliance_notes: Terms of the other license must permit reverse engineering and debugging; must provide a copy of the license and prominent notice that the Library is used; must provide source code via one of the options in section 6 of the license. Also must include any data and utility programs needed for reproducing the executable, but this need not include anything that is normally distributed with the major components of the operating system. For more information about LGPL-2.0 compliance and this condition in particular, see the references provided or consult your open source legal counsel.
     seeAlso:
-    - https://www.gnu.org/licenses/gpl-faq.html#LGPLStaticVsDynamic[FSF FAQ: Static v. dynamic]
-    - www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl[SFLC Compliance Guide]
-    - https://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010[Copyleft Guide]
+    - "https://www.gnu.org/licenses/gpl-faq.html#LGPLStaticVsDynamic[FSF FAQ: Static v. dynamic]"
+    - "www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#lgpl[SFLC Compliance Guide]"
+    - "https://copyleft.org/guide/comprehensive-gpl-guidech11.html#x14-9600010[Copyleft Guide]"
 
   - type: license_versions
     description: Allows use of covered code under the terms of same version or any later version of the license or that version only, as specified. If no license version is specificed, then you may use any version ever published by the FSF.
     seeAlso:
-    - https://www.gnu.org/licenses/identify-licenses-clearly.html[Stallman: For Clarity's Sake]
+    - "https://www.gnu.org/licenses/identify-licenses-clearly.html[Stallman: For Clarity's Sake]"

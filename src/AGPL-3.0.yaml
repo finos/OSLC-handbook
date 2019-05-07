@@ -27,18 +27,18 @@
     use_cases: [MB, MS]
     compliance_notes: Strong copyleft or reciprocal, project-based license meaning that derivative works must also be under AGPL-3.0. For more information about AGPL-3.0 compliance and this condition in particular (which is the same as for GPL-3.0), see the references provided or consult with your open source legal counsel.
     seeAlso: 
-    - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-650009[Copyleft Guide]
-    - https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation[FSF FAQ: mere aggregation]
+    - "https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-650009[Copyleft Guide]"
+    - "https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation[FSF FAQ: mere aggregation]"
 
   - type: condition
     description: Provide corresponding source code
     use_cases: [UB, MB]
     compliance_notes: Corresponding Source = all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. Options for providing source = with binary, written offer, or via a network server. See section 6 for more details. For more information about AGPL-3.0 compliance and this condition in particular, see the references provided or consult your open source legal counsel.
     seeAlso: 
-    - https://www.gnu.org/licenses/gpl-faq.html#AGPLv3CorrespondingSource[FSF FAQ: AGPLv3 corresponding source]
-    - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-740009.3[Copyleft Guide]
-    - https://www.gnu.org/licenses/gpl-faq.html#SystemLibraryException[FSF FAQ: System library exception]
-    - https://www.gnu.org/licenses/gpl-faq.html#MustSourceBuildToMatchExactHashOfBinary[FSF FAQ: source code match binary]
+    - "https://www.gnu.org/licenses/gpl-faq.html#AGPLv3CorrespondingSource[FSF FAQ: AGPLv3 corresponding source]"
+    - "https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-740009.3[Copyleft Guide]"
+    - "https://www.gnu.org/licenses/gpl-faq.html#SystemLibraryException[FSF FAQ: System library exception]"
+    - "https://www.gnu.org/licenses/gpl-faq.html#MustSourceBuildToMatchExactHashOfBinary[FSF FAQ: source code match binary]"
 
   - type: condition
     description: No additional restrictions
@@ -58,13 +58,13 @@
     description: Provide information necessary to install modified versions on 'User Products'
     compliance_notes: If convey object code in, with, or specificially for use in a User Product and the right of possession for the User Product is tranferred as part of the conveyance, then the corresponding source code must include Installation Information (methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source) (see section 6 for more details)
     seeAlso:
-    - https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-830009.9
-    - https://www.gnu.org/licenses/gpl-faq.en.html#InstInfo 
+    - "https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-830009.9"
+    - "https://www.gnu.org/licenses/gpl-faq.en.html#InstInfo"
   
   - type: other
     description: Provide corresponding source code for modified versions to users interacting with the program remotely through a computer network (see section 13 for more details). For more information about AGPL-3.0 compliance and this condition in particular, see the references provided or consult your open source legal counsel.
     seeAlso:
-    - https://www.gnu.org/licenses/gpl-faq.html#AGPLv3InteractingRemotely[FSF FAQ: AGPLv3 interacting remotely]
-    - https://www.gnu.org/licenses/gpl-faq.html#AGPLv3ServerAsUser[FSF FAQ: AGPLv3 server as user]
+    - "https://www.gnu.org/licenses/gpl-faq.html#AGPLv3InteractingRemotely[FSF FAQ: AGPLv3 interacting remotely]"
+    - "https://www.gnu.org/licenses/gpl-faq.html#AGPLv3ServerAsUser[FSF FAQ: AGPLv3 server as user]"
     
  
