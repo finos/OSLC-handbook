@@ -4,12 +4,12 @@
   licenseId: TCL
   notes:
   terms:
-  - type:
+  - type: condition
     description: Provide copy of license
     use_cases: [UB, MB, US, MS]
     compliance_notes:
     
-  - type:
+  - type: condition
     description: Retain copyright notices
     use_cases: [UB, MB, US, MS]
     compliance_notes:

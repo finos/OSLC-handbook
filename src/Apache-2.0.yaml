@@ -19,5 +19,10 @@
     use_cases: [US, MS]
     compliance_notes: Copyright notices and other notices do not have to be reproduced for binary distribution
 
+  - type: condition
+    description: Include NOTICE file with distribution
+    use_cases: [UB, MB]
+    compliance_notes: If a NOTICE is present, include it in any distribution of the work or derivative works (to the extent the NOTICE file appiles to the derivatives)
+
   - type: termination
     description: Any patent claims accusing the work by a licensee results in termination of all patent licenses to the licensee.
