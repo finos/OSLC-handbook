@@ -24,8 +24,6 @@ Copyright 2018-2019 Fintech Open Source Foundation (FINOS), Jilayne Lovejoy, and
 
 The compliance handbook and license compliance data is licensed under [CC-BY-SA-4.0](LICENSE). Software source code is licensed under [Apache-2.0](LICENSE-Apache-2.0).
 
-See [CONTRIBUTING](CONTRIBUTING.md) for information about contributing!
-
 # Acknowledgements
 Huge thanks to Jilayne Lovejoy, who did the lion's share of the work on the to get the first version of the handbook out the door, and compiled the initial license compliance info. Aaron Williamson of FINOS conceived of the project, designed the YAML format for license info, and wrote the script to process the YAML into different outputs. 
 
