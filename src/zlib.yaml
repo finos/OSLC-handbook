@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0      
 -
   name: zlib License
-  licenseId: zlib
+  licenseId: Zlib
   notes:
   terms:
   - type: condition
