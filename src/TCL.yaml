@@ -17,5 +17,5 @@
   - type: other
     description: Licensing of modified versions
     use_cases: [MB, MS]
-    description: Modified versions need not follow this license, provided that new license terms appear on first page of each applicable file
+    compliance_notes: Modified versions need not follow this license, provided that new license terms appear on first page of each applicable file
    
